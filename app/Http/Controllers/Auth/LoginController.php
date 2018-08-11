@@ -2,10 +2,11 @@
 
 namespace App\Http\Controllers\Auth;
 
-use App\Http\Controllers\Controller;
+use App\Http\Controllers\SiteController;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Illuminate\Http\Request;
 
-class LoginController extends Controller
+class LoginController extends SiteController
 {
     /*
     |--------------------------------------------------------------------------
@@ -25,7 +26,24 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/';
+    
+    protected function redirectTo()
+	{
+		if (\Auth::user()->hasRole('Unknown')) {
+        	return route('home');
+   		}
+		if (\Auth::user()->hasRole('Student')) {
+        	return route('home');
+   		}
+   		if (\Auth::user()->hasRole('Teacher')) {
+        	return route('teacher');
+   		}
+   		if (\Auth::user()->hasRole('Admin')) {
+        	return route('admin');
+   		}
+	    return '/';
+	}
 
     /**
      * Create a new controller instance.
@@ -34,6 +52,12 @@ class LoginController extends Controller
      */
     public function __construct()
     {
+        
+        parent::__construct();
+    	
         $this->middleware('guest')->except('logout');
+		
+		$this->template = env('THEME').'.auth.login';
+		
     }
 }

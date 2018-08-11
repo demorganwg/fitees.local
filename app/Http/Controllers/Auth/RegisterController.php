@@ -3,12 +3,12 @@
 namespace App\Http\Controllers\Auth;
 
 use App\User;
-use App\Http\Controllers\Controller;
+use App\Http\Controllers\SiteController;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 
-class RegisterController extends Controller
+class RegisterController extends SiteController
 {
     /*
     |--------------------------------------------------------------------------
@@ -29,6 +29,14 @@ class RegisterController extends Controller
      * @var string
      */
     protected $redirectTo = '/home';
+    
+    /*protected function redirectTo()
+	{
+		if (\Auth::user()->hasRole('Unknown')) {
+        	return route('home');
+   		}
+	    return '/';
+	}*/
 
     /**
      * Create a new controller instance.
@@ -37,7 +45,11 @@ class RegisterController extends Controller
      */
     public function __construct()
     {
+    	parent::__construct();
+    	
         $this->middleware('guest');
+		
+		$this->template = env('THEME').'.auth.register';
     }
 
     /**
@@ -50,8 +62,10 @@ class RegisterController extends Controller
     {
         return Validator::make($data, [
             'name' => 'required|string|max:255',
+            'surname' => 'required|string|max:255',
             'email' => 'required|string|email|max:255|unique:users',
             'password' => 'required|string|min:6|confirmed',
+            'password_confirmation' => 'min:6|same:password',
         ]);
     }
 
@@ -65,6 +79,7 @@ class RegisterController extends Controller
     {
         return User::create([
             'name' => $data['name'],
+            'surname' => $data['surname'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
         ]);

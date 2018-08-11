@@ -1,0 +1,11 @@
+
+<codestructure version="5.8">
+<phptree>
+<treenode node="CreatePasswordResetsTable;PHP:Class Name;D:\OSPanel\domains\fitees.local\database\migrations\2014_10_12_100000_create_password_resets_table.php;f0;6;1;31;;;;vpos;;v;;aMigration;;c;;r;;d0,7;;b0,0;;m,0;;e">
+<treenode node="down;PHP:Function Name;D:\OSPanel\domains\fitees.local\database\migrations\2014_10_12_100000_create_password_resets_table.php;f11;27;5;30;;;;vpos;;v;;avoid;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    down()&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Reverse the migrations.&#10;&lt;b&gt;return&lt;/b&gt;;;d4,28;;b1,0;;m,0;;e">
+</treenode>
+<treenode node="up;PHP:Function Name;D:\OSPanel\domains\fitees.local\database\migrations\2014_10_12_100000_create_password_resets_table.php;f11;13;5;20;;;;vpos;;v;;avoid;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    up()&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Run the migrations.&#10;&lt;b&gt;return&lt;/b&gt;;;d4,14;;b1,0;;m,0;;e">
+</treenode>
+</treenode>
+</phptree>
+</codestructure>
