@@ -28,7 +28,7 @@ class RegisterController extends SiteController
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/learn';
     
     /*protected function redirectTo()
 	{

@@ -59,6 +59,7 @@
 				<input type="password" id="password_confirmation" name="password_confirmation" required>
 			</formgroup>
 			<button type="submit" class="btn btn-send">Зарегистрироваться</button>
+			<a class="btn btn-link" href="{{ route('login') }}">Войти</a>
 		</form>
 	</div>
 </div>

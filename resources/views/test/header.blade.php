@@ -11,21 +11,16 @@
 				<li><a href="{{ route('courses') }}">Все курсы</a></li>
 				@if (Auth::check())
 					@if (Auth::user()->hasRole('Unknown'))
-						<li><a href="{{ route('home') }}">Домой</a></li>
-					@endif
-					@if (Auth::user()->hasRole('Student'))
-						<li><a href="{{ route('home') }}">Домой</a></li>
-						<li><a href="#">Мои курсы</a></li>
-					@endif
-					@if (Auth::user()->hasRole('Teacher'))
-						<li><a href="{{ route('teacher') }}">Домой</a></li>
-						<li><a href="#">Мои курсы</a></li>
+						<li><a href="{{ route('learn') }}">Мои курсы</a></li>
+					@elseif (Auth::user()->hasRole('Student'))
+						<li><a href="{{ route('learn') }}">Мои курсы</a></li>
+					@elseif (Auth::user()->hasRole('Teacher'))
+						<li><a href="{{ route('teach') }}">Мои курсы</a></li>
+						<li><a href="#">Создать курс</a></li>	
+					@elseif (Auth::user()->hasRole('Admin'))
+						<li><a href="{{ route('admin') }}">Панель управления</a></li>
 						<li><a href="#">Создать курс</a></li>
-					@endif		
-					@if (Auth::user()->hasRole('Admin'))
-						<li><a href="{{ route('admin') }}">Домой</a></li>
-						<li><a href="#">Создать курс</a></li>
-						<li><a href="#">Все курсы</a></li>
+						<li><a href="#">Управление курсами</a></li>
 					@endif
 					<li><a href="#">Аккаунт</a></li>
 					<li><a href="{{ route('logout') }}">Выход</a></li>

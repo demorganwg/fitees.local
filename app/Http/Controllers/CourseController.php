@@ -42,7 +42,7 @@ class CourseController extends SiteController
     
     public function showCourse($courseAlias)
     {
-		$title = 'FITees Все курсы';
+		$title = 'FITees Курс';
 		$this->vars = array_add($this->vars, 'title', $title);
 		
 		$course = Course::getCourseByAlias($courseAlias);

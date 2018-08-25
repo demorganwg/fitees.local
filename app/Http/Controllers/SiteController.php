@@ -10,13 +10,11 @@ class SiteController extends Controller
     
     protected $template;
     
-    protected $vars = [
-    			'title' => 'FITees',
-    ];
+    protected $vars;
     
-    protected $contentRightBar = FALSE;
+    /*protected $contentRightBar = FALSE;
     protected $contentLeftBar = FALSE;
-    protected $bar = FALSE;
+    protected $bar = FALSE;*/
     
     
     public function __construct() {	

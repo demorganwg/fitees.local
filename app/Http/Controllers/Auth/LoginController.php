@@ -31,13 +31,13 @@ class LoginController extends SiteController
     protected function redirectTo()
 	{
 		if (\Auth::user()->hasRole('Unknown')) {
-        	return route('home');
+        	return route('learn');
    		}
 		if (\Auth::user()->hasRole('Student')) {
-        	return route('home');
+        	return route('learn');
    		}
    		if (\Auth::user()->hasRole('Teacher')) {
-        	return route('teacher');
+        	return route('teach');
    		}
    		if (\Auth::user()->hasRole('Admin')) {
         	return route('admin');

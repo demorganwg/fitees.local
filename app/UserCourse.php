@@ -16,6 +16,18 @@ class UserCourse extends Model
 	
 	public function course()
 	{
-	    return $this->belongsTo('App\Role', 'course_id');
+	    return $this->belongsTo('App\Course', 'course_id');
+	}
+	
+	public static function getUserCourses($user_id) {
+
+		return UserCourse::all()->where('user_id', '=', $user_id);
+	
+	}
+	
+	public static function getCourseResults($user_id, $course_id) {
+
+		return UserCourse::where('user_id', '=', $user_id)->where('course_id', '=', $course_id)->first();
+	
 	}
 }

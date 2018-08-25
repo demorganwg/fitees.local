@@ -34,6 +34,7 @@
 			</formgroup>
 			<button type="submit" class="btn btn-send">Войти</button>
             <a class="btn btn-link" href="{{ route('password.request') }}">{{ __('Забыли пароль?') }}</a>
+            <a class="btn btn-link" href="{{ route('register') }}">Регистрация</a>
 		</form>
 	</div>
 </div>

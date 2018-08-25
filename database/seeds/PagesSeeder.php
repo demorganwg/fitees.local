@@ -15,6 +15,7 @@ class PagesSeeder extends Seeder
     	for($i = 1; $i <= 30; $i++){
 			
 			$arr[$i] = [
+				'name' => 'Topic_name_'.$i,
 				'content' => 'Content_example_'.$i,
 				'number' => rand(1, 10),
 				'topic_id' => rand(1, 10),

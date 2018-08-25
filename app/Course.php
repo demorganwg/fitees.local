@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Course extends Model
 {
+	protected $fillable = ['name', 'description', 'image', 'info', 'status', 'alias', 'author_id'];
+	
 	public function userCourse()
 	{
 	    return $this->hasMany('App\UserCourse');
@@ -33,14 +35,42 @@ class Course extends Model
 	
 	public static function getCourseByAlias($courseAlias) {
 		
-		return Course::where('alias', $courseAlias)->firstOrFail();
+		return self::where('alias', $courseAlias)->firstOrFail();
 		
 	}
 	
     public static function getAllCourses() {
 
-		return Course::all('name', 'description', 'image', 'alias', 'status')->where('status', '=', 1);
+		return self::all('name', 'description', 'image', 'alias', 'status')->where('status', '=', 1);
 	
+	}
+	
+	public static function getUserCourses($userId) {
+
+		return self::all()->where('user_id', '=', $userId);
+	
+	}
+	
+	public static function getAuthorCourses($authorId) {
+		
+		return self::all()->where('author_id', '=', $authorId);
+		
+	}
+	
+	public static function dataIsAcceptable($courseName, $courseAlias) {
+		
+		/*$courseName = 'Course_name_1';
+		$courseAlias = 'course_alias_1';*/
+		
+//		dd(self::where('name', $courseName)->orWhere('alias', $courseAlias)->first());
+		
+		if(self::where('name', $courseName)->orWhere('alias', $courseAlias)->first()) {
+			return TRUE;
+		}
+		else {
+			return FALSE;
+		} 
+		
 	}
 	
 }

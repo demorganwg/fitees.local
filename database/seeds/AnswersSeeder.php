@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class TasksSeeder extends Seeder
+class AnswersSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -15,15 +15,14 @@ class TasksSeeder extends Seeder
         for($i = 1; $i <= 30; $i++){
 			
 			$arr[$i] = [
-				'content' => 'Task_content_'.$i,
-				'answers' => 'Task_answers_'.$i,
-				'correct_answer' => rand(1, 3),
-				'assignment_id' => rand(1, 20),
+				'content' => 'Пример ответа №'.$i,
+				'is_correct' => (bool)random_int(0, 1),
+				'question_id' => rand(1, 30),
 			];
 			
 		}
-    	
-        DB::table('tasks')->insert($arr);
+        
+		 DB::table('answers')->insert($arr);
         
     }
 }
