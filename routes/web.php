@@ -42,22 +42,27 @@ Route::middleware(['auth', 'student'])->prefix('courses')->namespace('User')->gr
 		
 		Route::get('/{alias}/resources', 'CourseMenuController@showResources')->name('course.show.resources');
 		Route::get('/{alias}/results', 'CourseMenuController@showResults')->name('course.show.results');
-		
-		
-
-	});
 	
+	});
 });
 
 Route::middleware(['auth', 'teacher'])->prefix('teacher')->namespace('Teacher')->group(function() {
-	
-	Route::get('/', 'HomeController@index')->name('teach');
-	Route::get('/teacher/{course_alias}', 'CourseMenuController@index')->name('course.index');
-	Route::get('/course-add', 'CourseMenuController@addCourse')->name('course.add');
-	Route::post('/course-add', 'CourseMenuController@addCourse')->name('course.add.submit');
-	Route::get('/{course_alias}/edit', 'CourseMenuController@editCourse')->name('course.edit');
-	
-	
+	Route::resource('courses', 'CourseController', ['as' => 'teacher']);
+});
+
+Route::middleware(['auth', 'teacher'])->prefix('teacher/courses/{course_alias}')->namespace('Teacher')->group(function() {
+	Route::post('topics/{topic}/changeOrder', 'TopicController@changePagePosition');
+	Route::post('topics/changeOrder', 'TopicController@changeTopicPosition');
+	Route::resource('topics', 'TopicController', ['as' => 'teacher']);
+});
+
+Route::middleware(['auth', 'teacher'])
+	->prefix('teacher/courses/{course_alias}/topics/{topic}')->namespace('Teacher')->group(function() {
+			
+		Route::resource('pages', 'PageController', ['as' => 'teacher'])->except([
+	    	'index'
+		]);;
+		
 });
 
 

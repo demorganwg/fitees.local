@@ -37,7 +37,7 @@ class LoginController extends SiteController
         	return route('learn');
    		}
    		if (\Auth::user()->hasRole('Teacher')) {
-        	return route('teach');
+        	return route('teacher.courses.index');
    		}
    		if (\Auth::user()->hasRole('Admin')) {
         	return route('admin');

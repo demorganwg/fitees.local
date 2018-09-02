@@ -15,7 +15,7 @@
 					@elseif (Auth::user()->hasRole('Student'))
 						<li><a href="{{ route('learn') }}">Мои курсы</a></li>
 					@elseif (Auth::user()->hasRole('Teacher'))
-						<li><a href="{{ route('teach') }}">Мои курсы</a></li>
+						<li><a href="{{ route('teacher.courses.index') }}">Мои курсы</a></li>
 						<li><a href="#">Создать курс</a></li>	
 					@elseif (Auth::user()->hasRole('Admin'))
 						<li><a href="{{ route('admin') }}">Панель управления</a></li>

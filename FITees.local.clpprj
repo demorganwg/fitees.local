@@ -12,291 +12,10 @@
  <added value="D:\OSPanel\domains\fitees.local\.editorconfig;D:\OSPanel\domains\fitees.local\.env;D:\OSPanel\domains\fitees.local\.env.example;D:\OSPanel\domains\fitees.local\.gitattributes;D:\OSPanel\domains\fitees.local\.gitignore;D:\OSPanel\domains\fitees.local\.htaccess;D:\OSPanel\domains\fitees.local\FITees.clpprj;D:\OSPanel\domains\fitees.local\FITees.local.clpprj;D:\OSPanel\domains\fitees.local\FITees_clcs.csprj;D:\OSPanel\domains\fitees.local\artisan;D:\OSPanel\domains\fitees.local\composer.json;D:\OSPanel\domains\fitees.local\composer.lock;D:\OSPanel\domains\fitees.local\package.json;D:\OSPanel\domains\fitees.local\public\.htaccess;D:\OSPanel\domains\fitees.local\yarn.lock;"/>
  <lastopfiles>
   <file name="D:\OSPanel\domains\fitees.local\routes\web.php"/>
-  <file name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\CourseMenuController.php"/>
-  <file name="D:\OSPanel\domains\fitees.local\app\Course.php"/>
-  <file name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\course-add.blade.php"/>
+  <file name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\TopicController.php"/>
   <file name="D:\OSPanel\domains\fitees.local\routes\web.php"/>
-  <file name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\CourseMenuController.php"/>
-  <file name="D:\OSPanel\domains\fitees.local\app\Course.php"/>
-  <file name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\course-add.blade.php"/>
+  <file name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\TopicController.php"/>
  </lastopfiles>
- <errors version="5.3">
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\webmozart\assert\src\Assert.php">
-   <error val="22;180;23;180;102;1;"/>
-   <error val="22;762;23;762;102;1;"/>
-   <error val="22;973;23;973;102;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\symfony\var-dumper\Caster\Caster.php">
-   <error val="32;66;35;66;303;2;"/>
-   <error val="67;69;70;69;303;2;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\symfony\translation\Extractor\AbstractFileExtractor.php">
-   <error val="49;45;51;45;204;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Matcher\Dumper\PhpMatcherDumper.php">
-   <error val="32;331;41;331;102;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\symfony\process\Tests\ProcessTest.php">
-   <error val="41;759;42;759;901;2;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\symfony\http-kernel\Controller\ControllerResolver.php">
-   <error val="31;49;33;49;501;1;"/>
-   <error val="23;110;25;110;501;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\symfony\http-foundation\Tests\Session\Storage\Handler\RedisSessionHandlerTest.php">
-   <error val="55;15;57;15;204;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\symfony\http-foundation\Tests\Session\Storage\Handler\RedisArraySessionHandlerTest.php">
-   <error val="55;15;57;15;204;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\symfony\http-foundation\Session\Storage\Handler\PdoSessionHandler.php">
-   <error val="92;843;93;843;204;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\symfony\http-foundation\Response.php">
-   <error val="32;634;33;634;204;1;"/>
-   <error val="35;691;36;691;204;1;"/>
-   <error val="40;843;41;843;204;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\symfony\finder\Finder.php">
-   <error val="52;640;54;640;204;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\symfony\debug\DebugClassLoader.php">
-   <error val="34;395;45;395;303;2;"/>
-   <error val="52;396;63;396;303;2;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\symfony\css-selector\XPath\Translator.php">
-   <error val="57;132;58;132;204;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\symfony\css-selector\Parser\Parser.php">
-   <error val="66;113;67;113;204;1;"/>
-   <error val="64;262;65;262;204;1;"/>
-   <error val="96;288;97;288;204;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\symfony\console\Helper\Table.php">
-   <error val="40;484;45;484;303;2;"/>
-   <error val="54;488;59;488;303;2;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\symfony\console\Event\ConsoleErrorEvent.php">
-   <error val="31;34;33;34;204;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\symfony\console\Descriptor\XmlDescriptor.php">
-   <error val="71;190;73;190;204;1;"/>
-   <error val="65;211;67;211;204;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\symfony\console\Application.php">
-   <error val="83;763;89;763;303;2;"/>
-   <error val="72;764;78;764;303;2;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\symfony\class-loader\Tests\Fixtures\Namespaced\WithHaltCompiler.php">
-   <error val="0;14;4;14;102;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\swiftmailer\swiftmailer\tests\unit\Swift\ByteStream\ArrayByteStreamTest.php">
-   <error val="38;58;39;58;901;2;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\phpunit\phpunit\tests\Regression\GitHub\2724\SeparateClassRunMethodInNewProcessTest.php">
-   <error val="40;15;42;15;101;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\phpunit\phpunit\tests\Framework\MockObject\MockObjectTest.php">
-   <error val="56;592;57;592;204;1;"/>
-   <error val="56;620;57;620;204;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\phpunit\phpunit\tests\Framework\Constraint\LogicalOrTest.php">
-   <error val="49;180;51;180;204;1;"/>
-   <error val="52;202;54;202;204;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\phpunit\phpunit\tests\Framework\Constraint\LogicalAndTest.php">
-   <error val="49;187;51;187;204;1;"/>
-   <error val="52;207;54;207;204;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-token-stream\tests\_fixture\classUsesNamespacedFunction.php">
-   <error val="3;3;12;3;601;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-file-iterator\src\Factory.php">
-   <error val="97;22;99;22;204;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-code-coverage\src\Report\Xml\Totals.php">
-   <error val="35;83;37;83;204;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-code-coverage\src\Report\Xml\Report.php">
-   <error val="28;29;30;29;204;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-code-coverage\src\Report\Xml\Project.php">
-   <error val="28;63;30;63;204;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-code-coverage\src\Report\Xml\Node.php">
-   <error val="29;29;31;29;204;1;"/>
-   <error val="40;83;42;83;204;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-code-coverage\src\Report\Xml\File.php">
-   <error val="40;72;42;72;204;1;"/>
-   <error val="40;77;42;77;204;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-code-coverage\src\Report\Xml\BuildInformation.php">
-   <error val="49;58;51;58;204;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-code-coverage\src\Report\Html\Renderer\File.php">
-   <error val="47;23;49;23;101;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-code-coverage\src\Node\Directory.php">
-   <error val="34;128;36;128;204;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\nikic\php-parser\test\PhpParser\LexerTest.php">
-   <error val="66;221;67;221;901;2;"/>
-   <error val="66;245;67;245;901;2;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\nikic\php-parser\lib\PhpParser\Builder\Trait_.php">
-   <error val="41;52;42;52;204;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\nikic\php-parser\lib\PhpParser\Builder\Property.php">
-   <error val="41;102;42;102;204;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\nikic\php-parser\lib\PhpParser\Builder\Interface_.php">
-   <error val="41;68;42;68;204;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\nikic\php-parser\lib\PhpParser\Builder\Class_.php">
-   <error val="41;113;42;113;204;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\nikic\php-parser\lib\PhpParser\ParserAbstract.php">
-   <error val="92;606;93;606;204;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\nikic\php-parser\lib\PhpParser\JsonDecoder.php">
-   <error val="68;79;70;79;204;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\nikic\php-parser\lib\PhpParser\BuilderHelpers.php">
-   <error val="69;254;70;254;204;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\nikic\php-parser\lib\PhpParser\BuilderFactory.php">
-   <error val="46;22;47;22;204;1;"/>
-   <error val="49;33;50;33;204;1;"/>
-   <error val="53;44;54;44;204;1;"/>
-   <error val="19;55;25;55;201;1;"/>
-   <error val="50;66;51;66;204;1;"/>
-   <error val="49;77;50;77;204;1;"/>
-   <error val="52;88;53;88;204;1;"/>
-   <error val="19;99;28;99;201;1;"/>
-   <error val="40;110;41;110;204;1;"/>
-   <error val="60;154;61;154;204;1;"/>
-   <error val="73;170;74;170;204;1;"/>
-   <error val="70;187;71;187;204;1;"/>
-   <error val="56;203;57;203;204;1;"/>
-   <error val="44;217;45;217;204;1;"/>
-   <error val="56;229;57;229;204;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\myclabs\deep-copy\src\DeepCopy\deep_copy.php">
-   <error val="3;4;12;4;601;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\monolog\monolog\tests\Monolog\Processor\MercurialProcessorTest.php">
-   <error val="11;32;16;32;102;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\mockery\mockery\tests\Mockery\Fixtures\SemiReservedWordsAsMethods.php">
-   <error val="12;8;18;8;201;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\mockery\mockery\tests\Mockery\DummyClasses\DemeterChain.php">
-   <error val="26;25;28;25;204;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\mockery\mockery\tests\Mockery\MockingParameterAndReturnTypesTest.php">
-   <error val="38;169;40;169;204;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\laravel\framework\src\Illuminate\View\Compilers\Concerns\CompilesJson.php">
-   <error val="43;11;45;11;101;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\laravel\framework\src\Illuminate\View\Compilers\BladeCompiler.php">
-   <error val="19;455;27;455;201;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\vendor\doctrine\instantiator\src\Doctrine\Instantiator\Instantiator.php">
-   <error val="99;149;101;149;204;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\public\test\css\main.min.css">
-   <error val="2638;0;2652;0;2501;1;"/>
-   <error val="50509;0;50518;0;2501;1;"/>
-   <error val="50570;0;50585;0;2501;1;"/>
-   <error val="50654;0;50669;0;2501;1;"/>
-   <error val="50691;0;50707;0;2501;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\public\test\register.html">
-   <error val="6;6;15;6;2001;1;"/>
-   <error val="6;10;15;10;2001;1;"/>
-   <error val="6;14;15;14;2001;1;"/>
-   <error val="6;23;15;23;2001;1;"/>
-   <error val="6;27;15;27;2001;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\public\test\index.html">
-   <error val="6;15;26;15;2002;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\public\test\auth.html">
-   <error val="6;50;15;50;2001;1;"/>
-   <error val="6;54;15;54;2001;1;"/>
-   <error val="6;58;15;58;2001;1;"/>
-   <error val="6;15;26;15;2002;1;"/>
-  </errfile>
-  <errfile name="D:\OSPanel\domains\fitees.local\_ide_helper.php">
-   <error val="30;2160;38;2160;201;1;"/>
-  </errfile>
- </errors>
- <laravael>
-  <facade name="app" class="App"/>
-  <facade name="auth" class="Auth"/>
-  <facade name="view" class="Blade"/>
-  <facade name="cache" class="Cache"/>
-  <facade name="config" class="Config"/>
-  <facade name="cookie" class="Cookie"/>
-  <facade name="encrypter" class="Crypt"/>
-  <facade name="db" class="DB"/>
-  <facade name="events" class="Event"/>
-  <facade name="Facade does not implement getFacadeAccessor method." class="Facade"/>
-  <facade name="files" class="File"/>
-  <facade name="hash" class="Hash"/>
-  <facade name="request" class="Input"/>
-  <facade name="translator" class="Lang"/>
-  <facade name="mailer" class="Mail"/>
-  <facade name="auth.password" class="Password"/>
-  <facade name="queue" class="Queue"/>
-  <facade name="redirect" class="Redirect"/>
-  <facade name="redis" class="Redis"/>
-  <facade name="request" class="Request"/>
-  <facade name="router" class="Route"/>
-  <facade name="db" class="Schema"/>
-  <facade name="session" class="Session"/>
-  <facade name="filesystem" class="Storage"/>
-  <facade name="url" class="URL"/>
-  <facade name="validator" class="Validator"/>
-  <facade name="view" class="View"/>
-  <file name="D:\OSPanel\domains\fitees.local\vendor\laravel\framework\src\Illuminate\Cache\CacheServiceProvider.php">
-   <type name="memcached.connector" class="MemcachedConnector"/>
-  </file>
-  <file name="D:\OSPanel\domains\fitees.local\vendor\laravel\framework\src\Illuminate\Filesystem\FilesystemServiceProvider.php">
-   <type name="files" class="Filesystem"/>
-  </file>
-  <file name="D:\OSPanel\domains\fitees.local\vendor\laravel\framework\src\Illuminate\Foundation\Providers\ArtisanServiceProvider.php">
-   <type name="command.auth.make" class="AuthMakeCommand"/>
-   <type name="command.auth.resets.clear" class="ClearResetsCommand"/>
-   <type name="command.clear-compiled" class="ClearCompiledCommand"/>
-   <type name="command.down" class="DownCommand"/>
-   <type name="command.environment" class="EnvironmentCommand"/>
-   <type name="command.event.generate" class="EventGenerateCommand"/>
-   <type name="command.key.generate" class="KeyGenerateCommand"/>
-   <type name="command.migrate.fresh" class="MigrateFreshCommand"/>
-   <type name="command.migrate.refresh" class="MigrateRefreshCommand"/>
-   <type name="command.package.discover" class="PackageDiscoverCommand"/>
-   <type name="command.preset" class="PresetCommand"/>
-   <type name="command.queue.failed" class="ListFailedQueueCommand"/>
-   <type name="command.queue.flush" class="FlushFailedQueueCommand"/>
-   <type name="command.queue.forget" class="ForgetFailedQueueCommand"/>
-   <type name="command.queue.restart" class="QueueRestartCommand"/>
-   <type name="command.queue.retry" class="QueueRetryCommand"/>
-   <type name="command.serve" class="ServeCommand"/>
-   <type name="command.storage.link" class="StorageLinkCommand"/>
-   <type name="command.up" class="UpCommand"/>
-   <type name="command.view.cache" class="ViewCacheCommand"/>
-  </file>
-  <file name="D:\OSPanel\domains\fitees.local\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php">
-   <type name="view.engine.resolver" class="EngineResolver"/>
-  </file>
-  <file name="D:\OSPanel\domains\fitees.local\vendor\laravel\tinker\src\TinkerServiceProvider.php">
-   <type name="command.tinker" class="TinkerCommand"/>
-  </file>
- </laravael>
- <yiidata/>
  <todoblock>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\barryvdh\reflection-docblock\tests\Barryvdh\Reflection\DocBlock\Tag\MethodTagTest.php">
    <todo name="TODO: Verify this case" pos="13;74"/>
@@ -483,7 +202,6 @@
  <dbgurls/>
  <filescache>
   <file crc="1531400363633" name="D:\OSPanel\domains\fitees.local\vendor\webmozart\assert\src\Assert.php"/>
-  <file crc="1531400363629" name="D:\OSPanel\domains\fitees.local\vendor\webmozart\assert\.styleci.yml"/>
   <file crc="1531400278232" name="D:\OSPanel\domains\fitees.local\vendor\vlucas\phpdotenv\src\Exception\ValidationException.php"/>
   <file crc="1531400278232" name="D:\OSPanel\domains\fitees.local\vendor\vlucas\phpdotenv\src\Exception\InvalidPathException.php"/>
   <file crc="1531400278232" name="D:\OSPanel\domains\fitees.local\vendor\vlucas\phpdotenv\src\Exception\InvalidFileException.php"/>
@@ -518,7 +236,6 @@
   <file crc="1531400393690" name="D:\OSPanel\domains\fitees.local\vendor\theseer\tokenizer\phpunit.xml"/>
   <file crc="1531400393690" name="D:\OSPanel\domains\fitees.local\vendor\theseer\tokenizer\phive.xml"/>
   <file crc="1531400393688" name="D:\OSPanel\domains\fitees.local\vendor\theseer\tokenizer\build.xml"/>
-  <file crc="1531400393687" name="D:\OSPanel\domains\fitees.local\vendor\theseer\tokenizer\.travis.yml"/>
   <file crc="1531400286651" name="D:\OSPanel\domains\fitees.local\vendor\symfony\var-dumper\Tests\Test\VarDumperTestTraitTest.php"/>
   <file crc="1531400286650" name="D:\OSPanel\domains\fitees.local\vendor\symfony\var-dumper\Tests\Server\ConnectionTest.php"/>
   <file crc="1531400286649" name="D:\OSPanel\domains\fitees.local\vendor\symfony\var-dumper\Tests\Fixtures\xml_reader.xml"/>
@@ -619,14 +336,9 @@
   <file crc="1531400320290" name="D:\OSPanel\domains\fitees.local\vendor\symfony\translation\Tests\fixtures\resourcebundle\dat\fr.txt"/>
   <file crc="1531400320289" name="D:\OSPanel\domains\fitees.local\vendor\symfony\translation\Tests\fixtures\resourcebundle\dat\en.txt"/>
   <file crc="1531400320280" name="D:\OSPanel\domains\fitees.local\vendor\symfony\translation\Tests\fixtures\extractor\translation.html.php"/>
-  <file crc="1531400320300" name="D:\OSPanel\domains\fitees.local\vendor\symfony\translation\Tests\fixtures\resources.yml"/>
   <file crc="1531400320299" name="D:\OSPanel\domains\fitees.local\vendor\symfony\translation\Tests\fixtures\resources.ts"/>
   <file crc="1531400320298" name="D:\OSPanel\domains\fitees.local\vendor\symfony\translation\Tests\fixtures\resources.php"/>
   <file crc="1531400320297" name="D:\OSPanel\domains\fitees.local\vendor\symfony\translation\Tests\fixtures\resources.ini"/>
-  <file crc="1531400320283" name="D:\OSPanel\domains\fitees.local\vendor\symfony\translation\Tests\fixtures\non-valid.yml"/>
-  <file crc="1531400320282" name="D:\OSPanel\domains\fitees.local\vendor\symfony\translation\Tests\fixtures\messages_linear.yml"/>
-  <file crc="1531400320282" name="D:\OSPanel\domains\fitees.local\vendor\symfony\translation\Tests\fixtures\messages.yml"/>
-  <file crc="1531400320277" name="D:\OSPanel\domains\fitees.local\vendor\symfony\translation\Tests\fixtures\empty.yml"/>
   <file crc="1531400320275" name="D:\OSPanel\domains\fitees.local\vendor\symfony\translation\Tests\fixtures\empty.ini"/>
   <file crc="1531400320260" name="D:\OSPanel\domains\fitees.local\vendor\symfony\translation\Tests\Extractor\PhpExtractorTest.php"/>
   <file crc="1531400320259" name="D:\OSPanel\domains\fitees.local\vendor\symfony\translation\Tests\Dumper\YamlFileDumperTest.php"/>
@@ -744,35 +456,18 @@
   <file crc="1531400289005" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\OtherAnnotatedClasses\VariadicClass.php"/>
   <file crc="1531400289003" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\OtherAnnotatedClasses\NoStartTagClass.php"/>
   <file crc="1531400289002" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\OtherAnnotatedClasses\AnonymousClassInTrait.php"/>
-  <file crc="1531400289047" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\localized\route-without-path-or-locales.yml"/>
-  <file crc="1531400289047" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\localized\officially_formatted_locales.yml"/>
-  <file crc="1531400289046" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\localized\not-localized.yml"/>
-  <file crc="1531400289046" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\localized\missing-locale-in-importer.yml"/>
-  <file crc="1531400289046" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\localized\localized-route.yml"/>
-  <file crc="1531400289045" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\localized\importing-localized-route.yml"/>
-  <file crc="1531400289045" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\localized\importer-with-locale.yml"/>
   <file crc="1531400289044" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\localized\importer-with-locale.xml"/>
-  <file crc="1531400289044" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\localized\importer-with-locale-imports-non-localized-route.yml"/>
   <file crc="1531400289044" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\localized\importer-with-locale-imports-non-localized-route.xml"/>
-  <file crc="1531400289043" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\localized\importer-with-controller-default.yml"/>
-  <file crc="1531400289042" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\localized\imported-with-locale.yml"/>
   <file crc="1531400289042" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\localized\imported-with-locale.xml"/>
-  <file crc="1531400289041" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\localized\imported-with-locale-but-not-localized.yml"/>
   <file crc="1531400289041" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\localized\imported-with-locale-but-not-localized.xml"/>
-  <file crc="1531400289038" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\import_with_no_trailing_slash\routing.yml"/>
   <file crc="1531400289037" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\import_with_no_trailing_slash\routing.xml"/>
-  <file crc="1531400289036" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\import_with_name_prefix\routing.yml"/>
   <file crc="1531400289035" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\import_with_name_prefix\routing.xml"/>
   <file crc="1531400289034" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\glob\php_dsl_baz.php"/>
   <file crc="1531400289033" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\glob\php_dsl_bar.php"/>
   <file crc="1531400289033" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\glob\php_dsl.php"/>
-  <file crc="1531400289032" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\glob\import_single.yml"/>
   <file crc="1531400289032" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\glob\import_single.xml"/>
-  <file crc="1531400289031" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\glob\import_multiple.yml"/>
   <file crc="1531400289031" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\glob\import_multiple.xml"/>
-  <file crc="1531400289030" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\glob\baz.yml"/>
   <file crc="1531400289030" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\glob\baz.xml"/>
-  <file crc="1531400289030" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\glob\bar.yml"/>
   <file crc="1531400289029" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\glob\bar.xml"/>
   <file crc="1531400289027" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\dumper\url_matcher9.php"/>
   <file crc="1531400289026" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\dumper\url_matcher8.php"/>
@@ -788,19 +483,10 @@
   <file crc="1531400289021" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\dumper\url_matcher10.php"/>
   <file crc="1531400289019" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\dumper\url_matcher1.php"/>
   <file crc="1531400289018" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\dumper\url_matcher0.php"/>
-  <file crc="1531400289017" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\directory_import\import.yml"/>
-  <file crc="1531400289015" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\directory\recurse\routes2.yml"/>
-  <file crc="1531400289015" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\directory\recurse\routes1.yml"/>
-  <file crc="1531400289016" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\directory\routes3.yml"/>
-  <file crc="1531400289013" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\controller\routing.yml"/>
   <file crc="1531400289013" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\controller\routing.xml"/>
-  <file crc="1531400289012" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\controller\override_defaults.yml"/>
   <file crc="1531400289012" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\controller\override_defaults.xml"/>
-  <file crc="1531400289011" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\controller\import_override_defaults.yml"/>
   <file crc="1531400289011" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\controller\import_override_defaults.xml"/>
-  <file crc="1531400289010" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\controller\import_controller.yml"/>
   <file crc="1531400289010" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\controller\import_controller.xml"/>
-  <file crc="1531400289009" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\controller\import__controller.yml"/>
   <file crc="1531400289009" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\controller\import__controller.xml"/>
   <file crc="1531400288999" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\AnnotationFixtures\RouteWithPrefixController.php"/>
   <file crc="1531400288998" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\AnnotationFixtures\PrefixedActionPathController.php"/>
@@ -827,13 +513,10 @@
   <file crc="1531400288988" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\AnnotatedClasses\AbstractClass.php"/>
   <file crc="1531400289064" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\withdoctype.xml"/>
   <file crc="1531400289064" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\with_define_path_variable.php"/>
-  <file crc="1531400289063" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\validresource.yml"/>
   <file crc="1531400289063" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\validresource.xml"/>
   <file crc="1531400289062" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\validresource.php"/>
-  <file crc="1531400289062" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\validpattern.yml"/>
   <file crc="1531400289062" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\validpattern.xml"/>
   <file crc="1531400289061" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\validpattern.php"/>
-  <file crc="1531400289061" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\special_route_name.yml"/>
   <file crc="1531400289060" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\scalar_defaults.xml"/>
   <file crc="1531400289006" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\RedirectableUrlMatcher.php"/>
   <file crc="1531400289059" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\php_object_dsl.php"/>
@@ -845,12 +528,7 @@
   <file crc="1531400289057" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\null_values.xml"/>
   <file crc="1531400289056" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\nonvalidroute.xml"/>
   <file crc="1531400289055" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\nonvalidnode.xml"/>
-  <file crc="1531400289054" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\nonvalidkeys.yml"/>
-  <file crc="1531400289053" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\nonvalid2.yml"/>
-  <file crc="1531400289052" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\nonvalid.yml"/>
   <file crc="1531400289052" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\nonvalid.xml"/>
-  <file crc="1531400289052" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\nonesense_type_without_resource.yml"/>
-  <file crc="1531400289051" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\nonesense_resource_plus_path.yml"/>
   <file crc="1531400289051" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\namespaceprefix.xml"/>
   <file crc="1531400289050" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\missing_path.xml"/>
   <file crc="1531400289049" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\missing_id.xml"/>
@@ -863,16 +541,12 @@
   <file crc="1531400289039" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\list_in_map_defaults.xml"/>
   <file crc="1531400289039" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\list_in_list_defaults.xml"/>
   <file crc="1531400289038" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\list_defaults.xml"/>
-  <file crc="1531400289038" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\incomplete.yml"/>
   <file crc="1531400289028" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\foo1.xml"/>
   <file crc="1531400289028" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\foo.xml"/>
-  <file crc="1531400289027" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\file_resource.yml"/>
-  <file crc="1531400289027" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\empty.yml"/>
   <file crc="1531400289000" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\CustomXmlFileLoader.php"/>
   <file crc="1531400288999" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\CustomRouteCompiler.php"/>
   <file crc="1531400288999" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\CustomCompiledRoute.php"/>
   <file crc="1531400289007" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\bar.xml"/>
-  <file crc="1531400289007" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\bad_format.yml"/>
   <file crc="1531400289007" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Fixtures\annotated.php"/>
   <file crc="1531400288986" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\DependencyInjection\RoutingResolverPassTest.php"/>
   <file crc="1531400288985" name="D:\OSPanel\domains\fitees.local\vendor\symfony\routing\Tests\Annotation\RouteTest.php"/>
@@ -2199,7 +1873,6 @@
   <file crc="1532012102492" name="D:\OSPanel\domains\fitees.local\vendor\swiftmailer\swiftmailer\lib\swift_required.php"/>
   <file crc="1532012102489" name="D:\OSPanel\domains\fitees.local\vendor\swiftmailer\swiftmailer\lib\preferences.php"/>
   <file crc="1532012102487" name="D:\OSPanel\domains\fitees.local\vendor\swiftmailer\swiftmailer\lib\mime_types.php"/>
-  <file crc="1532012102120" name="D:\OSPanel\domains\fitees.local\vendor\swiftmailer\swiftmailer\.travis.yml"/>
   <file crc="1531400372086" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\version\src\Version.php"/>
   <file crc="1531400373633" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\resource-operations\src\ResourceOperations.php"/>
   <file crc="1531400373631" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\resource-operations\build\generate.php"/>
@@ -2210,7 +1883,6 @@
   <file crc="1531400375147" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\recursion-context\src\Context.php"/>
   <file crc="1531400375146" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\recursion-context\phpunit.xml"/>
   <file crc="1531400375145" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\recursion-context\build.xml"/>
-  <file crc="1531400375143" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\recursion-context\.travis.yml"/>
   <file crc="1531400376826" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\object-reflector\tests\_fixture\ParentClass.php"/>
   <file crc="1531400376826" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\object-reflector\tests\_fixture\ClassWithIntegerAttributeName.php"/>
   <file crc="1531400376825" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\object-reflector\tests\_fixture\ChildClass.php"/>
@@ -2220,7 +1892,6 @@
   <file crc="1531400376822" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\object-reflector\src\Exception.php"/>
   <file crc="1531400376821" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\object-reflector\phpunit.xml"/>
   <file crc="1531400376820" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\object-reflector\build.xml"/>
-  <file crc="1531400376818" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\object-reflector\.travis.yml"/>
   <file crc="1531400378353" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\object-enumerator\tests\_fixture\ExceptionThrower.php"/>
   <file crc="1531400378352" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\object-enumerator\tests\EnumeratorTest.php"/>
   <file crc="1531400378351" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\object-enumerator\src\InvalidArgumentException.php"/>
@@ -2228,7 +1899,6 @@
   <file crc="1531400378350" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\object-enumerator\src\Enumerator.php"/>
   <file crc="1531400378349" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\object-enumerator\phpunit.xml"/>
   <file crc="1531400378348" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\object-enumerator\build.xml"/>
-  <file crc="1531400378346" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\object-enumerator\.travis.yml"/>
   <file crc="1531400380077" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\global-state\tests\_fixture\SnapshotTrait.php"/>
   <file crc="1531400380077" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\global-state\tests\_fixture\SnapshotFunctions.php"/>
   <file crc="1531400380076" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\global-state\tests\_fixture\SnapshotDomDocument.php"/>
@@ -2249,12 +1919,10 @@
   <file crc="1531400380068" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\global-state\src\Blacklist.php"/>
   <file crc="1531400380067" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\global-state\phpunit.xml"/>
   <file crc="1531400380065" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\global-state\build.xml"/>
-  <file crc="1531400380064" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\global-state\.travis.yml"/>
   <file crc="1531400381563" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\exporter\tests\ExporterTest.php"/>
   <file crc="1531400381562" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\exporter\src\Exporter.php"/>
   <file crc="1531400381561" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\exporter\phpunit.xml"/>
   <file crc="1531400381560" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\exporter\build.xml"/>
-  <file crc="1531400381558" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\exporter\.travis.yml"/>
   <file crc="1531400383148" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\environment\tests\RuntimeTest.php"/>
   <file crc="1531400383148" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\environment\tests\OperatingSystemTest.php"/>
   <file crc="1531400383147" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\environment\tests\ConsoleTest.php"/>
@@ -2263,7 +1931,6 @@
   <file crc="1531400383146" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\environment\src\Console.php"/>
   <file crc="1531400383144" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\environment\phpunit.xml"/>
   <file crc="1531400383144" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\environment\build.xml"/>
-  <file crc="1531400383141" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\environment\.travis.yml"/>
   <file crc="1531400385493" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\diff\tests\Utils\UnifiedDiffAssertTraitTest.php"/>
   <file crc="1531400385492" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\diff\tests\Utils\UnifiedDiffAssertTraitIntegrationTest.php"/>
   <file crc="1531400385492" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\diff\tests\Utils\UnifiedDiffAssertTrait.php"/>
@@ -2308,10 +1975,8 @@
   <file crc="1531400385471" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\diff\src\Differ.php"/>
   <file crc="1531400385470" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\diff\src\Diff.php"/>
   <file crc="1531400385470" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\diff\src\Chunk.php"/>
-  <file crc="1531400385465" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\diff\.github\stale.yml"/>
   <file crc="1531400385469" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\diff\phpunit.xml"/>
   <file crc="1531400385468" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\diff\build.xml"/>
-  <file crc="1531400385466" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\diff\.travis.yml"/>
   <file crc="1532012111863" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\comparator\tests\_fixture\TestClassComparator.php"/>
   <file crc="1532012111862" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\comparator\tests\_fixture\TestClass.php"/>
   <file crc="1532012111862" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\comparator\tests\_fixture\Struct.php"/>
@@ -2348,15 +2013,12 @@
   <file crc="1532012111844" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\comparator\src\ComparisonFailure.php"/>
   <file crc="1532012111844" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\comparator\src\Comparator.php"/>
   <file crc="1532012111843" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\comparator\src\ArrayComparator.php"/>
-  <file crc="1532012111824" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\comparator\.github\stale.yml"/>
   <file crc="1532012111841" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\comparator\phpunit.xml"/>
   <file crc="1532012111837" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\comparator\build.xml"/>
-  <file crc="1532012111829" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\comparator\.travis.yml"/>
   <file crc="1531400395246" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\code-unit-reverse-lookup\tests\WizardTest.php"/>
   <file crc="1531400395245" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\code-unit-reverse-lookup\src\Wizard.php"/>
   <file crc="1531400395244" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\code-unit-reverse-lookup\phpunit.xml"/>
   <file crc="1531400395243" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\code-unit-reverse-lookup\build.xml"/>
-  <file crc="1531400395241" name="D:\OSPanel\domains\fitees.local\vendor\sebastian\code-unit-reverse-lookup\.travis.yml"/>
   <file crc="1531400314038" name="D:\OSPanel\domains\fitees.local\vendor\ramsey\uuid\src\Provider\Time\SystemTimeProvider.php"/>
   <file crc="1531400314037" name="D:\OSPanel\domains\fitees.local\vendor\ramsey\uuid\src\Provider\Time\FixedTimeProvider.php"/>
   <file crc="1531400314035" name="D:\OSPanel\domains\fitees.local\vendor\ramsey\uuid\src\Provider\Node\SystemNodeProvider.php"/>
@@ -2622,8 +2284,6 @@
   <file crc="1531400342127" name="D:\OSPanel\domains\fitees.local\vendor\psy\psysh\src\ConfigPaths.php"/>
   <file crc="1531400342097" name="D:\OSPanel\domains\fitees.local\vendor\psy\psysh\src\CodeCleaner.php"/>
   <file crc="1531400342090" name="D:\OSPanel\domains\fitees.local\vendor\psy\psysh\.phan\config.php"/>
-  <file crc="1531400342092" name="D:\OSPanel\domains\fitees.local\vendor\psy\psysh\.travis.yml"/>
-  <file crc="1531400342090" name="D:\OSPanel\domains\fitees.local\vendor\psy\psysh\.styleci.yml"/>
   <file crc="1531400315550" name="D:\OSPanel\domains\fitees.local\vendor\psr\simple-cache\src\InvalidArgumentException.php"/>
   <file crc="1531400315549" name="D:\OSPanel\domains\fitees.local\vendor\psr\simple-cache\src\CacheInterface.php"/>
   <file crc="1531400315549" name="D:\OSPanel\domains\fitees.local\vendor\psr\simple-cache\src\CacheException.php"/>
@@ -3168,12 +2828,9 @@
   <file crc="1532012123329" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\phpunit\src\Framework\AssertionFailedError.php"/>
   <file crc="1532012123321" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\phpunit\src\Framework\Assert.php"/>
   <file crc="1532012123315" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\phpunit\src\Exception.php"/>
-  <file crc="1532012123262" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\phpunit\.github\stale.yml"/>
   <file crc="1532012123306" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\phpunit\phpunit.xml"/>
   <file crc="1532012123296" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\phpunit\phive.xml"/>
   <file crc="1532012123292" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\phpunit\build.xml"/>
-  <file crc="1532012123290" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\phpunit\appveyor.yml"/>
-  <file crc="1532012123274" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\phpunit\.travis.yml"/>
   <file crc="1531400370551" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-token-stream\tests\Token\NamespaceTest.php"/>
   <file crc="1531400370550" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-token-stream\tests\Token\InterfaceTest.php"/>
   <file crc="1531400370549" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-token-stream\tests\Token\IncludeTest.php"/>
@@ -3205,19 +2862,16 @@
   <file crc="1531400370544" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-token-stream\src\Token.php"/>
   <file crc="1531400370542" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-token-stream\phpunit.xml"/>
   <file crc="1531400370541" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-token-stream\build.xml"/>
-  <file crc="1531400370539" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-token-stream\.travis.yml"/>
   <file crc="1531400388935" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-timer\tests\TimerTest.php"/>
   <file crc="1531400388934" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-timer\src\Timer.php"/>
   <file crc="1531400388934" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-timer\src\RuntimeException.php"/>
   <file crc="1531400388933" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-timer\src\Exception.php"/>
   <file crc="1531400388932" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-timer\phpunit.xml"/>
   <file crc="1531400388931" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-timer\build.xml"/>
-  <file crc="1531400388928" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-timer\.travis.yml"/>
   <file crc="1531400390478" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-text-template\src\Template.php"/>
   <file crc="1531400391987" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-file-iterator\src\Iterator.php"/>
   <file crc="1531400391987" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-file-iterator\src\Factory.php"/>
   <file crc="1531400391986" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-file-iterator\src\Facade.php"/>
-  <file crc="1531400391982" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-file-iterator\.github\stale.yml"/>
   <file crc="1531400397996" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-code-coverage\tests\tests\XmlTest.php"/>
   <file crc="1531400397995" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-code-coverage\tests\tests\UtilTest.php"/>
   <file crc="1531400397995" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-code-coverage\tests\tests\TextTest.php"/>
@@ -3346,10 +3000,8 @@
   <file crc="1531400397951" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-code-coverage\src\Util.php"/>
   <file crc="1531400397912" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-code-coverage\src\Filter.php"/>
   <file crc="1531400397906" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-code-coverage\src\CodeCoverage.php"/>
-  <file crc="1531400397896" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-code-coverage\.github\stale.yml"/>
   <file crc="1531400397905" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-code-coverage\phpunit.xml"/>
   <file crc="1531400397904" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-code-coverage\build.xml"/>
-  <file crc="1531400397897" name="D:\OSPanel\domains\fitees.local\vendor\phpunit\php-code-coverage\.travis.yml"/>
   <file crc="1531400401551" name="D:\OSPanel\domains\fitees.local\vendor\phpspec\prophecy\src\Prophecy\Util\StringUtil.php"/>
   <file crc="1531400401550" name="D:\OSPanel\domains\fitees.local\vendor\phpspec\prophecy\src\Prophecy\Util\ExportUtil.php"/>
   <file crc="1531400401549" name="D:\OSPanel\domains\fitees.local\vendor\phpspec\prophecy\src\Prophecy\Prophecy\RevealerInterface.php"/>
@@ -3500,14 +3152,12 @@
   <file crc="1531400368744" name="D:\OSPanel\domains\fitees.local\vendor\phpdocumentor\reflection-docblock\src\DocBlockFactoryInterface.php"/>
   <file crc="1531400368743" name="D:\OSPanel\domains\fitees.local\vendor\phpdocumentor\reflection-docblock\src\DocBlockFactory.php"/>
   <file crc="1531400368711" name="D:\OSPanel\domains\fitees.local\vendor\phpdocumentor\reflection-docblock\src\DocBlock.php"/>
-  <file crc="1531400368707" name="D:\OSPanel\domains\fitees.local\vendor\phpdocumentor\reflection-docblock\.coveralls.yml"/>
   <file crc="1531400365169" name="D:\OSPanel\domains\fitees.local\vendor\phpdocumentor\reflection-common\src\ProjectFactory.php"/>
   <file crc="1531400365169" name="D:\OSPanel\domains\fitees.local\vendor\phpdocumentor\reflection-common\src\Project.php"/>
   <file crc="1531400365168" name="D:\OSPanel\domains\fitees.local\vendor\phpdocumentor\reflection-common\src\Location.php"/>
   <file crc="1531400365168" name="D:\OSPanel\domains\fitees.local\vendor\phpdocumentor\reflection-common\src\Fqsen.php"/>
   <file crc="1531400365167" name="D:\OSPanel\domains\fitees.local\vendor\phpdocumentor\reflection-common\src\File.php"/>
   <file crc="1531400365167" name="D:\OSPanel\domains\fitees.local\vendor\phpdocumentor\reflection-common\src\Element.php"/>
-  <file crc="1531400365163" name="D:\OSPanel\domains\fitees.local\vendor\phpdocumentor\reflection-common\.travis.yml"/>
   <file crc="1532012114050" name="D:\OSPanel\domains\fitees.local\vendor\phar-io\version\tests\Unit\VersionTest.php"/>
   <file crc="1532012114049" name="D:\OSPanel\domains\fitees.local\vendor\phar-io\version\tests\Unit\SpecificMajorVersionConstraintTest.php"/>
   <file crc="1532012114049" name="D:\OSPanel\domains\fitees.local\vendor\phar-io\version\tests\Unit\SpecificMajorAndMinorVersionConstraintTest.php"/>
@@ -3540,7 +3190,6 @@
   <file crc="1532012114027" name="D:\OSPanel\domains\fitees.local\vendor\phar-io\version\phpunit.xml"/>
   <file crc="1532012114025" name="D:\OSPanel\domains\fitees.local\vendor\phar-io\version\phive.xml"/>
   <file crc="1532012114021" name="D:\OSPanel\domains\fitees.local\vendor\phar-io\version\build.xml"/>
-  <file crc="1532012114008" name="D:\OSPanel\domains\fitees.local\vendor\phar-io\version\.travis.yml"/>
   <file crc="1532012117125" name="D:\OSPanel\domains\fitees.local\vendor\phar-io\manifest\tests\xml\RequiresElementTest.php"/>
   <file crc="1532012117124" name="D:\OSPanel\domains\fitees.local\vendor\phar-io\manifest\tests\xml\PhpElementTest.php"/>
   <file crc="1532012117124" name="D:\OSPanel\domains\fitees.local\vendor\phar-io\manifest\tests\xml\ManifestDocumentTest.php"/>
@@ -3636,7 +3285,6 @@
   <file crc="1532012117073" name="D:\OSPanel\domains\fitees.local\vendor\phar-io\manifest\phpunit.xml"/>
   <file crc="1532012117071" name="D:\OSPanel\domains\fitees.local\vendor\phar-io\manifest\phive.xml"/>
   <file crc="1532012117062" name="D:\OSPanel\domains\fitees.local\vendor\phar-io\manifest\build.xml"/>
-  <file crc="1532012117057" name="D:\OSPanel\domains\fitees.local\vendor\phar-io\manifest\.travis.yml"/>
   <file crc="1531400312078" name="D:\OSPanel\domains\fitees.local\vendor\paragonie\random_compat\other\build_phar.php"/>
   <file crc="1531400312077" name="D:\OSPanel\domains\fitees.local\vendor\paragonie\random_compat\lib\random_int.php"/>
   <file crc="1531400312077" name="D:\OSPanel\domains\fitees.local\vendor\paragonie\random_compat\lib\random_bytes_mcrypt.php"/>
@@ -3927,7 +3575,6 @@
   <file crc="1532012129250" name="D:\OSPanel\domains\fitees.local\vendor\nikic\php-parser\lib\PhpParser\BuilderFactory.php"/>
   <file crc="1532012129224" name="D:\OSPanel\domains\fitees.local\vendor\nikic\php-parser\lib\PhpParser\Builder.php"/>
   <file crc="1532012129215" name="D:\OSPanel\domains\fitees.local\vendor\nikic\php-parser\grammar\rebuildParsers.php"/>
-  <file crc="1532012129055" name="D:\OSPanel\domains\fitees.local\vendor\nikic\php-parser\.travis.yml"/>
   <file crc="1531400322225" name="D:\OSPanel\domains\fitees.local\vendor\nesbot\carbon\src\Carbon\Lang\zh_TW.php"/>
   <file crc="1531400322224" name="D:\OSPanel\domains\fitees.local\vendor\nesbot\carbon\src\Carbon\Lang\zh.php"/>
   <file crc="1531400322224" name="D:\OSPanel\domains\fitees.local\vendor\nesbot\carbon\src\Carbon\Lang\vi.php"/>
@@ -4033,8 +3680,6 @@
   <file crc="1531400406994" name="D:\OSPanel\domains\fitees.local\vendor\myclabs\deep-copy\fixtures\f002\A.php"/>
   <file crc="1531400406992" name="D:\OSPanel\domains\fitees.local\vendor\myclabs\deep-copy\fixtures\f001\B.php"/>
   <file crc="1531400406992" name="D:\OSPanel\domains\fitees.local\vendor\myclabs\deep-copy\fixtures\f001\A.php"/>
-  <file crc="1531400406980" name="D:\OSPanel\domains\fitees.local\vendor\myclabs\deep-copy\.travis.yml"/>
-  <file crc="1531400406979" name="D:\OSPanel\domains\fitees.local\vendor\myclabs\deep-copy\.scrutinizer.yml"/>
   <file crc="1531400324708" name="D:\OSPanel\domains\fitees.local\vendor\monolog\monolog\tests\Monolog\Processor\WebProcessorTest.php"/>
   <file crc="1531400324708" name="D:\OSPanel\domains\fitees.local\vendor\monolog\monolog\tests\Monolog\Processor\UidProcessorTest.php"/>
   <file crc="1531400324707" name="D:\OSPanel\domains\fitees.local\vendor\monolog\monolog\tests\Monolog\Processor\TagProcessorTest.php"/>
@@ -4344,9 +3989,6 @@
   <file crc="1531400358407" name="D:\OSPanel\domains\fitees.local\vendor\mockery\mockery\docs\mockery\map.rst.inc"/>
   <file crc="1531400358401" name="D:\OSPanel\domains\fitees.local\vendor\mockery\mockery\docs\getting_started\map.rst.inc"/>
   <file crc="1531400358398" name="D:\OSPanel\domains\fitees.local\vendor\mockery\mockery\docs\cookbook\map.rst.inc"/>
-  <file crc="1531400358386" name="D:\OSPanel\domains\fitees.local\vendor\mockery\mockery\.travis.yml"/>
-  <file crc="1531400358385" name="D:\OSPanel\domains\fitees.local\vendor\mockery\mockery\.styleci.yml"/>
-  <file crc="1531400358385" name="D:\OSPanel\domains\fitees.local\vendor\mockery\mockery\.scrutinizer.yml"/>
   <file crc="1531400326612" name="D:\OSPanel\domains\fitees.local\vendor\league\flysystem\src\Util\StreamHasher.php"/>
   <file crc="1531400326611" name="D:\OSPanel\domains\fitees.local\vendor\league\flysystem\src\Util\MimeType.php"/>
   <file crc="1531400326610" name="D:\OSPanel\domains\fitees.local\vendor\league\flysystem\src\Util\ContentListingFormatter.php"/>
@@ -5237,7 +4879,6 @@
   <file crc="1531400338032" name="D:\OSPanel\domains\fitees.local\vendor\jakub-onderka\php-console-highlighter\examples\snippet.php"/>
   <file crc="1531400338033" name="D:\OSPanel\domains\fitees.local\vendor\jakub-onderka\php-console-highlighter\phpunit.xml"/>
   <file crc="1531400338030" name="D:\OSPanel\domains\fitees.local\vendor\jakub-onderka\php-console-highlighter\build.xml"/>
-  <file crc="1531400338029" name="D:\OSPanel\domains\fitees.local\vendor\jakub-onderka\php-console-highlighter\.travis.yml"/>
   <file crc="1531400333578" name="D:\OSPanel\domains\fitees.local\vendor\jakub-onderka\php-console-color\tests\JakubOnderka\PhpConsoleColor\ConsoleColorTest.php"/>
   <file crc="1531400333579" name="D:\OSPanel\domains\fitees.local\vendor\jakub-onderka\php-console-color\tests\bootstrap.php"/>
   <file crc="1531400333576" name="D:\OSPanel\domains\fitees.local\vendor\jakub-onderka\php-console-color\src\JakubOnderka\PhpConsoleColor\InvalidStyleException.php"/>
@@ -5245,7 +4886,6 @@
   <file crc="1531400333573" name="D:\OSPanel\domains\fitees.local\vendor\jakub-onderka\php-console-color\phpunit.xml"/>
   <file crc="1531400333573" name="D:\OSPanel\domains\fitees.local\vendor\jakub-onderka\php-console-color\example.php"/>
   <file crc="1531400333572" name="D:\OSPanel\domains\fitees.local\vendor\jakub-onderka\php-console-color\build.xml"/>
-  <file crc="1531400333571" name="D:\OSPanel\domains\fitees.local\vendor\jakub-onderka\php-console-color\.travis.yml"/>
   <file crc="1531400356127" name="D:\OSPanel\domains\fitees.local\vendor\hamcrest\hamcrest-php\tests\Hamcrest\Xml\HasXPathTest.php"/>
   <file crc="1531400356125" name="D:\OSPanel\domains\fitees.local\vendor\hamcrest\hamcrest-php\tests\Hamcrest\Type\IsStringTest.php"/>
   <file crc="1531400356125" name="D:\OSPanel\domains\fitees.local\vendor\hamcrest\hamcrest-php\tests\Hamcrest\Type\IsScalarTest.php"/>
@@ -5391,9 +5031,6 @@
   <file crc="1531400356043" name="D:\OSPanel\domains\fitees.local\vendor\hamcrest\hamcrest-php\TODO.txt"/>
   <file crc="1531400356041" name="D:\OSPanel\domains\fitees.local\vendor\hamcrest\hamcrest-php\LICENSE.txt"/>
   <file crc="1531400356041" name="D:\OSPanel\domains\fitees.local\vendor\hamcrest\hamcrest-php\CHANGES.txt"/>
-  <file crc="1531400356040" name="D:\OSPanel\domains\fitees.local\vendor\hamcrest\hamcrest-php\.travis.yml"/>
-  <file crc="1531400356040" name="D:\OSPanel\domains\fitees.local\vendor\hamcrest\hamcrest-php\.gush.yml"/>
-  <file crc="1531400356039" name="D:\OSPanel\domains\fitees.local\vendor\hamcrest\hamcrest-php\.coveralls.yml"/>
   <file crc="1531400354015" name="D:\OSPanel\domains\fitees.local\vendor\fzaninotto\faker\test\Faker\Provider\zh_TW\TextTest.php"/>
   <file crc="1531400354015" name="D:\OSPanel\domains\fitees.local\vendor\fzaninotto\faker\test\Faker\Provider\zh_TW\PersonTest.php"/>
   <file crc="1531400354014" name="D:\OSPanel\domains\fitees.local\vendor\fzaninotto\faker\test\Faker\Provider\zh_TW\CompanyTest.php"/>
@@ -5964,7 +5601,6 @@
   <file crc="1531400353318" name="D:\OSPanel\domains\fitees.local\vendor\fzaninotto\faker\src\Faker\Documentor.php"/>
   <file crc="1531400353318" name="D:\OSPanel\domains\fitees.local\vendor\fzaninotto\faker\src\Faker\DefaultGenerator.php"/>
   <file crc="1531400353900" name="D:\OSPanel\domains\fitees.local\vendor\fzaninotto\faker\src\autoload.php"/>
-  <file crc="1531400353308" name="D:\OSPanel\domains\fitees.local\vendor\fzaninotto\faker\.travis.yml"/>
   <file crc="1531400360439" name="D:\OSPanel\domains\fitees.local\vendor\filp\whoops\src\Whoops\Util\TemplateHelper.php"/>
   <file crc="1531400360438" name="D:\OSPanel\domains\fitees.local\vendor\filp\whoops\src\Whoops\Util\SystemFacade.php"/>
   <file crc="1531400360438" name="D:\OSPanel\domains\fitees.local\vendor\filp\whoops\src\Whoops\Util\Misc.php"/>
@@ -6144,7 +5780,6 @@
   <file crc="1532011709167" name="D:\OSPanel\domains\fitees.local\vendor\barryvdh\reflection-docblock\src\Barryvdh\Reflection\DocBlock\Description.php"/>
   <file crc="1532011709165" name="D:\OSPanel\domains\fitees.local\vendor\barryvdh\reflection-docblock\src\Barryvdh\Reflection\DocBlock\Context.php"/>
   <file crc="1532011709161" name="D:\OSPanel\domains\fitees.local\vendor\barryvdh\reflection-docblock\src\Barryvdh\Reflection\DocBlock.php"/>
-  <file crc="1532011709140" name="D:\OSPanel\domains\fitees.local\vendor\barryvdh\reflection-docblock\.travis.yml"/>
   <file crc="1532011711051" name="D:\OSPanel\domains\fitees.local\vendor\barryvdh\laravel-ide-helper\src\Console\ModelsCommand.php"/>
   <file crc="1532011711049" name="D:\OSPanel\domains\fitees.local\vendor\barryvdh\laravel-ide-helper\src\Console\MetaCommand.php"/>
   <file crc="1532011711047" name="D:\OSPanel\domains\fitees.local\vendor\barryvdh\laravel-ide-helper\src\Console\GeneratorCommand.php"/>
@@ -6158,51 +5793,49 @@
   <file crc="1532011711035" name="D:\OSPanel\domains\fitees.local\vendor\barryvdh\laravel-ide-helper\resources\views\meta.php"/>
   <file crc="1532011711033" name="D:\OSPanel\domains\fitees.local\vendor\barryvdh\laravel-ide-helper\resources\views\helper.php"/>
   <file crc="1532011711026" name="D:\OSPanel\domains\fitees.local\vendor\barryvdh\laravel-ide-helper\config\ide-helper.php"/>
-  <file crc="1532011711013" name="D:\OSPanel\domains\fitees.local\vendor\barryvdh\laravel-ide-helper\.styleci.yml"/>
   <file crc="1534851533385" name="D:\OSPanel\domains\fitees.local\vendor\autoload.php"/>
   <file crc="1531400267946" name="D:\OSPanel\domains\fitees.local\tests\Unit\ExampleTest.php"/>
   <file crc="1531400267945" name="D:\OSPanel\domains\fitees.local\tests\Feature\ExampleTest.php"/>
   <file crc="1531400267943" name="D:\OSPanel\domains\fitees.local\tests\TestCase.php"/>
   <file crc="1531400267942" name="D:\OSPanel\domains\fitees.local\tests\CreatesApplication.php"/>
-  <file crc="1534853772056" name="D:\OSPanel\domains\fitees.local\storage\framework\views\f710f527d6946df53326b1353265851e5767fc9f.php"/>
-  <file crc="1533815294148" name="D:\OSPanel\domains\fitees.local\storage\framework\views\f2c3cfb507087e82f2a9edbebd3eca1be911314d.php"/>
-  <file crc="1534946205300" name="D:\OSPanel\domains\fitees.local\storage\framework\views\ef8481e793c103b97469ea1004a91482cf495ab6.php"/>
-  <file crc="1533815819667" name="D:\OSPanel\domains\fitees.local\storage\framework\views\ebdf356baecc84878f42479677487f3d1967e444.php"/>
-  <file crc="1534435301687" name="D:\OSPanel\domains\fitees.local\storage\framework\views\eb4f0e300e907a43d328d1675e05372f06528931.php"/>
-  <file crc="1534435250834" name="D:\OSPanel\domains\fitees.local\storage\framework\views\e8a4b76e4a507cf1ee6cc6468194056966de0d9d.php"/>
-  <file crc="1533824283481" name="D:\OSPanel\domains\fitees.local\storage\framework\views\e4852b5951561ef57c4882724f60b41c4e54c815.php"/>
-  <file crc="1533720608386" name="D:\OSPanel\domains\fitees.local\storage\framework\views\e03c556169804359d1c599afe2e2fa84d1015d78.php"/>
-  <file crc="1534426549681" name="D:\OSPanel\domains\fitees.local\storage\framework\views\db71f10d815c7292e3affa3c19b2b3358fe943bf.php"/>
-  <file crc="1533815155516" name="D:\OSPanel\domains\fitees.local\storage\framework\views\da9c418ce8db330bc889ecc66b970901d6ffa108.php"/>
-  <file crc="1534866463873" name="D:\OSPanel\domains\fitees.local\storage\framework\views\d8ef4d07000bb8f996f9508aae74ddc86ae2f296.php"/>
-  <file crc="1533295245947" name="D:\OSPanel\domains\fitees.local\storage\framework\views\ce2eaa72be91a971d72b22a6edf9d15e50a1eab3.php"/>
-  <file crc="1534424270023" name="D:\OSPanel\domains\fitees.local\storage\framework\views\ca77dc2081cbd651184857e46450b4a1681b3580.php"/>
-  <file crc="1534773423981" name="D:\OSPanel\domains\fitees.local\storage\framework\views\bb8d4904366e6ea16b2841d434010da42a483ed2.php"/>
-  <file crc="1534241416482" name="D:\OSPanel\domains\fitees.local\storage\framework\views\a0ce8e9e75594d3c50234e7a2ada0952bc88864e.php"/>
-  <file crc="1534410425089" name="D:\OSPanel\domains\fitees.local\storage\framework\views\994ee0f4fbe2e9fde5643b1850e1e46486dafc89.php"/>
-  <file crc="1533720608408" name="D:\OSPanel\domains\fitees.local\storage\framework\views\97f4b4b7e53ee51eef59643d5ede9fa9a61e38cd.php"/>
-  <file crc="1534510314208" name="D:\OSPanel\domains\fitees.local\storage\framework\views\9345082bb645ecb71f37951c9d80ee7c822034ac.php"/>
-  <file crc="1533295245920" name="D:\OSPanel\domains\fitees.local\storage\framework\views\906345c3fc7bfea777a4947a82e2092c414dae55.php"/>
-  <file crc="1534426591277" name="D:\OSPanel\domains\fitees.local\storage\framework\views\8a000e96502617d2061298bc7ec280f772de2e34.php"/>
-  <file crc="1534941511689" name="D:\OSPanel\domains\fitees.local\storage\framework\views\77c980e77a98217e0674c2238bb00b7c37a062d2.php"/>
-  <file crc="1535030080710" name="D:\OSPanel\domains\fitees.local\storage\framework\views\72210b576a39e64e64de0be346808e583c316254.php"/>
-  <file crc="1535019895647" name="D:\OSPanel\domains\fitees.local\storage\framework\views\705666ec3295bf0e075b6244d3f039302df8caa4.php"/>
-  <file crc="1534946878112" name="D:\OSPanel\domains\fitees.local\storage\framework\views\6b90b96acb49073785e8f1dd67e722059d0cf8e9.php"/>
-  <file crc="1534426476586" name="D:\OSPanel\domains\fitees.local\storage\framework\views\5f25e68056158a4fdbd6e5b042f7e26a45ff56af.php"/>
-  <file crc="1534241443126" name="D:\OSPanel\domains\fitees.local\storage\framework\views\50cfcba31a2f71f3dc720434fb50adefde9339ef.php"/>
-  <file crc="1533824231092" name="D:\OSPanel\domains\fitees.local\storage\framework\views\4271289fd37aa58656f877e0b0d73b568499db5f.php"/>
-  <file crc="1533295244281" name="D:\OSPanel\domains\fitees.local\storage\framework\views\40ac7323232253d18ac4a04e2d77ed328464f733.php"/>
-  <file crc="1534416108565" name="D:\OSPanel\domains\fitees.local\storage\framework\views\37d2ac518801619203b9e12c5ae944327577bab8.php"/>
-  <file crc="1533718074509" name="D:\OSPanel\domains\fitees.local\storage\framework\views\356d395fe0b0c4942dc43f0e50d3f2b4da2d02e1.php"/>
-  <file crc="1534946970367" name="D:\OSPanel\domains\fitees.local\storage\framework\views\32f24bc1ab2362a211e93cb860a2101f896f1896.php"/>
-  <file crc="1533572972353" name="D:\OSPanel\domains\fitees.local\storage\framework\views\305a29671fe2e075956046a8155b3bd604f7c74e.php"/>
-  <file crc="1534247940444" name="D:\OSPanel\domains\fitees.local\storage\framework\views\2fe341be0f5b6619b42ad31ce185fb055e1d971c.php"/>
-  <file crc="1533717828906" name="D:\OSPanel\domains\fitees.local\storage\framework\views\2e4b83c11674c8bb23be971d1de47d8f2e2a2387.php"/>
-  <file crc="1535028443169" name="D:\OSPanel\domains\fitees.local\storage\framework\views\2cdf2a90eb65f5d8fbacbf4b8c7148c969bf46bb.php"/>
-  <file crc="1533717828932" name="D:\OSPanel\domains\fitees.local\storage\framework\views\241bcfece2b9e9cdded2e52cc03170f4387fb17f.php"/>
-  <file crc="1533729603249" name="D:\OSPanel\domains\fitees.local\storage\framework\views\1c98335ed9438760ad08e388373e57ddab4330c2.php"/>
-  <file crc="1534427811042" name="D:\OSPanel\domains\fitees.local\storage\framework\views\1988535170185758de63cd9459cf02d69b2a17e5.php"/>
-  <file crc="1535031403670" name="D:\OSPanel\domains\fitees.local\routes\web.php"/>
+  <file crc="1535451132467" name="D:\OSPanel\domains\fitees.local\storage\framework\views\f2c3cfb507087e82f2a9edbebd3eca1be911314d.php"/>
+  <file crc="1535610189195" name="D:\OSPanel\domains\fitees.local\storage\framework\views\ef8481e793c103b97469ea1004a91482cf495ab6.php"/>
+  <file crc="1535474920019" name="D:\OSPanel\domains\fitees.local\storage\framework\views\eb4f0e300e907a43d328d1675e05372f06528931.php"/>
+  <file crc="1535462093716" name="D:\OSPanel\domains\fitees.local\storage\framework\views\e8a4b76e4a507cf1ee6cc6468194056966de0d9d.php"/>
+  <file crc="1535903540799" name="D:\OSPanel\domains\fitees.local\storage\framework\views\e3b4524fd37cb6c01cd60e2cf7966050a3c66ee3.php"/>
+  <file crc="1535904064490" name="D:\OSPanel\domains\fitees.local\storage\framework\views\df3531210fff0829a8b11f535fbfda7960377b29.php"/>
+  <file crc="1535908170452" name="D:\OSPanel\domains\fitees.local\storage\framework\views\dba8b7cf049602c6f3c8e26853d8a44e1d9d703b.php"/>
+  <file crc="1535477106221" name="D:\OSPanel\domains\fitees.local\storage\framework\views\db71f10d815c7292e3affa3c19b2b3358fe943bf.php"/>
+  <file crc="1535450738202" name="D:\OSPanel\domains\fitees.local\storage\framework\views\ce2eaa72be91a971d72b22a6edf9d15e50a1eab3.php"/>
+  <file crc="1535477112702" name="D:\OSPanel\domains\fitees.local\storage\framework\views\ca77dc2081cbd651184857e46450b4a1681b3580.php"/>
+  <file crc="1535886903924" name="D:\OSPanel\domains\fitees.local\storage\framework\views\c69d0c53f006a956bdb9ac16532717063f19c5d3.php"/>
+  <file crc="1535904032316" name="D:\OSPanel\domains\fitees.local\storage\framework\views\bf9ce55d6ef13a048b1ee90cced9e42429fb5071.php"/>
+  <file crc="1535477071105" name="D:\OSPanel\domains\fitees.local\storage\framework\views\bb8d4904366e6ea16b2841d434010da42a483ed2.php"/>
+  <file crc="1535451140530" name="D:\OSPanel\domains\fitees.local\storage\framework\views\a0ce8e9e75594d3c50234e7a2ada0952bc88864e.php"/>
+  <file crc="1535459386981" name="D:\OSPanel\domains\fitees.local\storage\framework\views\9e3e9b7fc342ba18ecabcca699c04a9e03397ddc.php"/>
+  <file crc="1535904677686" name="D:\OSPanel\domains\fitees.local\storage\framework\views\9e0e8c5e6429bbadea629cb00b636ad4e8978504.php"/>
+  <file crc="1535477071115" name="D:\OSPanel\domains\fitees.local\storage\framework\views\9345082bb645ecb71f37951c9d80ee7c822034ac.php"/>
+  <file crc="1535450738178" name="D:\OSPanel\domains\fitees.local\storage\framework\views\906345c3fc7bfea777a4947a82e2092c414dae55.php"/>
+  <file crc="1535477089854" name="D:\OSPanel\domains\fitees.local\storage\framework\views\8a000e96502617d2061298bc7ec280f772de2e34.php"/>
+  <file crc="1535908007250" name="D:\OSPanel\domains\fitees.local\storage\framework\views\7eee24b8a07f91b042383621c21ed7c2aa7ae431.php"/>
+  <file crc="1535463572558" name="D:\OSPanel\domains\fitees.local\storage\framework\views\72210b576a39e64e64de0be346808e583c316254.php"/>
+  <file crc="1535904652250" name="D:\OSPanel\domains\fitees.local\storage\framework\views\70bf6b6fd07c5803297772c9684632de6303c1d5.php"/>
+  <file crc="1535908164584" name="D:\OSPanel\domains\fitees.local\storage\framework\views\70b3b249fe50fcd29b117bfe595495a782f4df77.php"/>
+  <file crc="1535477073490" name="D:\OSPanel\domains\fitees.local\storage\framework\views\705666ec3295bf0e075b6244d3f039302df8caa4.php"/>
+  <file crc="1535477091209" name="D:\OSPanel\domains\fitees.local\storage\framework\views\6b90b96acb49073785e8f1dd67e722059d0cf8e9.php"/>
+  <file crc="1535477083122" name="D:\OSPanel\domains\fitees.local\storage\framework\views\5f25e68056158a4fdbd6e5b042f7e26a45ff56af.php"/>
+  <file crc="1535886710016" name="D:\OSPanel\domains\fitees.local\storage\framework\views\5eead0341341993f0d85154378e93aff4e563995.php"/>
+  <file crc="1535904060340" name="D:\OSPanel\domains\fitees.local\storage\framework\views\4cd94ac1f0a94797c9a2f9951ccd81af4eef1ddb.php"/>
+  <file crc="1535886461438" name="D:\OSPanel\domains\fitees.local\storage\framework\views\4271289fd37aa58656f877e0b0d73b568499db5f.php"/>
+  <file crc="1535477069441" name="D:\OSPanel\domains\fitees.local\storage\framework\views\37d2ac518801619203b9e12c5ae944327577bab8.php"/>
+  <file crc="1535477091179" name="D:\OSPanel\domains\fitees.local\storage\framework\views\32f24bc1ab2362a211e93cb860a2101f896f1896.php"/>
+  <file crc="1535886406898" name="D:\OSPanel\domains\fitees.local\storage\framework\views\2fe341be0f5b6619b42ad31ce185fb055e1d971c.php"/>
+  <file crc="1535462453656" name="D:\OSPanel\domains\fitees.local\storage\framework\views\2cdf2a90eb65f5d8fbacbf4b8c7148c969bf46bb.php"/>
+  <file crc="1535555592866" name="D:\OSPanel\domains\fitees.local\storage\framework\views\1eb99764ae706a56a08666f468ea35085b048c30.php"/>
+  <file crc="1535477176018" name="D:\OSPanel\domains\fitees.local\storage\framework\views\1c98335ed9438760ad08e388373e57ddab4330c2.php"/>
+  <file crc="1535477066777" name="D:\OSPanel\domains\fitees.local\storage\framework\views\1988535170185758de63cd9459cf02d69b2a17e5.php"/>
+  <file crc="1535462441149" name="D:\OSPanel\domains\fitees.local\storage\framework\views\123c6b345d8f0d8e8e76211113a03c6bd8e1675e.php"/>
+  <file crc="1535906620776" name="D:\OSPanel\domains\fitees.local\routes\web.php"/>
   <file crc="1531400267968" name="D:\OSPanel\domains\fitees.local\routes\console.php"/>
   <file crc="1531400267969" name="D:\OSPanel\domains\fitees.local\routes\channels.php"/>
   <file crc="1531400267968" name="D:\OSPanel\domains\fitees.local\routes\api.php"/>
@@ -6217,20 +5850,29 @@
   <file crc="1534946968496" name="D:\OSPanel\domains\fitees.local\resources\views\test\user\assignments-navigation.blade.php"/>
   <file crc="1534946875387" name="D:\OSPanel\domains\fitees.local\resources\views\test\user\assignment.blade.php"/>
   <file crc="1534946203934" name="D:\OSPanel\domains\fitees.local\resources\views\test\user\assignment-result.blade.php"/>
-  <file crc="1535028441484" name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\teach.blade.php"/>
-  <file crc="1535028563962" name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\course-edit.blade.php"/>
-  <file crc="1535029892830" name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\course-add.blade.php"/>
-  <file crc="1533824229523" name="D:\OSPanel\domains\fitees.local\resources\views\test\layouts\site.blade.php"/>
+  <file crc="1535904637565" name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\topics-show.blade.php"/>
+  <file crc="1535908005466" name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\topics-index.blade.php"/>
+  <file crc="1535908086308" name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\topics-edit.blade.php"/>
+  <file crc="1535908073927" name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\topics-create.blade.php"/>
+  <file crc="1535555591191" name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\pages-show.blade.php"/>
+  <file crc="1535904028174" name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\pages-edit.blade.php"/>
+  <file crc="1535903461858" name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\pages-create.blade.php"/>
+  <file crc="1535886894777" name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\courses-show.blade.php"/>
+  <file crc="1535886857473" name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\courses-index.blade.php"/>
+  <file crc="1535895839919" name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\courses-edit.blade.php"/>
+  <file crc="1535886812083" name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\courses-create.blade.php"/>
+  <file crc="1535886793737" name="D:\OSPanel\domains\fitees.local\resources\views\test\layouts\teacher.blade.php"/>
+  <file crc="1535886422672" name="D:\OSPanel\domains\fitees.local\resources\views\test\layouts\site.blade.php"/>
   <file crc="1533717754408" name="D:\OSPanel\domains\fitees.local\resources\views\test\auth\passwords\reset.blade.php"/>
   <file crc="1533717754407" name="D:\OSPanel\domains\fitees.local\resources\views\test\auth\passwords\email.blade.php"/>
   <file crc="1534241437943" name="D:\OSPanel\domains\fitees.local\resources\views\test\auth\register.blade.php"/>
   <file crc="1534241414960" name="D:\OSPanel\domains\fitees.local\resources\views\test\auth\login.blade.php"/>
   <file crc="1533815064223" name="D:\OSPanel\domains\fitees.local\resources\views\test\admin\home.blade.php"/>
-  <file crc="1535022436212" name="D:\OSPanel\domains\fitees.local\resources\views\test\learn.blade.php"/>
+  <file crc="1535477065138" name="D:\OSPanel\domains\fitees.local\resources\views\test\learn.blade.php"/>
   <file crc="1533815189584" name="D:\OSPanel\domains\fitees.local\resources\views\test\index.blade.php"/>
-  <file crc="1534435249324" name="D:\OSPanel\domains\fitees.local\resources\views\test\header.blade.php"/>
-  <file crc="1534247478808" name="D:\OSPanel\domains\fitees.local\resources\views\test\courses.blade.php"/>
-  <file crc="1534435299825" name="D:\OSPanel\domains\fitees.local\resources\views\test\course.blade.php"/>
+  <file crc="1535462090090" name="D:\OSPanel\domains\fitees.local\resources\views\test\header.blade.php"/>
+  <file crc="1535886449928" name="D:\OSPanel\domains\fitees.local\resources\views\test\courses.blade.php"/>
+  <file crc="1535474916891" name="D:\OSPanel\domains\fitees.local\resources\views\test\course.blade.php"/>
   <file crc="1533717762117" name="D:\OSPanel\domains\fitees.local\resources\views\layouts\app.blade.php"/>
   <file crc="1531400267991" name="D:\OSPanel\domains\fitees.local\resources\lang\en\validation.php"/>
   <file crc="1531400267990" name="D:\OSPanel\domains\fitees.local\resources\lang\en\passwords.php"/>
@@ -6248,6 +5890,61 @@
   <file crc="1533558969937" name="D:\OSPanel\domains\fitees.local\public\test\courses.html"/>
   <file crc="1533558969937" name="D:\OSPanel\domains\fitees.local\public\test\course.html"/>
   <file crc="1533558969937" name="D:\OSPanel\domains\fitees.local\public\test\auth.html"/>
+  <file crc="-7200000" name="D:\OSPanel\domains\fitees.local\public\assets\js\zepto-dragswap"/>
+  <file crc="-7200000" name="D:\OSPanel\domains\fitees.local\public\assets\js\zepto-dragswap\zepto.min.js"/>
+  <file crc="-7200000" name="D:\OSPanel\domains\fitees.local\public\assets\js\zepto-dragswap\zepto.dragswap.js"/>
+  <file crc="-7200000" name="D:\OSPanel\domains\fitees.local\public\assets\js\zepto-dragswap\index.html"/>
+  <file crc="1486574165000" name="D:\OSPanel\domains\fitees.local\public\assets\js\jquery-dragarrange\examples\index.html"/>
+  <file crc="1486574165000" name="D:\OSPanel\domains\fitees.local\public\assets\js\jquery-dragarrange\drag-arrange.min.js"/>
+  <file crc="1486574165000" name="D:\OSPanel\domains\fitees.local\public\assets\js\jquery-dragarrange\drag-arrange.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\zh.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\zh-cn.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\uk.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\ug.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\tt.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\tr.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\sv.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\sq.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\sk.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\si.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\ru.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\ro.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\pt.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\pt-br.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\pl.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\oc.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\no.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\nl.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\ne.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\nb.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\ku.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\ko.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\kn.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\km.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\ja.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\it.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\hu.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\hr.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\gu.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\gl.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\fr.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\fi.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\fa.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\eu.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\et.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\es.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\eo.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\en-au.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\el.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\de.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\de-ch.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\da.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\cs.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\ca.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\bg.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\ast.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\translations\ar.js"/>
+  <file crc="1531916734000" name="D:\OSPanel\domains\fitees.local\public\assets\js\ckeditor5-classic\ckeditor.js"/>
   <file crc="1533397191671" name="D:\OSPanel\domains\fitees.local\public\index.php"/>
   <file crc="1531400267948" name="D:\OSPanel\domains\fitees.local\public\.htaccess"/>
   <file crc="1533281872145" name="D:\OSPanel\domains\fitees.local\nbproject\private\private.xml"/>
@@ -6320,7 +6017,7 @@
   <file crc="1531400268009" name="D:\OSPanel\domains\fitees.local\app\Http\Middleware\VerifyCsrfToken.php"/>
   <file crc="1531400268010" name="D:\OSPanel\domains\fitees.local\app\Http\Middleware\TrustProxies.php"/>
   <file crc="1531400268009" name="D:\OSPanel\domains\fitees.local\app\Http\Middleware\TrimStrings.php"/>
-  <file crc="1533811765478" name="D:\OSPanel\domains\fitees.local\app\Http\Middleware\Teacher.php"/>
+  <file crc="1535449261173" name="D:\OSPanel\domains\fitees.local\app\Http\Middleware\Teacher.php"/>
   <file crc="1533988200245" name="D:\OSPanel\domains\fitees.local\app\Http\Middleware\Student.php"/>
   <file crc="1533733641051" name="D:\OSPanel\domains\fitees.local\app\Http\Middleware\RedirectIfAuthenticated.php"/>
   <file crc="1531400268008" name="D:\OSPanel\domains\fitees.local\app\Http\Middleware\EncryptCookies.php"/>
@@ -6331,14 +6028,15 @@
   <file crc="1535021818896" name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\User\HomeController.php"/>
   <file crc="1534867076958" name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\User\CourseMenuController.php"/>
   <file crc="1534946341710" name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\User\AssignmentController.php"/>
-  <file crc="1535023706236" name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\HomeController.php"/>
-  <file crc="1535031230436" name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\CourseMenuController.php"/>
+  <file crc="1535908147007" name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\TopicController.php"/>
+  <file crc="1535903718066" name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\PageController.php"/>
+  <file crc="1535551458635" name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\CourseController.php"/>
   <file crc="1534410347074" name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\Auth\ResetPasswordController.php"/>
   <file crc="1534410338906" name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\Auth\RegisterController.php"/>
-  <file crc="1534410322029" name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\Auth\LoginController.php"/>
+  <file crc="1535477170870" name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\Auth\LoginController.php"/>
   <file crc="1531400268006" name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\Auth\ForgotPasswordController.php"/>
   <file crc="1533815811793" name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\Admin\HomeController.php"/>
-  <file crc="1534412060294" name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\SiteController.php"/>
+  <file crc="1535451062360" name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\SiteController.php"/>
   <file crc="1533760113921" name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\IndexController.php"/>
   <file crc="1534249173859" name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\CourseController.php"/>
   <file crc="1531400268004" name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\Controller.php"/>
@@ -6347,14 +6045,14 @@
   <file crc="1531400268003" name="D:\OSPanel\domains\fitees.local\app\Console\Kernel.php"/>
   <file crc="1534422567234" name="D:\OSPanel\domains\fitees.local\app\UserCourse.php"/>
   <file crc="1533910914682" name="D:\OSPanel\domains\fitees.local\app\User.php"/>
-  <file crc="1534767915350" name="D:\OSPanel\domains\fitees.local\app\Topic.php"/>
+  <file crc="1535549112626" name="D:\OSPanel\domains\fitees.local\app\Topic.php"/>
   <file crc="1534854396381" name="D:\OSPanel\domains\fitees.local\app\Task.php"/>
   <file crc="1533758976985" name="D:\OSPanel\domains\fitees.local\app\Role.php"/>
   <file crc="1533901317311" name="D:\OSPanel\domains\fitees.local\app\Resource.php"/>
   <file crc="1534867100809" name="D:\OSPanel\domains\fitees.local\app\Question.php"/>
-  <file crc="1534513537065" name="D:\OSPanel\domains\fitees.local\app\Page.php"/>
+  <file crc="1535553810956" name="D:\OSPanel\domains\fitees.local\app\Page.php"/>
   <file crc="1533729296953" name="D:\OSPanel\domains\fitees.local\app\Group.php"/>
-  <file crc="1535031350755" name="D:\OSPanel\domains\fitees.local\app\Course.php"/>
+  <file crc="1535473885945" name="D:\OSPanel\domains\fitees.local\app\Course.php"/>
   <file crc="1534926909581" name="D:\OSPanel\domains\fitees.local\app\AssignmentResult.php"/>
   <file crc="1534853566646" name="D:\OSPanel\domains\fitees.local\app\Assignment.php"/>
   <file crc="1534853380669" name="D:\OSPanel\domains\fitees.local\app\Answer.php"/>
@@ -6374,7 +6072,7 @@
   <file crc="1533280183320" name="D:\OSPanel\domains\fitees.local\.gitignore"/>
   <file crc="1531400267970" name="D:\OSPanel\domains\fitees.local\.gitattributes"/>
   <file crc="1531400267946" name="D:\OSPanel\domains\fitees.local\.env.example"/>
-  <file crc="1534944699688" name="D:\OSPanel\domains\fitees.local\.env"/>
+  <file crc="1535450972148" name="D:\OSPanel\domains\fitees.local\.env"/>
   <file crc="1531400267957" name="D:\OSPanel\domains\fitees.local\.editorconfig"/>
  </filescache>
 </project>

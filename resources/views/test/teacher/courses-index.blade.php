@@ -1,4 +1,4 @@
-@extends (env('THEME').'.layouts.site')
+@extends (env('THEME').'.layouts.teacher')
 
 @section('header')
 	{!! $header !!}
@@ -12,12 +12,13 @@
 			@if(!$teacherCourses->isEmpty())
 				@foreach ($teacherCourses as $teacherCourse)
 					<div class="course_item col-3">
-						<img src="{{ asset(env('THEME')) }}/{{ $teacherCourse['image'] }}" alt="{{ $teacherCourse['name'] }}">
-						<a href="{{ url('/teacher/'.$teacherCourse['alias']) }}"><h3>{{ $teacherCourse['name'] }}</h3></a>
+						<img src="{{ asset('assets') }}/img/course_img/{{ $teacherCourse['image'] }}" alt="{{ $teacherCourse['name'] }}">
+		<!--				<a href="{{ url('/teacher/'.$teacherCourse['alias']) }}"><h3>{{ $teacherCourse['name'] }}</h3></a>-->
+						<a href="{{ route('teacher.courses.show', ['course_alias' => $teacherCourse['alias']]) }}"><h3>{{ $teacherCourse['name'] }}</h3></a>
 						<ul class="course-menu">
-							<li><a href="{{ url($teacherCourse['alias'].'/edit') }}">Редактировать</a></li>
+							<li><a href="{{ route('teacher.courses.edit', ['course_alias' => $teacherCourse['alias']]) }}">Редактировать</a></li>
 							<li><a href="#">Статистика</a></li>
-							<li><a href="#">Прогласить</a></li>
+							<li><a href="#">Пригласить</a></li>
 						</ul>
 					</div>
 				@endforeach
@@ -25,7 +26,7 @@
 				<p>Вы еще не создали ни одного курса</p>
 			@endif
 			<div class="col-3 button-container">
-				<a href="{{ route('course.add') }}" class="btn btn-create">Создать<br> курс</a>
+				<a href="{{ route('teacher.courses.create') }}" class="btn btn-create">Создать<br> курс</a>
 			</div>
 		</div>
 </div>

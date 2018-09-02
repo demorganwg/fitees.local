@@ -17,7 +17,7 @@
 				@if(!$userCourses->isEmpty())
 					@foreach ($userCourses as $userCourse)
 						<div class="course_item col-3">
-							<img src="{{ asset(env('THEME')) }}/{{ $userCourse['image'] }}" alt="{{ $userCourse['name'] }}">
+							<img src="{{ asset('assets') }}/img/course_img/{{ $userCourse['image'] }}" alt="{{ $userCourse['name'] }}">
 							@if ($userCourse['showCourseLink'])
 								<a href="{!! url('/courses/'.$userCourse['alias'].'/menu'); !!}"><h3>{{ $userCourse['name'] }}</h3></a>
 							@else

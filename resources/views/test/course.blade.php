@@ -9,7 +9,7 @@
 	<div class="container">
 		<div class="course_page">
 			<h2>{{ $course['name'] }}</h2>
-			<img src="{{ asset(env('THEME')) }}/{{ $course['image'] }}" alt="{{ $course['name'] }}">
+			<img src="{{ asset('assets') }}/img/course_img/{{ $course['image'] }}" alt="{{ $course['name'] }}">
 			<h3>Автор курса: {{ $course['author'] }}</h3>
 			@if($course['showApllyForm'])
 				<form method="POST" action="{!! url('/courses/'.$course['alias']); !!}">

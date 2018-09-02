@@ -57,12 +57,7 @@ class Course extends Model
 		
 	}
 	
-	public static function dataIsAcceptable($courseName, $courseAlias) {
-		
-		/*$courseName = 'Course_name_1';
-		$courseAlias = 'course_alias_1';*/
-		
-//		dd(self::where('name', $courseName)->orWhere('alias', $courseAlias)->first());
+	/*public static function dataIsAcceptable($courseName, $courseAlias) {
 		
 		if(self::where('name', $courseName)->orWhere('alias', $courseAlias)->first()) {
 			return TRUE;
@@ -71,6 +66,6 @@ class Course extends Model
 			return FALSE;
 		} 
 		
-	}
+	}*/
 	
 }

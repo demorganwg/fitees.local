@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Topic extends Model
 {
+	protected $fillable = ['name', 'description', 'number', 'alias', 'course_id'];
+	
 	public function pages()
 	{
 	    return $this->hasMany('App\Page');

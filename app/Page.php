@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Page extends Model
 {
+	protected $fillable = ['name', 'content', 'number', 'alias', 'topic_id'];
+	
     public function topic()
 	{
 	    return $this->belongsTo('App\Topic', 'topic_id');
