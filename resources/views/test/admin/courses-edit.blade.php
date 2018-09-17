@@ -13,7 +13,7 @@
 	<h2>Редактировать курс</h2>
 	<div class="form_container">
 	
-		<form method="POST" action="{{ route('teacher.courses.update', ['course' => $courseAlias]) }}"  enctype="multipart/form-data">
+		<form method="POST" action="{{ route('admin.courses.update', ['course' => $courseAlias]) }}"  enctype="multipart/form-data">
 			@method('PUT')
 			@csrf
 			<div class="error-messages">
@@ -54,17 +54,13 @@
 			</formgroup>
 			<button type="submit" class="btn btn-send">Сохранить изменения</button>
 		</form>
-		@if($data['status'] == 0)
-			<form method="POST" action="{{ route('teacher.courses.destroy', ['course' => $courseAlias]) }}"  enctype="multipart/form-data">
-				@method('DELETE')
-				@csrf
-				<p style="text-align: center">Удалить курс</p>
-				<button type="submit" class="btn btn-send">Удалить</button>
-		</form>
-		@else
-			<p>Вы не можете удалить активный курс</p>
-		@endif
 		
+		<form method="POST" action="{{ route('admin.courses.destroy', ['course' => $courseAlias]) }}"  enctype="multipart/form-data">
+			@method('DELETE')
+			@csrf
+			<p style="text-align: center">Удалить курс</p>
+			<button type="submit" class="btn btn-send">Удалить</button>
+		</form>
 	</div>
 </div>
 <style>

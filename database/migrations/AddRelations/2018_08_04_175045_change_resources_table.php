@@ -19,7 +19,7 @@ class ChangeResourcesTable extends Migration
             $table->foreign('resource_type_id')->references('id')->on('resource_types');
             
             $table->integer('course_id')->unsigned();
-            $table->foreign('course_id')->references('id')->on('courses');
+            $table->foreign('course_id')->references('id')->on('courses')->onUpdate('cascade')->onDelete('cascade');
             
         });
     }

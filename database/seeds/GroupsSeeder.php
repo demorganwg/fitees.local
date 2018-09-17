@@ -13,8 +13,9 @@ class GroupsSeeder extends Seeder
     {
         DB::table('groups')->insert([
         
+            ['name' => 'Администраторы'],
+            ['name' => 'Преподаватели'],
             ['name' => 'Абитуриенты'],
-            ['name' => 'Препоаватели'],
             ['name' => 'КСМ-13-1'],
 	        ['name' => 'КСМ-13-2'],
 	        ['name' => 'КСМ-14-1'],

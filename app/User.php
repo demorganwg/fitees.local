@@ -21,7 +21,7 @@ class User extends Authenticatable
      *
      * @var array
      */
-    protected $fillable = ['name', 'email', 'password', 'surname'];
+    protected $fillable = ['name', 'email', 'password', 'surname', 'group_id', 'role_id'];
 
     /**
      * The attributes that should be hidden for arrays.
@@ -35,9 +35,26 @@ class User extends Authenticatable
 	    return $this->belongsTo('App\Role', 'role_id');
 	}
 	
+	public function group()
+	{
+	    return $this->belongsTo('App\Group', 'group_id');
+	}
+	
 	public function userCourse()
 	{
 	    return $this->hasMany('App\UserCourse');
+	}
+    
+    public static function getAllUnknownUsers() {
+
+		return self::all()->where('role_id', '=', 1);
+	
+	}
+	
+	public static function getAllTeachers() {
+
+		return self::all()->where('role_id', '=', 3);
+	
 	}
     
     public function hasRole($roleName)

@@ -21,7 +21,6 @@ class CreateUsersTable extends Migration
             $table->string('password');
             $table->timestamp('register_date')->useCurrent();
             $table->dateTime('last_visit')->nullable();
-            $table->integer('status')->unsigned()->default(0);
             $table->rememberToken();
             $table->timestamps();
         });

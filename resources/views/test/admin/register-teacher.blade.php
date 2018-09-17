@@ -8,7 +8,7 @@
 <div class="content col-12">
 	<div class="form_container">
 		<h2>Регистрация</h2>
-		<form method="POST" action="{{ route('register') }}">
+		<form method="POST" action="{{ action('Admin\RegisterController@registerTeacher') }}">
 			@csrf
 			<formgroup>
 				<label for="name">Имя</label>
@@ -27,14 +27,6 @@
 	                    <strong>{{ $errors->first('surname') }}</strong>
 	                </span>
 	            @endif
-			</formgroup>
-			<formgroup>
-				<label for="group">Группа</label>
-				<select name="group_id">				
-				@foreach ($groups as $group)
-					<option value="{{ $group['id'] }}">{{ $group['name'] }}</option>
-				@endforeach
-				</select>
 			</formgroup>
 			<formgroup>
 				<label for="email">E-mail</label>

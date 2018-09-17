@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace App\Http\Controllers\Admin;
 
 use App\User;
 use App\Http\Controllers\SiteController;
@@ -28,7 +28,7 @@ class RegisterController extends SiteController
      *
      * @var string
      */
-    protected $redirectTo = '/learn';
+    protected $redirectTo = '/admin';
     
     /*protected function redirectTo()
 	{
@@ -47,9 +47,9 @@ class RegisterController extends SiteController
     {
     	parent::__construct();
     	
-        $this->middleware('guest');
+        $this->middleware('admin');
 		
-		$this->template = env('THEME').'.auth.register';
+		$this->template = env('THEME').'.admin.register-teacher';
     }
 
     /**
@@ -64,7 +64,6 @@ class RegisterController extends SiteController
             'name' => 'required|string|max:255',
             'surname' => 'required|string|max:255',
             'email' => 'required|string|email|max:255|unique:users',
-            'group_id' => 'required|numeric|min:1|exists:groups,id',
             'password' => 'required|string|min:6|confirmed',
             'password_confirmation' => 'min:6|same:password',
         ]);
@@ -78,12 +77,12 @@ class RegisterController extends SiteController
      */
     protected function create(array $data)
     {
-//    	dd($data['group_id']);
         return User::create([
             'name' => $data['name'],
             'surname' => $data['surname'],
             'email' => $data['email'],
-            'group_id' => $data['group_id'],
+            'role_id' => 3,
+            'group_id' => 2,
             'password' => Hash::make($data['password']),
         ]);
     }

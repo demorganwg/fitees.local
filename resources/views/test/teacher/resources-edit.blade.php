@@ -10,10 +10,10 @@
 
 @section('content')
 <div class="content col-12">
-	<h2>Редактировать курс</h2>
+	<h2>Редактировать материал</h2>
 	<div class="form_container">
 	
-		<form method="POST" action="{{ route('teacher.courses.update', ['course' => $courseAlias]) }}"  enctype="multipart/form-data">
+		<form method="POST" action="{{ route('teacher.resources.update', ['course' => $courseAlias, 'resource' => $resourceAlias]) }}"  enctype="multipart/form-data">
 			@method('PUT')
 			@csrf
 			<div class="error-messages">
@@ -28,43 +28,34 @@
 	                </span>
 	            @endif
 			</div>
-			<formgroup class="preview">
-				<img class="image_preview" src="{{ asset('assets/img/course_img/'.$data['image']) }}">
-				<input type="hidden" id="old_image" name="old_image" value="{{ $data['image'] }}">
-			</formgroup>
 			<formgroup>
-				<label for="image">Изображение курса</label>
-				<input type="file" id="image" name="image">
-			</formgroup>
-			<formgroup>
-				<label for="name">Название курса *</label>
+				<label for="name">Название *</label>
 				<input type="text" id="name" name="name" value="{{ $data['name'] }}" required autofocus>
 			</formgroup>
 			<formgroup>
-				<label for="alias">Псевдоним курса *</label>
+				<label for="alias">Псевдоним *</label>
 				<input type="alias" id="alias" name="alias" value="{{ $data['alias'] }}" required autofocus>
 			</formgroup>
 			<formgroup>
-				<label for="description">Описание курса</label>
-				<textarea id="description" name="description">{{ $data['description'] }}</textarea>
+				<select id="type" name="resource_type_id">				
+				@foreach ($types as $type)
+					<option value="{{ $type['id'] }}">{{ $type['name'] }}</option>
+				@endforeach
+				</select>
 			</formgroup>
 			<formgroup>
-				<label for="info">Информация о курсе</label>
-				<textarea id="info" name="info">{{ $data['info'] }}</textarea>
+				<label for="description">Описание</label>
+				<textarea id="description" name="description">{{ $data['description'] }}</textarea>
 			</formgroup>
 			<button type="submit" class="btn btn-send">Сохранить изменения</button>
 		</form>
-		@if($data['status'] == 0)
-			<form method="POST" action="{{ route('teacher.courses.destroy', ['course' => $courseAlias]) }}"  enctype="multipart/form-data">
-				@method('DELETE')
-				@csrf
-				<p style="text-align: center">Удалить курс</p>
-				<button type="submit" class="btn btn-send">Удалить</button>
-		</form>
-		@else
-			<p>Вы не можете удалить активный курс</p>
-		@endif
 		
+		<form method="POST" action="{{ route('teacher.resources.destroy', ['course' => $courseAlias, 'resource' => $resourceAlias]) }}"  enctype="multipart/form-data">
+			@method('DELETE')
+			@csrf
+			<p style="text-align: center">Удалить материал</p>
+			<button type="submit" class="btn btn-send">Удалить</button>
+		</form>
 	</div>
 </div>
 <style>
@@ -113,9 +104,6 @@
 </style>
 <script>
 	ClassicEditor.create(document.querySelector( '#description' )).catch( 
-    	error => {console.error( error );
-    });
-    ClassicEditor.create(document.querySelector( '#info' )).catch( 
     	error => {console.error( error );
     });
 </script>

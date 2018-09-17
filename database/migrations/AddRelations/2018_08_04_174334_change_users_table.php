@@ -18,8 +18,8 @@ class ChangeUsersTable extends Migration
             $table->integer('role_id')->unsigned()->default(1);
             $table->foreign('role_id')->references('id')->on('roles');
             
-            $table->integer('group_id')->unsigned()->default(1);
-            $table->foreign('group_id')->references('id')->on('groups');
+            $table->integer('group_id')->unsigned();
+            $table->foreign('group_id')->references('id')->on('groups')->onUpdate('cascade');
             
         });
     }

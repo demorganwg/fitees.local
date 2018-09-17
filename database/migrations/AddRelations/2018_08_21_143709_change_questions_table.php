@@ -16,7 +16,7 @@ class ChangeQuestionsTable extends Migration
         Schema::table('questions', function (Blueprint $table) {
             
             $table->integer('assignment_id')->unsigned()->default(1);
-            $table->foreign('assignment_id')->references('id')->on('assignments');
+            $table->foreign('assignment_id')->references('id')->on('assignments')->onUpdate('cascade')->onDelete('cascade');
             
         });
     }

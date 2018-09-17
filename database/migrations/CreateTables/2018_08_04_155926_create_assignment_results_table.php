@@ -16,6 +16,7 @@ class CreateAssignmentResultsTable extends Migration
         Schema::create('assignment_results', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('score')->unsigned()->default(0);
+            $table->timestamp('completion_date')->useCurrent();
             $table->text('answers');
             $table->timestamps();
         });

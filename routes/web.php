@@ -54,23 +54,53 @@ Route::middleware(['auth', 'teacher'])->prefix('teacher/courses/{course_alias}')
 	Route::post('topics/{topic}/changeOrder', 'TopicController@changePagePosition');
 	Route::post('topics/changeOrder', 'TopicController@changeTopicPosition');
 	Route::resource('topics', 'TopicController', ['as' => 'teacher']);
+	
+	Route::post('assignments/changeOrder', 'AssignmentController@changeAssignmentPosition');
+	Route::post('assignments/{assignment}/changeOrder', 'AssignmentController@changeQuestionPosition');
+	Route::resource('assignments', 'AssignmentController', ['as' => 'teacher']);
+	
+	Route::post('resources/changeOrder', 'ResourceController@changeResourcePosition');
+	Route::resource('resources', 'ResourceController', ['as' => 'teacher']);
 });
 
 Route::middleware(['auth', 'teacher'])
-	->prefix('teacher/courses/{course_alias}/topics/{topic}')->namespace('Teacher')->group(function() {
-			
+	->prefix('teacher/courses/{course_alias}/topics/{topic}')->namespace('Teacher')->group(function() {	
 		Route::resource('pages', 'PageController', ['as' => 'teacher'])->except([
 	    	'index'
-		]);;
+		]);
+});
+
+Route::middleware(['auth', 'teacher'])
+	->prefix('teacher/courses/{course_alias}/assignments/{assignment}')->namespace('Teacher')->group(function() {	
+		Route::resource('questions', 'QuestionController', ['as' => 'teacher'])->except([
+	    	'index', 'show'
+		]);	
+});
+
+Route::middleware(['auth', 'admin'])->prefix('admin')->namespace('Admin')->group(function() {
+	
+	Route::get('/', 'HomeController@index')->name('admin');
+	
+	Route::resource('groups', 'GroupController', ['as' => 'admin'])->except([
+	    	'index', 'create', 'show'
+		]);
+	/*Route::post('/group/', 'HomeController@storeGroup')->name('admin.groups.store');
+	Route::get('/group/{id}', 'HomeController@editGroup')->name('admin.groups.edit');
+	Route::delete('/group/{id}', 'HomeController@deleteGroup')->name('admin.groups.destroy');
+	Route::put('/group/{id}', 'HomeController@updateGroup')->name('admin.groups.update');*/
+	
+	Route::resource('courses', 'CourseController', ['as' => 'admin'])->except([
+	    	'index', 'create', 'store'
+		]);
 		
+	Route::post('courses/publish/{course_alias}', 'CourseController@publishCourse');
+	Route::post('verify', 'HomeController@verifyUsers');
+	Route::get('register-teacher', 'RegisterController@showTeacherRegistrationForm');
+	Route::post('register-teacher', 'RegisterController@registerTeacher');
+	
 });
 
 
-/*Route::group(['prefix'=>'admin', 'middleware'=>'auth', 'middleware'=>'admin'], function(){
-	
-	Route::get('/', 'Admin\HomeController@index')->name('admin');
-	
-});*/
 
 
 

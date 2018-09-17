@@ -14,15 +14,6 @@
 			<a class="btn btn-icon" href="#">Статистика</a>
 			<a class="btn btn-icon" href="#">Пригласить</a>
 			<h3>Автор курса: {{ $course['author'] }}</h3>
-			@if($course['showApllyForm'])
-				<form method="POST" action="{!! url('/courses/'.$course['alias']); !!}">
-					@csrf
-					<input id="courseId" name="courseId" type="hidden" value="{{ $course['id'] }}" />
-					<button type="submit" class="btn-apply">Подать заявку на участие</button>
-				</form>
-			@elseif($course['showCourseStatus'])
-				<p class="btn-apply">{{ $course['status'] }}</p>
-			@endif
 			{!! $course['description'] !!}
 			<h3>Темы курса</h3>
 			<a class="btn btn-icon" href="{{ route('teacher.topics.index', ['course_alias' => $course['alias']])}}">Редактировать</a>
@@ -33,19 +24,19 @@
 				@endforeach
 			</ol>
 			<h3>Задания курса</h3>
-			<a class="btn btn-icon" href="#">Редактировать</a>
-			<a class="btn btn-icon" href="#">Создать</a>
+			<a class="btn btn-icon" href="{{ route('teacher.assignments.index', ['course_alias' => $course['alias']])}}">Редактировать</a>
+			<a class="btn btn-icon" href="{{ route('teacher.assignments.create', ['course_alias' => $course['alias']])}}">Создать</a>
 			<ol>
 				@foreach ($course['assignments'] as $assignment)
-					<li>{{ $assignment['name'] }}</li>
+					<li><a href="{{ route('teacher.assignments.show', ['course_alias' => $course['alias'], 'assignment' => $assignment['alias']])}}">{{ $assignment['name'] }}</a></li>
 				@endforeach
 			</ol>
 			<h3>Материалы</h3>
-			<a class="btn btn-icon" href="#">Редактировать</a>
-			<a class="btn btn-icon" href="#">Создать</a>
+			<a class="btn btn-icon" href="{{ route('teacher.resources.index', ['course_alias' => $course['alias']])}}">Редактировать</a>
+			<a class="btn btn-icon" href="{{ route('teacher.resources.create', ['course_alias' => $course['alias']])}}">Создать</a>
 			<ol>
 				@foreach ($course['resources'] as $resource)
-					<li>{{ $resource['name'] }}</li>
+					<li><a href="{{ route('teacher.resources.show', ['course_alias' => $course['alias'], 'resource' => $resource['alias']])}}">{{ $resource['name'] }}</a></li>
 				@endforeach
 			</ol>
 			<h3>Информация о курсе</h3>

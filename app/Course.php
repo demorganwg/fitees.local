@@ -41,7 +41,13 @@ class Course extends Model
 	
     public static function getAllCourses() {
 
-		return self::all('name', 'description', 'image', 'alias', 'status')->where('status', '=', 1);
+		return self::all()->where('status', '=', 1);
+	
+	}
+	
+	public static function getAllNotActiveCourses() {
+
+		return self::all()->where('status', '!=', 1);
 	
 	}
 	

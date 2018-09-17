@@ -16,7 +16,7 @@ class ChangeAnswersTable extends Migration
         Schema::table('answers', function (Blueprint $table) {
             
             $table->integer('question_id')->unsigned()->default(1);
-            $table->foreign('question_id')->references('id')->on('questions');
+            $table->foreign('question_id')->references('id')->on('questions')->onUpdate('cascade')->onDelete('cascade');
             
         });
     }

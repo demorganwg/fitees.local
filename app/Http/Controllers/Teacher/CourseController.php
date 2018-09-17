@@ -106,6 +106,9 @@ class CourseController extends SiteController
     {
         $course = Course::getCourseByAlias($courseAlias);
     	$course['author'] = Auth::user()->name .' '.Auth::user()->surname;
+		$course['topics'] = $course->topics()->orderBy('number')->get();
+		$course['assignments'] = $course->assignments()->orderBy('number')->get();
+		$course['resources'] = $course->resources()->orderBy('number')->get();
 		
 		$title = $course->name;
     	$this->vars = array_add($this->vars, 'title', $title);

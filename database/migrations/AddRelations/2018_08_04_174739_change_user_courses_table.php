@@ -16,10 +16,10 @@ class ChangeUserCoursesTable extends Migration
         Schema::table('user_courses', function (Blueprint $table) {
         	
             $table->integer('user_id')->unsigned();
-            $table->foreign('user_id')->references('id')->on('users');
+            $table->foreign('user_id')->references('id')->on('users')->onUpdate('cascade');
             
             $table->integer('course_id')->unsigned();
-            $table->foreign('course_id')->references('id')->on('users');
+            $table->foreign('course_id')->references('id')->on('courses')->onUpdate('cascade');
             
         });
     }

@@ -16,7 +16,7 @@ class ChangePagesTable extends Migration
         Schema::table('pages', function (Blueprint $table) {
             
             $table->integer('topic_id')->unsigned()->default(1);
-            $table->foreign('topic_id')->references('id')->on('topics');
+            $table->foreign('topic_id')->references('id')->on('topics')->onUpdate('cascade')->onDelete('cascade');
             
         });
     }

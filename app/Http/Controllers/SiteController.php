@@ -11,14 +11,8 @@ class SiteController extends Controller
     protected $template;
     
     protected $vars;
-    
-    /*protected $contentRightBar = FALSE;
-    protected $contentLeftBar = FALSE;
-    protected $bar = FALSE;*/
-    
-    
+      
     public function __construct() {	
-
 
 	}
 	

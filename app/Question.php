@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Question extends Model
 {
+	protected $fillable = ['content', 'number', 'assignment_id'];
+	
     public function assignment() {
         return $this->belongsTo('App\Assignment');
     }

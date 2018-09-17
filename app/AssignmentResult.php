@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class AssignmentResult extends Model
 {
     protected $table = 'assignment_results';
-    protected $fillable = ['score', 'answers', 'user_course_id', 'assignment_id'];
+    protected $fillable = ['score', 'complation_date', 'answers', 'user_course_id', 'assignment_id'];
     
     public function user_course()
 	{

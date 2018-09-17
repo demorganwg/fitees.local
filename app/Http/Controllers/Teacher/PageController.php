@@ -54,7 +54,7 @@ class PageController extends SiteController
         $input = $request->except(['_token']);
 		$input['topic_id'] = $topic->id;
 		$input['number'] = $topic->pages()->count()+1;
-		
+
 		$validator = Validator::make($input, [
 			'name' => 'required|max:255',
 		]);

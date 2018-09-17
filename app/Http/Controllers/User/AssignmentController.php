@@ -106,22 +106,11 @@ class AssignmentController extends SiteController
 		
 		foreach($userAnswers as $q => $questionAnswers) {
 			
-//			dump('user '.$q.':');
-//			dump($userAnswers[$q]);
-//			dump('right '.$q.':');
-//			dump($rightAnswers[$q]);
-			
 			foreach($questionAnswers as $a => $answer) {
 				
 				if($userAnswers[$q][$a] && $rightAnswers[$q][$a] == 1){
 					$userResults['userRightAnswers']++;
-				}
-				
-				/*dump('user '.$a.':');
-				dump($userAnswers[$q][$a]);
-				dump('right '.$a.':');
-				dump($rightAnswers[$q][$a]);*/
-				
+				}	
 			}
 		}
 		
