@@ -13,9 +13,20 @@ class Assignment extends Model
 	    return $this->hasMany('App\Question');
 	}
 	
+	public function assignmentResults()
+	{
+	    return $this->hasMany('App\AssignmentResult');
+	}
+	
     public static function getAssignmentByAlias($assignmentAlias) {
 		
-		return Assignment::where('alias', $assignmentAlias)->firstOrFail();
+		return self::where('alias', $assignmentAlias)->firstOrFail();
+		
+	}
+	
+	public static function getCourseAssignments($courseId) {
+		
+		return self::all()->where('course_id', '=', $courseId);
 		
 	}
 }

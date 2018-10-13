@@ -12,193 +12,195 @@
  <added value="D:\OSPanel\domains\fitees.local\.editorconfig;D:\OSPanel\domains\fitees.local\.env;D:\OSPanel\domains\fitees.local\.env.example;D:\OSPanel\domains\fitees.local\.gitattributes;D:\OSPanel\domains\fitees.local\.gitignore;D:\OSPanel\domains\fitees.local\.htaccess;D:\OSPanel\domains\fitees.local\FITees.clpprj;D:\OSPanel\domains\fitees.local\FITees.local.clpprj;D:\OSPanel\domains\fitees.local\FITees_clcs.csprj;D:\OSPanel\domains\fitees.local\artisan;D:\OSPanel\domains\fitees.local\composer.json;D:\OSPanel\domains\fitees.local\composer.lock;D:\OSPanel\domains\fitees.local\package.json;D:\OSPanel\domains\fitees.local\public\.htaccess;D:\OSPanel\domains\fitees.local\yarn.lock;"/>
  <lastopfiles>
   <file name="D:\OSPanel\domains\fitees.local\routes\web.php"/>
-  <file name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\Admin\HomeController.php"/>
-  <file name="D:\OSPanel\domains\fitees.local\resources\views\test\admin\home.blade.php"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\courses-show.blade.php"/>
+  <file name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\StudentsController.php"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\student-index.blade.php"/>
   <file name="D:\OSPanel\domains\fitees.local\routes\web.php"/>
-  <file name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\Admin\HomeController.php"/>
-  <file name="D:\OSPanel\domains\fitees.local\resources\views\test\admin\home.blade.php"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\courses-show.blade.php"/>
+  <file name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\StudentsController.php"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\student-index.blade.php"/>
  </lastopfiles>
  <todoblock>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\barryvdh\reflection-docblock\tests\Barryvdh\Reflection\DocBlock\Tag\MethodTagTest.php">
-   <todo name="TODO: Verify this case" pos="13;74"/>
+   <todo pos="13;74" name="TODO: Verify this case"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\filp\whoops\src\Whoops\Exception\Frame.php">
-   <todo name="todo: This can be made more reliable by checking if we've entered" pos="10;54"/>
-   <todo name="@todo: This can be made more reliable by checking if we've entered" pos="9;54"/>
+   <todo pos="10;54" name="todo: This can be made more reliable by checking if we've entered"/>
+   <todo pos="9;54" name="@todo: This can be made more reliable by checking if we've entered"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\filp\whoops\src\Whoops\Handler\PrettyPageHandler.php">
-   <todo name="todo: Make this more robust" pos="14;153"/>
-   <todo name="@todo: Make this more robust" pos="13;153"/>
-   <todo name="todo: Asset compiler" pos="14;187"/>
-   <todo name="@todo: Asset compiler" pos="13;187"/>
-   <todo name="todo: Consolidate addDataTable and addDataTableCallback" pos="10;237"/>
-   <todo name="@todo: Consolidate addDataTable and addDataTableCallback" pos="9;237"/>
+   <todo pos="14;153" name="todo: Make this more robust"/>
+   <todo pos="13;153" name="@todo: Make this more robust"/>
+   <todo pos="14;187" name="todo: Asset compiler"/>
+   <todo pos="13;187" name="@todo: Asset compiler"/>
+   <todo pos="10;237" name="todo: Consolidate addDataTable and addDataTableCallback"/>
+   <todo pos="9;237" name="@todo: Consolidate addDataTable and addDataTableCallback"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\filp\whoops\src\Whoops\Run.php">
-   <todo name="todo Might be able to clean this up a bit better" pos="14;293"/>
-   <todo name="@todo Might be able to clean this up a bit better" pos="13;293"/>
+   <todo pos="14;293" name="todo Might be able to clean this up a bit better"/>
+   <todo pos="13;293" name="@todo Might be able to clean this up a bit better"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\fzaninotto\faker\src\Faker\ORM\CakePHP\EntityPopulator.php">
-   <todo name="TODO check if TreeBehavior attached to modify lft/rgt cols" pos="9;117"/>
+   <todo pos="9;117" name="TODO check if TreeBehavior attached to modify lft/rgt cols"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\fzaninotto\faker\src\Faker\Provider\Base.php">
-   <todo name="TODO: remove in v2" pos="9;547"/>
+   <todo pos="9;547" name="TODO: remove in v2"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\fzaninotto\faker\src\Faker\Provider\kk_KZ\Address.php">
-   <todo name="TODO list all country names in the world" pos="5;15"/>
+   <todo pos="5;15" name="TODO list all country names in the world"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\hamcrest\hamcrest-php\hamcrest\Hamcrest\Arrays\IsArray.php">
-   <todo name="TODO: Allow this to take matchers or values within the array" pos="1;10"/>
+   <todo pos="1;10" name="TODO: Allow this to take matchers or values within the array"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\monolog\monolog\src\Monolog\Formatter\JsonFormatter.php">
-   <todo name="TODO 2.0 only check for Throwable" pos="9;174"/>
+   <todo pos="9;174" name="TODO 2.0 only check for Throwable"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\monolog\monolog\src\Monolog\Formatter\LineFormatter.php">
-   <todo name="TODO 2.0 only check for Throwable" pos="9;129"/>
+   <todo pos="9;129" name="TODO 2.0 only check for Throwable"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\monolog\monolog\src\Monolog\Formatter\LogglyFormatter.php">
-   <todo name="TODO 2.0 unset the 'datetime' parameter, retained for BC" pos="13;41"/>
+   <todo pos="13;41" name="TODO 2.0 unset the 'datetime' parameter, retained for BC"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\monolog\monolog\src\Monolog\Formatter\NormalizerFormatter.php">
-   <todo name="TODO 2.0 only check for Throwable" pos="13;92"/>
-   <todo name="TODO 2.0 only check for Throwable" pos="9;117"/>
+   <todo pos="13;92" name="TODO 2.0 only check for Throwable"/>
+   <todo pos="9;117" name="TODO 2.0 only check for Throwable"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\monolog\monolog\src\Monolog\Handler\AmqpHandler.php">
-   <todo name="TODO 2.0 remove substr call" pos="13;117"/>
+   <todo pos="13;117" name="TODO 2.0 remove substr call"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\nikic\php-parser\lib\PhpParser\Internal\TokenStream.php">
-   <todo name="TODO Handle non-space indentation" pos="21;214"/>
+   <todo pos="21;214" name="TODO Handle non-space indentation"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\nikic\php-parser\lib\PhpParser\PrettyPrinterAbstract.php">
-   <todo name="TODO Add &lt;" pos="13;494"/>
-   <todo name="TODO: Try to preserve formatting" pos="17;719"/>
-   <todo name="TODO Handle removal at the start" pos="21;843"/>
-   <todo name="TODO Handle insertion into empty list" pos="13;873"/>
-   <todo name="TODO: &quot;yield&quot; where both key and value are inserted doesn't work" pos="9;1226"/>
-   <todo name="TODO" pos="79;1248"/>
-   <todo name="TODO These need to be treated more carefully" pos="47;1264"/>
-   <todo name="TODO" pos="67;1336"/>
+   <todo pos="13;494" name="TODO Add &lt;"/>
+   <todo pos="17;719" name="TODO: Try to preserve formatting"/>
+   <todo pos="21;843" name="TODO Handle removal at the start"/>
+   <todo pos="13;873" name="TODO Handle insertion into empty list"/>
+   <todo pos="9;1226" name="TODO: &quot;yield&quot; where both key and value are inserted doesn't work"/>
+   <todo pos="79;1248" name="TODO"/>
+   <todo pos="47;1264" name="TODO These need to be treated more carefully"/>
+   <todo pos="67;1336" name="TODO"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\phpdocumentor\reflection-docblock\src\DocBlock\StandardTagFactory.php">
-   <todo name="TODO: Annotation support is planned for a later stage and as such is disabled for now" pos="13;217"/>
+   <todo pos="13;217" name="TODO: Annotation support is planned for a later stage and as such is disabled for now"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\phpunit\phpunit\src\Util\Configuration.php">
-   <todo name="TodoAnnotatedTests=&quot;false&quot;" pos="24;57"/>
+   <todo pos="24;57" name="TodoAnnotatedTests=&quot;false&quot;"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\phpunit\phpunit\tests\Util\TestTest.php">
-   <todo name="TODO Remove fixture from test class" pos="9;768"/>
+   <todo pos="9;768" name="TODO Remove fixture from test class"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\phpunit\phpunit\tests\bootstrap.php">
-   <todo name="TODO: Figure out why these are required (the classes should be autoloaded instead)" pos="1;18"/>
+   <todo pos="1;18" name="TODO: Figure out why these are required (the classes should be autoloaded instead)"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\psy\psysh\src\CodeCleaner\CalledClassPass.php">
-   <todo name="todo switch this to actually validate args when we get context-aware code cleaner passes." pos="14;50"/>
-   <todo name="@todo switch this to actually validate args when we get context-aware code cleaner passes." pos="13;50"/>
+   <todo pos="14;50" name="todo switch this to actually validate args when we get context-aware code cleaner passes."/>
+   <todo pos="13;50" name="@todo switch this to actually validate args when we get context-aware code cleaner passes."/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\psy\psysh\src\CodeCleaner\PassableByReferencePass.php">
-   <todo name="todo support MethodCall and StaticCall as well." pos="10;37"/>
-   <todo name="@todo support MethodCall and StaticCall as well." pos="9;37"/>
+   <todo pos="10;37" name="todo support MethodCall and StaticCall as well."/>
+   <todo pos="9;37" name="@todo support MethodCall and StaticCall as well."/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\psy\psysh\src\CodeCleaner\RequirePass.php">
-   <todo name="todo Shell::handleError would be better here, because we could" pos="14;78"/>
-   <todo name="@todo Shell::handleError would be better here, because we could" pos="13;78"/>
-   <todo name="todo trigger an error as fallback" pos="18;84"/>
-   <todo name="@todo trigger an error as fallback" pos="17;84"/>
+   <todo pos="14;78" name="todo Shell::handleError would be better here, because we could"/>
+   <todo pos="13;78" name="@todo Shell::handleError would be better here, because we could"/>
+   <todo pos="18;84" name="todo trigger an error as fallback"/>
+   <todo pos="17;84" name="@todo trigger an error as fallback"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\psy\psysh\src\CodeCleaner\ValidClassNamePass.php">
-   <todo name="todo add an &quot;else&quot; here which adds a runtime check for instances where we can't tell" pos="14;64"/>
-   <todo name="@todo add an &quot;else&quot; here which adds a runtime check for instances where we can't tell" pos="13;64"/>
+   <todo pos="14;64" name="todo add an &quot;else&quot; here which adds a runtime check for instances where we can't tell"/>
+   <todo pos="13;64" name="@todo add an &quot;else&quot; here which adds a runtime check for instances where we can't tell"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\psy\psysh\src\CodeCleaner\ValidFunctionNamePass.php">
-   <todo name="todo add an &quot;else&quot; here which adds a runtime check for instances where we can't tell" pos="14;48"/>
-   <todo name="@todo add an &quot;else&quot; here which adds a runtime check for instances where we can't tell" pos="13;48"/>
+   <todo pos="14;48" name="todo add an &quot;else&quot; here which adds a runtime check for instances where we can't tell"/>
+   <todo pos="13;48" name="@todo add an &quot;else&quot; here which adds a runtime check for instances where we can't tell"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\psy\psysh\src\Command\DocCommand.php">
-   <todo name="todo this is going to collide with ReflectionMethod ids" pos="18;106"/>
-   <todo name="@todo this is going to collide with ReflectionMethod ids" pos="17;106"/>
+   <todo pos="18;106" name="todo this is going to collide with ReflectionMethod ids"/>
+   <todo pos="17;106" name="@todo this is going to collide with ReflectionMethod ids"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\psy\psysh\src\Command\ListCommand.php">
-   <todo name="todo something cleaner than this :-/" pos="10;127"/>
-   <todo name="@todo something cleaner than this :-/" pos="9;127"/>
+   <todo pos="10;127" name="todo something cleaner than this :-/"/>
+   <todo pos="9;127" name="@todo something cleaner than this :-/"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\psy\psysh\src\Command\ListCommand\ClassConstantEnumerator.php">
-   <todo name="todo handle ReflectionExtension as well" pos="14;34"/>
-   <todo name="@todo handle ReflectionExtension as well" pos="13;34"/>
+   <todo pos="14;34" name="todo handle ReflectionExtension as well"/>
+   <todo pos="13;34" name="@todo handle ReflectionExtension as well"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\psy\psysh\src\Command\ListCommand\ClassEnumerator.php">
-   <todo name="todo make a NamespaceReflector and pass that in for commands like:" pos="10;27"/>
-   <todo name="@todo make a NamespaceReflector and pass that in for commands like:" pos="9;27"/>
+   <todo pos="10;27" name="todo make a NamespaceReflector and pass that in for commands like:"/>
+   <todo pos="9;27" name="@todo make a NamespaceReflector and pass that in for commands like:"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\psy\psysh\src\Command\ListCommand\ConstantEnumerator.php">
-   <todo name="todo make a NamespaceReflector and pass that in for commands like:" pos="10;27"/>
-   <todo name="@todo make a NamespaceReflector and pass that in for commands like:" pos="9;27"/>
+   <todo pos="10;27" name="todo make a NamespaceReflector and pass that in for commands like:"/>
+   <todo pos="9;27" name="@todo make a NamespaceReflector and pass that in for commands like:"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\psy\psysh\src\Command\ListCommand\FunctionEnumerator.php">
-   <todo name="todo make a NamespaceReflector and pass that in for commands like:" pos="10;27"/>
-   <todo name="@todo make a NamespaceReflector and pass that in for commands like:" pos="9;27"/>
+   <todo pos="10;27" name="todo make a NamespaceReflector and pass that in for commands like:"/>
+   <todo pos="9;27" name="@todo make a NamespaceReflector and pass that in for commands like:"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\psy\psysh\src\Command\ListCommand\InterfaceEnumerator.php">
-   <todo name="todo make a NamespaceReflector and pass that in for commands like:" pos="10;36"/>
-   <todo name="@todo make a NamespaceReflector and pass that in for commands like:" pos="9;36"/>
+   <todo pos="10;36" name="todo make a NamespaceReflector and pass that in for commands like:"/>
+   <todo pos="9;36" name="@todo make a NamespaceReflector and pass that in for commands like:"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\psy\psysh\src\Command\ListCommand\TraitEnumerator.php">
-   <todo name="todo make a NamespaceReflector and pass that in for commands like:" pos="10;36"/>
-   <todo name="@todo make a NamespaceReflector and pass that in for commands like:" pos="9;36"/>
+   <todo pos="10;36" name="todo make a NamespaceReflector and pass that in for commands like:"/>
+   <todo pos="9;36" name="@todo make a NamespaceReflector and pass that in for commands like:"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\psy\psysh\src\Configuration.php">
-   <todo name="todo mebbe turn this on by default some day" pos="10;606"/>
-   <todo name="@todo mebbe turn this on by default some day" pos="9;606"/>
-   <todo name="todo detect `chsh` != 65001 on Windows and return false" pos="10;696"/>
-   <todo name="@todo detect `chsh` != 65001 on Windows and return false" pos="9;696"/>
+   <todo pos="10;606" name="todo mebbe turn this on by default some day"/>
+   <todo pos="9;606" name="@todo mebbe turn this on by default some day"/>
+   <todo pos="10;696" name="todo detect `chsh` != 65001 on Windows and return false"/>
+   <todo pos="9;696" name="@todo detect `chsh` != 65001 on Windows and return false"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\psy\psysh\src\ExecutionLoop\ProcessForker.php">
-   <todo name="todo remove this once we don't support PHP 5.x anymore :)" pos="18;212"/>
-   <todo name="@todo remove this once we don't support PHP 5.x anymore :)" pos="17;212"/>
+   <todo pos="18;212" name="todo remove this once we don't support PHP 5.x anymore :)"/>
+   <todo pos="17;212" name="@todo remove this once we don't support PHP 5.x anymore :)"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\psy\psysh\src\functions.php">
-   <todo name="todo come up with a better way of doing this which doesn't involve injecting input :-P" pos="10;86"/>
-   <todo name="@todo come up with a better way of doing this which doesn't involve injecting input :-P" pos="9;86"/>
-   <todo name="todo Show Presenter / custom casters." pos="10;257"/>
-   <todo name="@todo Show Presenter / custom casters." pos="9;257"/>
-   <todo name="todo this triggers the &quot;exited unexpectedly&quot; logic in the" pos="18;349"/>
-   <todo name="@todo this triggers the &quot;exited unexpectedly&quot; logic in the" pos="17;349"/>
+   <todo pos="10;86" name="todo come up with a better way of doing this which doesn't involve injecting input :-P"/>
+   <todo pos="9;86" name="@todo come up with a better way of doing this which doesn't involve injecting input :-P"/>
+   <todo pos="10;257" name="todo Show Presenter / custom casters."/>
+   <todo pos="9;257" name="@todo Show Presenter / custom casters."/>
+   <todo pos="18;349" name="todo this triggers the &quot;exited unexpectedly&quot; logic in the"/>
+   <todo pos="17;349" name="@todo this triggers the &quot;exited unexpectedly&quot; logic in the"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\psy\psysh\test\Formatter\SignatureFormatterTest.php">
-   <todo name="todo show this as `unknown` in red or something" pos="46;81"/>
-   <todo name="@todo show this as `unknown` in red or something" pos="45;81"/>
+   <todo pos="46;81" name="todo show this as `unknown` in red or something"/>
+   <todo pos="45;81" name="@todo show this as `unknown` in red or something"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\ParameterizedHeader.php">
-   <todo name="TODO: Check caching here" pos="36;126"/>
-   <todo name="TODO: text, or something else" pos="13;186"/>
+   <todo pos="36;126" name="TODO: Check caching here"/>
+   <todo pos="13;186" name="TODO: text, or something else"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\SimpleMimeEntity.php">
-   <todo name="TODO: Try to refactor this logic" pos="9;289"/>
+   <todo pos="9;289" name="TODO: Try to refactor this logic"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Signers\DKIMSigner.php">
-   <todo name="TODO fix return" pos="5;217"/>
-   <todo name="todo handle it but should never happen" pos="25;601"/>
+   <todo pos="5;217" name="TODO fix return"/>
+   <todo pos="25;601" name="todo handle it but should never happen"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php">
-   <todo name="TODO make tls arguments configurable" pos="10;92"/>
-   <todo name="@TODO make tls arguments configurable" pos="9;92"/>
+   <todo pos="10;92" name="TODO make tls arguments configurable"/>
+   <todo pos="9;92" name="@TODO make tls arguments configurable"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\swiftmailer\swiftmailer\tests\acceptance\Swift\Mime\SimpleMessageAcceptanceTest.php">
-   <todo name="TODO: Test with the charset defined" pos="61;6"/>
+   <todo pos="61;6" name="TODO: Test with the charset defined"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\symfony\css-selector\XPath\Extension\FunctionExtension.php">
-   <todo name="todo: handle an+b, odd, even" pos="9;96"/>
+   <todo pos="9;96" name="todo: handle an+b, odd, even"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\symfony\css-selector\XPath\Extension\HtmlExtension.php">
-   <todo name="todo: in the second half, add &quot;and is not a descendant of that fieldset element's first legend elem" pos="9;111"/>
+   <todo pos="9;111" name="todo: in the second half, add &quot;and is not a descendant of that fieldset element's first legend elem"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\symfony\http-kernel\HttpCache\Store.php">
-   <todo name="TODO the metaStore referenced an entity that doesn't exist in" pos="9;156"/>
+   <todo pos="9;156" name="TODO the metaStore referenced an entity that doesn't exist in"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\symfony\translation\Loader\PoFileLoader.php">
-   <todo name="TODO: this fails when comments or contexts are added" pos="17;89"/>
+   <todo pos="17;89" name="TODO: this fails when comments or contexts are added"/>
   </todofile>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\symfony\translation\Tests\PluralizationRulesTest.php">
-   <todo name="TODO: The languages mentioned in the data provide need to get fixed somehow within Pluralizat" pos="2;34"/>
+   <todo pos="2;34" name="TODO: The languages mentioned in the data provide need to get fixed somehow within Pluralizat"/>
   </todofile>
  </todoblock>
  <dbgurls/>
@@ -5807,18 +5809,18 @@
   <file crc="1537167868444" name="D:\OSPanel\domains\fitees.local\storage\framework\views\e8a4b76e4a507cf1ee6cc6468194056966de0d9d.php"/>
   <file crc="1535903540799" name="D:\OSPanel\domains\fitees.local\storage\framework\views\e3b4524fd37cb6c01cd60e2cf7966050a3c66ee3.php"/>
   <file crc="1537193878764" name="D:\OSPanel\domains\fitees.local\storage\framework\views\e0e892ca41526407d87d4822051a6ff3e054b32f.php"/>
-  <file crc="1536064385448" name="D:\OSPanel\domains\fitees.local\storage\framework\views\df3531210fff0829a8b11f535fbfda7960377b29.php"/>
+  <file crc="1539362368791" name="D:\OSPanel\domains\fitees.local\storage\framework\views\df3531210fff0829a8b11f535fbfda7960377b29.php"/>
   <file crc="1535908170452" name="D:\OSPanel\domains\fitees.local\storage\framework\views\dba8b7cf049602c6f3c8e26853d8a44e1d9d703b.php"/>
-  <file crc="1535477106221" name="D:\OSPanel\domains\fitees.local\storage\framework\views\db71f10d815c7292e3affa3c19b2b3358fe943bf.php"/>
+  <file crc="1539337143150" name="D:\OSPanel\domains\fitees.local\storage\framework\views\db71f10d815c7292e3affa3c19b2b3358fe943bf.php"/>
   <file crc="1536069528656" name="D:\OSPanel\domains\fitees.local\storage\framework\views\daba09a4b77fa28e4b8c3fd567a1ca9a8bb00ba7.php"/>
-  <file crc="1535979058449" name="D:\OSPanel\domains\fitees.local\storage\framework\views\d600857adf4b65d7bea7ac00dad5be87dee4b876.php"/>
+  <file crc="1539333448043" name="D:\OSPanel\domains\fitees.local\storage\framework\views\d600857adf4b65d7bea7ac00dad5be87dee4b876.php"/>
   <file crc="1535450738202" name="D:\OSPanel\domains\fitees.local\storage\framework\views\ce2eaa72be91a971d72b22a6edf9d15e50a1eab3.php"/>
   <file crc="1535477112702" name="D:\OSPanel\domains\fitees.local\storage\framework\views\ca77dc2081cbd651184857e46450b4a1681b3580.php"/>
   <file crc="1535886903924" name="D:\OSPanel\domains\fitees.local\storage\framework\views\c69d0c53f006a956bdb9ac16532717063f19c5d3.php"/>
   <file crc="1535904032316" name="D:\OSPanel\domains\fitees.local\storage\framework\views\bf9ce55d6ef13a048b1ee90cced9e42429fb5071.php"/>
   <file crc="1535986030362" name="D:\OSPanel\domains\fitees.local\storage\framework\views\bcb525b955d7d053a88fee5691999d7e058bdc13.php"/>
   <file crc="1535477071105" name="D:\OSPanel\domains\fitees.local\storage\framework\views\bb8d4904366e6ea16b2841d434010da42a483ed2.php"/>
-  <file crc="1535988174121" name="D:\OSPanel\domains\fitees.local\storage\framework\views\aaed5232fc4629c23f26a920bebf424d9b7a2cef.php"/>
+  <file crc="1539336448357" name="D:\OSPanel\domains\fitees.local\storage\framework\views\aaed5232fc4629c23f26a920bebf424d9b7a2cef.php"/>
   <file crc="1537173756126" name="D:\OSPanel\domains\fitees.local\storage\framework\views\a231546eb90b548d69ddc409b091e0ab1c9fb9e2.php"/>
   <file crc="1535451140530" name="D:\OSPanel\domains\fitees.local\storage\framework\views\a0ce8e9e75594d3c50234e7a2ada0952bc88864e.php"/>
   <file crc="1535459386981" name="D:\OSPanel\domains\fitees.local\storage\framework\views\9e3e9b7fc342ba18ecabcca699c04a9e03397ddc.php"/>
@@ -5830,7 +5832,7 @@
   <file crc="1535908007250" name="D:\OSPanel\domains\fitees.local\storage\framework\views\7eee24b8a07f91b042383621c21ed7c2aa7ae431.php"/>
   <file crc="1537197393328" name="D:\OSPanel\domains\fitees.local\storage\framework\views\7e840fde22d06e4a08af1861e101326884ac569e.php"/>
   <file crc="1536066369424" name="D:\OSPanel\domains\fitees.local\storage\framework\views\764337e056becd6d31d0cf2edb847f215ea3a10a.php"/>
-  <file crc="1536065705216" name="D:\OSPanel\domains\fitees.local\storage\framework\views\7301311bf73a390911dd497f7d14ddcdf392e4e2.php"/>
+  <file crc="1537914276846" name="D:\OSPanel\domains\fitees.local\storage\framework\views\7301311bf73a390911dd497f7d14ddcdf392e4e2.php"/>
   <file crc="1535463572558" name="D:\OSPanel\domains\fitees.local\storage\framework\views\72210b576a39e64e64de0be346808e583c316254.php"/>
   <file crc="1535904652250" name="D:\OSPanel\domains\fitees.local\storage\framework\views\70bf6b6fd07c5803297772c9684632de6303c1d5.php"/>
   <file crc="1535908164584" name="D:\OSPanel\domains\fitees.local\storage\framework\views\70b3b249fe50fcd29b117bfe595495a782f4df77.php"/>
@@ -5840,7 +5842,7 @@
   <file crc="1537183008429" name="D:\OSPanel\domains\fitees.local\storage\framework\views\6083c9bb7845726a0e9a21e8d632303dd410eb68.php"/>
   <file crc="1535477083122" name="D:\OSPanel\domains\fitees.local\storage\framework\views\5f25e68056158a4fdbd6e5b042f7e26a45ff56af.php"/>
   <file crc="1537173989029" name="D:\OSPanel\domains\fitees.local\storage\framework\views\5eead0341341993f0d85154378e93aff4e563995.php"/>
-  <file crc="1537163526893" name="D:\OSPanel\domains\fitees.local\storage\framework\views\544578a590e6d5034583610d49a3e0dc89c23cbb.php"/>
+  <file crc="1537914321610" name="D:\OSPanel\domains\fitees.local\storage\framework\views\544578a590e6d5034583610d49a3e0dc89c23cbb.php"/>
   <file crc="1537177790692" name="D:\OSPanel\domains\fitees.local\storage\framework\views\50cfcba31a2f71f3dc720434fb50adefde9339ef.php"/>
   <file crc="1535904060340" name="D:\OSPanel\domains\fitees.local\storage\framework\views\4cd94ac1f0a94797c9a2f9951ccd81af4eef1ddb.php"/>
   <file crc="1535886461438" name="D:\OSPanel\domains\fitees.local\storage\framework\views\4271289fd37aa58656f877e0b0d73b568499db5f.php"/>
@@ -5854,7 +5856,7 @@
   <file crc="1535462441149" name="D:\OSPanel\domains\fitees.local\storage\framework\views\123c6b345d8f0d8e8e76211113a03c6bd8e1675e.php"/>
   <file crc="1536071777166" name="D:\OSPanel\domains\fitees.local\storage\framework\views\0e130bc0d1598274a3898db21dde43c2055b561e.php"/>
   <file crc="1537167813316" name="D:\OSPanel\domains\fitees.local\storage\framework\views\0886e1bb010194ea7733ecaa6479492e66f83a2e.php"/>
-  <file crc="1537198460984" name="D:\OSPanel\domains\fitees.local\routes\web.php"/>
+  <file crc="1539364994736" name="D:\OSPanel\domains\fitees.local\routes\web.php"/>
   <file crc="1531400267968" name="D:\OSPanel\domains\fitees.local\routes\console.php"/>
   <file crc="1531400267969" name="D:\OSPanel\domains\fitees.local\routes\channels.php"/>
   <file crc="1531400267968" name="D:\OSPanel\domains\fitees.local\routes\api.php"/>
@@ -5863,7 +5865,7 @@
   <file crc="1534775273363" name="D:\OSPanel\domains\fitees.local\resources\views\test\user\page.blade.php"/>
   <file crc="1534426473448" name="D:\OSPanel\domains\fitees.local\resources\views\test\user\course-topics.blade.php"/>
   <file crc="1534424268759" name="D:\OSPanel\domains\fitees.local\resources\views\test\user\course-results.blade.php"/>
-  <file crc="1534426542935" name="D:\OSPanel\domains\fitees.local\resources\views\test\user\course-resources.blade.php"/>
+  <file crc="1539337142116" name="D:\OSPanel\domains\fitees.local\resources\views\test\user\course-resources.blade.php"/>
   <file crc="1534416105954" name="D:\OSPanel\domains\fitees.local\resources\views\test\user\course-menu.blade.php"/>
   <file crc="1534426589033" name="D:\OSPanel\domains\fitees.local\resources\views\test\user\course-assignments.blade.php"/>
   <file crc="1534946968496" name="D:\OSPanel\domains\fitees.local\resources\views\test\user\assignments-navigation.blade.php"/>
@@ -5873,16 +5875,17 @@
   <file crc="1535908005466" name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\topics-index.blade.php"/>
   <file crc="1535908086308" name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\topics-edit.blade.php"/>
   <file crc="1535908073927" name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\topics-create.blade.php"/>
-  <file crc="1535988171915" name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\resources-show.blade.php"/>
+  <file crc="1539365055395" name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\student-index.blade.php"/>
+  <file crc="1539336447495" name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\resources-show.blade.php"/>
   <file crc="1535986028438" name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\resources-index.blade.php"/>
   <file crc="1535986795538" name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\resources-edit.blade.php"/>
-  <file crc="1535979054641" name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\resources-create.blade.php"/>
+  <file crc="1539333441226" name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\resources-create.blade.php"/>
   <file crc="1537186381648" name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\questions-edit.blade.php"/>
   <file crc="1536069526939" name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\questions-create.blade.php"/>
   <file crc="1535555591191" name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\pages-show.blade.php"/>
   <file crc="1535904028174" name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\pages-edit.blade.php"/>
   <file crc="1535903461858" name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\pages-create.blade.php"/>
-  <file crc="1536064383984" name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\courses-show.blade.php"/>
+  <file crc="1539362336913" name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\courses-show.blade.php"/>
   <file crc="1535886857473" name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\courses-index.blade.php"/>
   <file crc="1537183872031" name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\courses-edit.blade.php"/>
   <file crc="1535886812083" name="D:\OSPanel\domains\fitees.local\resources\views\test\teacher\courses-create.blade.php"/>
@@ -5996,7 +5999,7 @@
   <file crc="1534851729800" name="D:\OSPanel\domains\fitees.local\database\migrations\CreateTables\2018_08_21_143559_create_answers_table.php"/>
   <file crc="1536069449540" name="D:\OSPanel\domains\fitees.local\database\migrations\CreateTables\2018_08_21_143532_create_questions_table.php"/>
   <file crc="1533391495459" name="D:\OSPanel\domains\fitees.local\database\migrations\CreateTables\2018_08_04_170406_create_resource_types_table.php"/>
-  <file crc="1533394490977" name="D:\OSPanel\domains\fitees.local\database\migrations\CreateTables\2018_08_04_160053_create_resources_table.php"/>
+  <file crc="1539337606791" name="D:\OSPanel\domains\fitees.local\database\migrations\CreateTables\2018_08_04_160053_create_resources_table.php"/>
   <file crc="1534434015762" name="D:\OSPanel\domains\fitees.local\database\migrations\CreateTables\2018_08_04_160033_create_pages_table.php"/>
   <file crc="1533391131824" name="D:\OSPanel\domains\fitees.local\database\migrations\CreateTables\2018_08_04_160017_create_topics_table.php"/>
   <file crc="1537163852947" name="D:\OSPanel\domains\fitees.local\database\migrations\CreateTables\2018_08_04_155926_create_assignment_results_table.php"/>
@@ -6058,7 +6061,8 @@
   <file crc="1534867076958" name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\User\CourseMenuController.php"/>
   <file crc="1537163948751" name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\User\AssignmentController.php"/>
   <file crc="1535908147007" name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\TopicController.php"/>
-  <file crc="1535988265373" name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\ResourceController.php"/>
+  <file crc="1539365009829" name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\StudentsController.php"/>
+  <file crc="1539335668972" name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\ResourceController.php"/>
   <file crc="1537194684989" name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\QuestionController.php"/>
   <file crc="1537179347798" name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\PageController.php"/>
   <file crc="1536064854482" name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\CourseController.php"/>
@@ -6078,16 +6082,16 @@
   <file crc="1534426875137" name="D:\OSPanel\domains\fitees.local\app\Http\Kernel.php"/>
   <file crc="1531400268014" name="D:\OSPanel\domains\fitees.local\app\Exceptions\Handler.php"/>
   <file crc="1531400268003" name="D:\OSPanel\domains\fitees.local\app\Console\Kernel.php"/>
-  <file crc="1534422567234" name="D:\OSPanel\domains\fitees.local\app\UserCourse.php"/>
-  <file crc="1537191016150" name="D:\OSPanel\domains\fitees.local\app\User.php"/>
+  <file crc="1539358357982" name="D:\OSPanel\domains\fitees.local\app\UserCourse.php"/>
+  <file crc="1539358887437" name="D:\OSPanel\domains\fitees.local\app\User.php"/>
   <file crc="1535549112626" name="D:\OSPanel\domains\fitees.local\app\Topic.php"/>
   <file crc="1534854396381" name="D:\OSPanel\domains\fitees.local\app\Task.php"/>
   <file crc="1533758976985" name="D:\OSPanel\domains\fitees.local\app\Role.php"/>
   <file crc="1535977920988" name="D:\OSPanel\domains\fitees.local\app\ResourceType.php"/>
-  <file crc="1535988226952" name="D:\OSPanel\domains\fitees.local\app\Resource.php"/>
+  <file crc="1539329328469" name="D:\OSPanel\domains\fitees.local\app\Resource.php"/>
   <file crc="1536069621990" name="D:\OSPanel\domains\fitees.local\app\Question.php"/>
   <file crc="1535553810956" name="D:\OSPanel\domains\fitees.local\app\Page.php"/>
-  <file crc="1537197634333" name="D:\OSPanel\domains\fitees.local\app\Group.php"/>
+  <file crc="1539358538538" name="D:\OSPanel\domains\fitees.local\app\Group.php"/>
   <file crc="1537169750938" name="D:\OSPanel\domains\fitees.local\app\Course.php"/>
   <file crc="1537163867634" name="D:\OSPanel\domains\fitees.local\app\AssignmentResult.php"/>
   <file crc="1536065867006" name="D:\OSPanel\domains\fitees.local\app\Assignment.php"/>
@@ -6107,7 +6111,7 @@
   <file crc="1533280183320" name="D:\OSPanel\domains\fitees.local\.gitignore"/>
   <file crc="1531400267970" name="D:\OSPanel\domains\fitees.local\.gitattributes"/>
   <file crc="1531400267946" name="D:\OSPanel\domains\fitees.local\.env.example"/>
-  <file crc="1535450972148" name="D:\OSPanel\domains\fitees.local\.env"/>
+  <file crc="1537362998613" name="D:\OSPanel\domains\fitees.local\.env"/>
   <file crc="1531400267957" name="D:\OSPanel\domains\fitees.local\.editorconfig"/>
  </filescache>
 </project>

@@ -56,6 +56,12 @@ class User extends Authenticatable
 		return self::all()->where('role_id', '=', 3);
 	
 	}
+	
+	public static function getAllUsersInGroup($groupId) {
+
+		return self::all()->where('group_id', '=', $groupId);
+	
+	}
     
     public function hasRole($roleName)
     {

@@ -25,6 +25,11 @@
 	                    <strong>{{ $errors->first('alias') }}</strong>
 	                </span>
 	            @endif
+	            @if ($errors->has('resource_type_id'))
+	                <span class="invalid-feedback" role="alert">
+	                    <strong>{{ $errors->first('resource_type_id') }}</strong>
+	                </span>
+	            @endif
 	            @if ($errors->has('file'))
 	                <span class="invalid-feedback" role="alert">
 	                    <strong>{{ $errors->first('file') }}</strong>

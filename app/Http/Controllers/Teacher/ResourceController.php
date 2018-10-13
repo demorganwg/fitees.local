@@ -83,6 +83,85 @@ class ResourceController extends SiteController
 			->withErrors($validator);
 		}
 		
+		if($request->hasFile('file')){
+			$file = $request->file('file');
+			switch ($input['resource_type_id']) {
+			    case 2:
+			    	$rules = [
+			       		'file' => 'mimetypes:'.
+			       			'application/msword'.
+				       		',application/vnd.openxmlformats-officedocument.wordprocessingml.document'.
+				       		',application/vnd.ms-excel'.
+				       		',application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'.
+				       		',application/pdf'.
+				       		',application/vnd.ms-powerpoint'.
+				       		',application/vnd.openxmlformats-officedocument.presentationml.presentation'.
+				       		',text/plain'.
+				       		',application/rtf'
+			        ];
+			        $messages = [
+			        	'file.mimetypes' => 'Расширение документа должно быть doc,docx,xls,xslx,pdf,ppt,pptx,txt,rtf'
+			        ];
+			        $validator = Validator::make($input, $rules, $messages );
+			        break;
+			    case 3:
+			        $rules = [
+			       		'file' => 'mimetypes:'.
+			       			'video/x-msvideo'.
+				       		',video/x-ms-wmv'.
+				       		',video/mp4'.
+				       		',video/3gpp'
+			        ];
+			        $messages = [
+			        	'file.mimetypes' => 'Расширение видео должно быть avi,wmv,mp4,3gp'
+			        ];
+			        $validator = Validator::make($input, $rules, $messages );
+			        break;
+			    case 4:
+			        $rules = [
+			       		'file' => 'mimetypes:'.
+			       			'image/jpeg'.
+				       		',image/png'.
+				       		',image/bmp'.
+				       		',image/svg+xml'
+			        ];
+			        $messages = [
+			        	'file.mimetypes' => 'Расширение изображения должно быть jpg,png,bmp,svg'
+			        ];
+			        $validator = Validator::make($input, $rules, $messages );
+			        break;
+			    case 5:
+			        $rules = [
+			       		'file' => 'max:10240'
+			        ];
+			        $messages = [
+			        	'file.max' => 'Файл должен быть не более 10 МБ'
+			        ];
+			        $validator = Validator::make($input, $rules, $messages );
+			        break;
+			    default:
+			        $rules = [
+			       		'resource_type_id' => 'min:2'
+			        ];
+			        $messages = [
+			        	'resource_type_id.min' => 'Укажите тип загружаемого файла'
+			        ];
+			        $validator = Validator::make($input, $rules, $messages );
+			}
+			
+			if($validator->fails()) {
+				return redirect()
+				->route('teacher.resources.create',['course_alias' => $courseAlias])
+				->withErrors($validator)->withInput();
+			}
+
+       		$input['file'] = $file->getClientOriginalName();
+       		$file->move(public_path().'/assets/courses/'.$courseAlias, $input['file']);
+		}
+		else {
+			$input['file'] = NULL;
+		}
+		
 		$resource = new Resource;
 		$resource->fill($input);
 		
@@ -105,7 +184,7 @@ class ResourceController extends SiteController
     {
         $course = Course::getCourseByAlias($courseAlias);
 		$resource = Resource::getResourceByAlias($resourceAlias);
-        $resource['type'] = $resource->type->name;
+//        $resource['type'] = $resource->type->name;
 		
 		$title = $resource->name;
     	$this->vars = array_add($this->vars, 'title', $title);

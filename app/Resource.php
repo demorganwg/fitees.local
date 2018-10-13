@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Resource extends Model
 {
-	protected $fillable = ['name', 'description', 'number', 'alias', 'resource_type_id', 'course_id'];
+	protected $fillable = ['name', 'description', 'file', 'number', 'alias', 'resource_type_id', 'course_id'];
 	
     public function type()
 	{

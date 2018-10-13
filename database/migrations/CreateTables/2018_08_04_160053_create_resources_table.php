@@ -17,6 +17,7 @@ class CreateResourcesTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->text('description');
+            $table->string('file');
             $table->integer('number')->unsigned()->default(0);
             $table->string("alias", 150)->unique();
             $table->timestamps();

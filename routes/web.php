@@ -61,6 +61,14 @@ Route::middleware(['auth', 'teacher'])->prefix('teacher/courses/{course_alias}')
 	
 	Route::post('resources/changeOrder', 'ResourceController@changeResourcePosition');
 	Route::resource('resources', 'ResourceController', ['as' => 'teacher']);
+	
+	Route::post('students/inviteGroup', 'StudentsController@inviteGroup');
+	Route::post('students/inviteStudent', 'StudentsController@inviteStudent');
+	Route::post('students/graduateStudent', 'StudentsController@graduateStudent');
+	Route::post('students/submitStudent', 'StudentsController@submitStudent');
+	Route::post('students/declineStudent', 'StudentsController@declineStudent');
+	Route::get('students', 'StudentsController@index')->name('course.show.students');
+	Route::get('students/{student_id}', 'StudentsController@showStudentStats')->name('course.show.student');
 });
 
 Route::middleware(['auth', 'teacher'])

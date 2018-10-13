@@ -13,16 +13,45 @@
 	<div class="container">
 		<div class="course_page">
 			<h3>{{ $resource['name'] }}</h3>
-			<p>{{ $resource['type'] }}</p>
 			<a class="btn btn-icon" href="{{ route('teacher.resources.edit', ['course_alias' => $courseAlias, 'resource' => $resource['alias']]) }}">Редактировать</a>
-			<p>{{ $resource['description'] }}</p>
 			
+			@if ($resource['resource_type_id'] == 2)
+			<a class="download-link" href="{{ asset('assets') }}/courses/{{ $courseAlias }}/{{ $resource['file'] }}">{{ $resource['file'] }}</a>
+			@endif
 			
+			@if ($resource['resource_type_id'] == 3)
+			<video controls>
+			  <source src="{{ asset('assets') }}/courses/{{ $courseAlias }}/{{ $resource['file'] }}">
+			</video>
+			<a class="download-link" href="{{ asset('assets') }}/courses/{{ $courseAlias }}/{{ $resource['file'] }}">Скачать</a>
+			@endif
+			
+			@if ($resource['resource_type_id'] == 4)
+			<img src="{{ asset('assets') }}/courses/{{ $courseAlias }}/{{ $resource['file'] }}" alt="Image">
+			<a class="download-link" href="{{ asset('assets') }}/courses/{{ $courseAlias }}/{{ $resource['file'] }}">Скачать</a>
+			@endif
+			
+			@if ($resource['resource_type_id'] == 5)
+			<a class="download-link" href="{{ asset('assets') }}/courses/{{ $courseAlias }}/{{ $resource['file'] }}">{{ $resource['file'] }}</a>
+			@endif
+			
+			{!! $resource['description'] !!}
+
 		</div>
 	</div>	
 </div>
 
 <style>
+	video {
+		display: block;
+		margin: 20px 0;
+		width: 640px;
+		height: auto;
+	}
+	.download-link {
+		display: block;
+		margin: 20px 0;
+	}
 	h3 {
 		margin-top: 40px;
 	}

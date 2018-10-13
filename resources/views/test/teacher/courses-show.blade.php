@@ -11,8 +11,7 @@
 			<h2>{{ $course['name'] }}</h2>
 			<img src="{{ asset('assets') }}/img/course_img/{{ $course['image'] }}" alt="{{ $course['name'] }}">
 			<a class="btn btn-icon" href="{{ route('teacher.courses.edit', ['course_alias' => $course['alias']]) }}">Редактировать</a>
-			<a class="btn btn-icon" href="#">Статистика</a>
-			<a class="btn btn-icon" href="#">Пригласить</a>
+			<a class="btn btn-icon" href="{{ route('course.show.students', ['course_alias' => $course['alias']]) }}">Учащиеся</a>
 			<h3>Автор курса: {{ $course['author'] }}</h3>
 			{!! $course['description'] !!}
 			<h3>Темы курса</h3>
