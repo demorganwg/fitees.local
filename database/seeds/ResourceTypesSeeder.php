@@ -14,11 +14,11 @@ class ResourceTypesSeeder extends Seeder
         
         DB::table('resource_types')->insert([
         
-            ['name' => 'Uncategorized'],
-            ['name' => 'Document'],
-            ['name' => 'Video'],
-            ['name' => 'Image'],
-            ['name' => 'File'],
+            ['name' => 'Без категории'],
+            ['name' => 'Документ'],
+            ['name' => 'Видео'],
+            ['name' => 'Изображение'],
+            ['name' => 'Файл'],
 
         ]);
         
