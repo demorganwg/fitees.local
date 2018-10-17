@@ -13,13 +13,17 @@
 				<tr>
 					<th>№</th>
 					<th>Задание</th>
+					<th>Дата выполнения</th>
+					<th>Время выполнения</th>
 					<th>Оценка</th>
 				</tr>
-				@foreach ($result_list as $result)
+				@foreach ($assignments as $assignment)
 					<tr>
-						<td>{{ $result['number'] }}</td>
-						<td>{{ $result['name'] }}</td>
-						<td>{{ $result['score'] }}</td>
+						<td>{{ $assignment['number'] }}</td>
+						<td>{{ $assignment['name'] }}</td>
+						<td>{{ $assignment['date'] }}</td>
+						<td>{{ $assignment['time'] }}</td>
+						<td>{{ $assignment['score'] }}</td>
 					</tr>
 				@endforeach
 			</table>
@@ -28,7 +32,7 @@
 </div>
 <style>
 	.course_page table {
-		width: 500px;
+		width: 100%;
 		margin: 0 auto;
 	}
 	.course_page table td,

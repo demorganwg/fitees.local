@@ -12,14 +12,19 @@ class QuestionsSeeder extends Seeder
     public function run()
     {
         
-        for($i = 1; $i <= 30; $i++){
-			
-			$arr[$i] = [
-				'content' => 'сть много вариантов Lorem Ipsum, но большинство из них имеет не всегда приемлемые модификации, например, юмористические вставки или слова, которые даже отдалённо не напоминают латынь. Вопрос №'.$i,
-				'assignment_id' => rand(1, 30),
-			];
-			
+//    	DB::table('questions')->truncate();
+
+		for($i = 1; $i <= 5; $i++){
+			for($j = 1; $j <= 10; $j++){
+				$arr[] = [
+					'content' => 'Запитання №'.$j.' до модуля №'.$i.'. Оберіть вірну відповідь',
+					'number' => $j,
+					'assignment_id' => $i,
+				];
+			}
 		}
+		
+		
         
 		 DB::table('questions')->insert($arr);
         

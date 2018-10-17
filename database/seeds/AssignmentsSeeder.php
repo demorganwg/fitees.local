@@ -11,15 +11,17 @@ class AssignmentsSeeder extends Seeder
      */
     public function run()
     {
+    	
+//    	DB::table('assignments')->truncate();
         
-        for($i = 1; $i <= 30; $i++){
+        for($i = 1; $i <= 5; $i++){
 			
 			$arr[$i] = [
-				'name' => 'Assignment_name_'.$i,
-				'description' => 'Assignment_description_'.$i,
-				'number' => rand(1, 10),
-				'alias' => 'Assignment_alias_'.$i,
-				'course_id' => rand(1, 5),
+				'name' => 'Модуль '.$i,
+				'description' => 'Модуль '.$i.' містить 5 запитань. Даний модуль підводить підсумки трьотижневого навчання студента за курсом',
+				'number' => $i,
+				'alias' => 'assignment-'.$i,
+				'course_id' => 1,
 			];
 			
 		}

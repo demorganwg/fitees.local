@@ -73,7 +73,7 @@ class CourseController extends SiteController
 			
 			$file = $request->file('image');
 			$input['image'] = $file->GetClientOriginalName();
-			$file->move(public_path().'/assets/img/course_img', $input['image']);
+			$file->move(public_path().'/assets/img/courses', $input['image']);
 			
 		}
 		else {

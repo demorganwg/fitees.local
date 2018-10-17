@@ -16,7 +16,7 @@
 			@foreach ($assignmentQuestions as $q => $question)
 				<div class="question_container" id="question-{{ $question['number'] }}">
 					<div class="question">
-						<h3>Вопрос №{{ $question['number'] }}</h3>
+						<h3>Запитання №{{ $question['number'] }}</h3>
 						<p>{{ $question['content'] }}</p>
 					</div>
 					<formgroup>

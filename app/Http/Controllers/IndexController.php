@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use DB;
+
 class IndexController extends SiteController
 {
     /**
@@ -27,6 +29,7 @@ class IndexController extends SiteController
      */
     public function index()
     {
+    	
     	$title = 'FITees Index';
     	
     	$this->vars = array_add($this->vars, 'title', $title);

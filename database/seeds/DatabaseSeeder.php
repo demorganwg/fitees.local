@@ -11,11 +11,28 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call([RolesSeeder::class, GroupsSeeder::class, ResourceTypesSeeder::class]);
-        /*$this->call([RolesSeeder::class, GroupsSeeder::class, UsersSeeder::class, 
-        ResourceTypesSeeder::class, CoursesSeeder::class, AssignmentsSeeder::class,
-        TasksSeeder::class, UserCoursesSeeder::class, AssignmentResultsSeeder::class, 
-        TopicsSeeder::class, PagesSeeder::class, ResourcesSeeder::class, QuestionsSeeder::class, AnswersSeeder::class]);*/
+
+		Eloquent::unguard();
+
+		DB::statement('SET FOREIGN_KEY_CHECKS=0;');
+
+        $this->call([
+//        	RolesSeeder::class, 
+//        	GroupsSeeder::class,
+//        	ResourceTypesSeeder::class, 
+//        	UsersSeeder::class, 
+//        	CoursesSeeder::class, 
+//        	TopicsSeeder::class,
+//        	PagesSeeder::class,
+//        	ResourcesSeeder::class,
+//        	AssignmentsSeeder::class,
+//        	QuestionsSeeder::class,
+//        	AnswersSeeder::class,
+//			UserCoursesSeeder::class, 
+//			AssignmentResultsSeeder::class, 
+        ]);
+        
+        DB::statement('SET FOREIGN_KEY_CHECKS=1;');
 
     }
 }

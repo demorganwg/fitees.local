@@ -29,4 +29,5 @@ class Assignment extends Model
 		return self::all()->where('course_id', '=', $courseId);
 		
 	}
+	
 }

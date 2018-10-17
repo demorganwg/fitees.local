@@ -95,18 +95,29 @@ class CourseMenuController extends SiteController
 		
 		$course = Course::getCourseByAlias($courseAlias);	
 		$userCourse = UserCourse::getCourseResults(Auth::user()->id, $course->id);
-		$result_list = AssignmentResult::getCourseResults($userCourse->id);
+		$assignment_list = Assignment::getCourseAssignments($course->id);
 
 		$title = 'Результаты курса '.$course->name;
 		$this->vars = array_add($this->vars, 'title', $title);
 		$this->vars = array_add($this->vars, 'courseAlias', $courseAlias);
 		
-		foreach ($result_list as $result) {
-			$result['name'] = $result->assignment->name;
-			$result['number'] = $result->assignment->number;
+		foreach ($assignment_list as $assignment) {
+			
+			if($assignmentResult = AssignmentResult::where('assignment_id', $assignment->id)
+													->where('user_course_id', $userCourse->id)->first()) 
+			{
+				$assignment['date'] = date('d-m-Y',strtotime($assignmentResult['completion_date']));
+				$assignment['time'] = date('H:i:s',strtotime($assignmentResult['completion_date']));
+				$assignment['score'] = $assignmentResult['score'];
+			} else {
+				$assignment['date'] = '---';
+				$assignment['time'] = '---';
+				$assignment['score'] = '---';
+			}
+		
 		}
 		
-		$this->vars = array_add($this->vars, 'result_list', $result_list);
+		$this->vars = array_add($this->vars, 'assignments', $assignment_list);
 		
 		$this->template = env('THEME').'.user.course-results';
         return $this->renderOutput();
