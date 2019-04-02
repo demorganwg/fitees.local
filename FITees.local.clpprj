@@ -12,7 +12,15 @@
  <added value="D:\OSPanel\domains\fitees.local\.editorconfig;D:\OSPanel\domains\fitees.local\.env;D:\OSPanel\domains\fitees.local\.env.example;D:\OSPanel\domains\fitees.local\.gitattributes;D:\OSPanel\domains\fitees.local\.gitignore;D:\OSPanel\domains\fitees.local\.htaccess;D:\OSPanel\domains\fitees.local\FITees.clpprj;D:\OSPanel\domains\fitees.local\FITees.local.clpprj;D:\OSPanel\domains\fitees.local\FITees_clcs.csprj;D:\OSPanel\domains\fitees.local\artisan;D:\OSPanel\domains\fitees.local\composer.json;D:\OSPanel\domains\fitees.local\composer.lock;D:\OSPanel\domains\fitees.local\package.json;D:\OSPanel\domains\fitees.local\public\.htaccess;D:\OSPanel\domains\fitees.local\yarn.lock;"/>
  <lastopfiles>
   <file name="D:\OSPanel\domains\fitees.local\routes\web.php"/>
+  <file name="D:\OSPanel\domains\fitees.local\.env"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\admin\courses-show.blade.php"/>
+  <file name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\Admin\CourseController.php"/>
+  <file name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\Admin\HomeController.php"/>
   <file name="D:\OSPanel\domains\fitees.local\routes\web.php"/>
+  <file name="D:\OSPanel\domains\fitees.local\.env"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\admin\courses-show.blade.php"/>
+  <file name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\Admin\CourseController.php"/>
+  <file name="D:\OSPanel\domains\fitees.local\app\Http\Controllers\Admin\HomeController.php"/>
  </lastopfiles>
  <todoblock>
   <todofile name="D:\OSPanel\domains\fitees.local\vendor\barryvdh\reflection-docblock\tests\Barryvdh\Reflection\DocBlock\Tag\MethodTagTest.php">
@@ -5796,37 +5804,67 @@
   <file name="D:\OSPanel\domains\fitees.local\tests\Feature\ExampleTest.php" crc="1531400267945"/>
   <file name="D:\OSPanel\domains\fitees.local\tests\TestCase.php" crc="1531400267943"/>
   <file name="D:\OSPanel\domains\fitees.local\tests\CreatesApplication.php" crc="1531400267942"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\ff0547b7a4d71ad898f63685f6173f366ac0384a.php" crc="1542878871378"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\fe740e5636f5b2a7b25b119fa3d7908e8595f208.php" crc="1539434895025"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\fddb0de1ed4bf9fef19ba0002e8d2cab751d3d4c.php" crc="1542881658197"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\f3c180e0f8cdbc696381eede51abcc4dd2ed58e8.php" crc="1542900002808"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\f2c3cfb507087e82f2a9edbebd3eca1be911314d.php" crc="1535451132467"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\f0d14c87f33227ecb484e416fb2314c6d4507092.php" crc="1542903520771"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\f05589c288c25315eb503a5a271bbb9312250202.php" crc="1542883180144"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\ef8481e793c103b97469ea1004a91482cf495ab6.php" crc="1535610189195"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\ebdf356baecc84878f42479677487f3d1967e444.php" crc="1537198147629"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\eb4f0e300e907a43d328d1675e05372f06528931.php" crc="1535474920019"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\e9a49fd8f7b13b4399b8aef34ff6535ca11e866d.php" crc="1542913737201"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\e8a4b76e4a507cf1ee6cc6468194056966de0d9d.php" crc="1537167868444"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\e547b2ef679fa305c58eda65ac22d94fcb12f045.php" crc="1542901223376"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\e4f3803420539dc348cdbee44989e2306001c6dd.php" crc="1542900897100"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\e3b4524fd37cb6c01cd60e2cf7966050a3c66ee3.php" crc="1535903540799"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\e0e892ca41526407d87d4822051a6ff3e054b32f.php" crc="1537193878764"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\e09b1f4f9d057b9b74e274054d08bebc31e00100.php" crc="1539363677173"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\df657176409655b4cf559f0ece4a5df725841d53.php" crc="1542899586096"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\df3531210fff0829a8b11f535fbfda7960377b29.php" crc="1539362368791"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\ddde3c73ca463144edd183b41c25ca03fea15778.php" crc="1542879155320"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\dc295e5b1d0cfbd519dbf5bab4909c8380a907e4.php" crc="1544021970166"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\dba8b7cf049602c6f3c8e26853d8a44e1d9d703b.php" crc="1535908170452"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\db71f10d815c7292e3affa3c19b2b3358fe943bf.php" crc="1539337143150"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\daba09a4b77fa28e4b8c3fd567a1ca9a8bb00ba7.php" crc="1536069528656"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\d70ba934f68a3f4b8330f4861fa576f2dd7b565a.php" crc="1542914792091"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\d600857adf4b65d7bea7ac00dad5be87dee4b876.php" crc="1539333448043"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\d12c59e329d329994736c9ed5aa471b6fda8d465.php" crc="1542872575249"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\d07404a54b93c7a363d0878dc93c7f31edfc7230.php" crc="1542879742593"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\ce2eaa72be91a971d72b22a6edf9d15e50a1eab3.php" crc="1535450738202"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\cbe96cba2b11e7bc0d9b7584e9dbc54b5c1d22f1.php" crc="1542900718856"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\ca77dc2081cbd651184857e46450b4a1681b3580.php" crc="1539800354431"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\c69d0c53f006a956bdb9ac16532717063f19c5d3.php" crc="1535886903924"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\c335b7a587144506bb8eec3573dfdd7eb987ce55.php" crc="1542894924110"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\bf9ce55d6ef13a048b1ee90cced9e42429fb5071.php" crc="1535904032316"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\bcb525b955d7d053a88fee5691999d7e058bdc13.php" crc="1535986030362"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\bc285554a40b5fedb82bcd11d0da062797f3ff3c.php" crc="1542901364743"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\bb8d4904366e6ea16b2841d434010da42a483ed2.php" crc="1535477071105"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\b1eaf54f631002b4d18e5d972a6f04fbcbab284b.php" crc="1542892416871"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\adcbf2607cd83eb1e1c578deeacc53b072414811.php" crc="1542914072195"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\ab673f314d44d50c89b26169f786ffdd2d2cc4b3.php" crc="1542878819520"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\aaed5232fc4629c23f26a920bebf424d9b7a2cef.php" crc="1539336448357"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\a231546eb90b548d69ddc409b091e0ab1c9fb9e2.php" crc="1537173756126"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\a0ce8e9e75594d3c50234e7a2ada0952bc88864e.php" crc="1535451140530"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\9e3e9b7fc342ba18ecabcca699c04a9e03397ddc.php" crc="1535459386981"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\9e0e8c5e6429bbadea629cb00b636ad4e8978504.php" crc="1537183874799"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\9345082bb645ecb71f37951c9d80ee7c822034ac.php" crc="1535477071115"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\922e5d7033fd9399b37d73b49bce2a41e633efa2.php" crc="1542903243546"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\906345c3fc7bfea777a4947a82e2092c414dae55.php" crc="1535450738178"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\8caa4ed0c4034230d7b73986d05a7f1615c61b49.php" crc="1542899479586"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\8a7f18be2397dc2e6c2fe1b9eecc555a722ecc14.php" crc="1542901743832"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\8a0c53b51369e6d35b9f30260119f39cc76cc610.php" crc="1542882719002"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\8a000e96502617d2061298bc7ec280f772de2e34.php" crc="1535477089854"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\889026a5d09999629a91173ab79af57256019442.php" crc="1542899487399"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\86f6665d8e97961f1617a3842cadae9a465b4c81.php" crc="1542902116754"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\8528a051491fa5ae6fb685724fe3a8f0a60e4052.php" crc="1535986796613"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\83959e6c6f115621b0b07f28541bfe3c854870fc.php" crc="1543392321803"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\7eee24b8a07f91b042383621c21ed7c2aa7ae431.php" crc="1535908007250"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\7e840fde22d06e4a08af1861e101326884ac569e.php" crc="1537197393328"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\79cc173f0dfea3b19503006dbc12eb4cd82fc15f.php" crc="1542901491878"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\78055a288323db3e741794d963a572e0a8b55f63.php" crc="1542903049938"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\7685e2f074dfcb8b9ff4e10339fed8c96df88b31.php" crc="1542913404488"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\764337e056becd6d31d0cf2edb847f215ea3a10a.php" crc="1536066369424"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\7301311bf73a390911dd497f7d14ddcdf392e4e2.php" crc="1537914276846"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\72210b576a39e64e64de0be346808e583c316254.php" crc="1535463572558"/>
@@ -5835,25 +5873,44 @@
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\705666ec3295bf0e075b6244d3f039302df8caa4.php" crc="1535477073490"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\6e898020a2ee8756f669b9edc3aa126ef20361de.php" crc="1536066874793"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\6b90b96acb49073785e8f1dd67e722059d0cf8e9.php" crc="1539798799657"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\662d475eab218c62f209a2b23ab5ef48e80672d7.php" crc="1542881681845"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\6083c9bb7845726a0e9a21e8d632303dd410eb68.php" crc="1537183008429"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\6000d592743b9f8f31ef8a9b9739c38b3e849595.php" crc="1542875923384"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\5ff197a97addafea700fe549cd322484a2a8c2da.php" crc="1542875086543"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\5f25e68056158a4fdbd6e5b042f7e26a45ff56af.php" crc="1535477083122"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\5eead0341341993f0d85154378e93aff4e563995.php" crc="1537173989029"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\58d22d505eef44ac9dfa3f4e819fb72cb8bdfa51.php" crc="1542901916610"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\562973900014285e0b28bac044293d707051cb35.php" crc="1542881699573"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\544578a590e6d5034583610d49a3e0dc89c23cbb.php" crc="1537914321610"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\50cfcba31a2f71f3dc720434fb50adefde9339ef.php" crc="1537177790692"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\4cd94ac1f0a94797c9a2f9951ccd81af4eef1ddb.php" crc="1535904060340"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\4271289fd37aa58656f877e0b0d73b568499db5f.php" crc="1535886461438"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\3cd98be5783bce09b39c87cf0f9fe7a66458809c.php" crc="1544004695026"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\3957d8e06cdb4d7a23ec922813255f6da268a69e.php" crc="1542903719022"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\37d2ac518801619203b9e12c5ae944327577bab8.php" crc="1535477069441"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\32f24bc1ab2362a211e93cb860a2101f896f1896.php" crc="1535477091179"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\2fe341be0f5b6619b42ad31ce185fb055e1d971c.php" crc="1536063439540"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\2cdf2a90eb65f5d8fbacbf4b8c7148c969bf46bb.php" crc="1535462453656"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\2c767452097d4e70a7229a71884302e48ebf9163.php" crc="1542901557732"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\2c569323002c64043b6935a7537fcd5e857672d2.php" crc="1542903335147"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\2ab44b7c0525e45da45f7bebcd84fc879054ef27.php" crc="1542892541012"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\27955612fffd41829e1a7e8b770ef841b8e03f19.php" crc="1542913761527"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\24025c1198bada3efef5060d481ce6d190dbd343.php" crc="1542914184325"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\22adbe5d5fa8f342833eaa7cf0fbaf4ffcc1c17b.php" crc="1542876549474"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\1eb99764ae706a56a08666f468ea35085b048c30.php" crc="1535555592866"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\1cd2004f7734af60cd7ee7d04a26b93ab229baa8.php" crc="1539436047193"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\1c98335ed9438760ad08e388373e57ddab4330c2.php" crc="1535477176018"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\1b1ecbe24c5b29777c4d3d021749b15c2db4c5f8.php" crc="1542883804924"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\1988535170185758de63cd9459cf02d69b2a17e5.php" crc="1535477066777"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\123c6b345d8f0d8e8e76211113a03c6bd8e1675e.php" crc="1535462441149"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\107d2795406460f841fd37f664cfb90107e422a6.php" crc="1542902828695"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\0e130bc0d1598274a3898db21dde43c2055b561e.php" crc="1536071777166"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\0ba97c6506d2a39bb3f36bd3f55b9ab36916f9f7.php" crc="1542882962704"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\0ae486983cc6582cc5204060c7e9075c6841a0d5.php" crc="1542903684131"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\09979448c8b711acb64c1d28da2a44ad938174bd.php" crc="1542871757745"/>
   <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\0886e1bb010194ea7733ecaa6479492e66f83a2e.php" crc="1537167813316"/>
-  <file name="D:\OSPanel\domains\fitees.local\routes\web.php" crc="1539435815941"/>
+  <file name="D:\OSPanel\domains\fitees.local\storage\framework\views\0327949c47cc1ec7ec9d6c990ee1435d998aa24b.php" crc="1542883447441"/>
+  <file name="D:\OSPanel\domains\fitees.local\routes\web.php" crc="1543856836609"/>
   <file name="D:\OSPanel\domains\fitees.local\routes\console.php" crc="1531400267968"/>
   <file name="D:\OSPanel\domains\fitees.local\routes\channels.php" crc="1531400267969"/>
   <file name="D:\OSPanel\domains\fitees.local\routes\api.php" crc="1531400267968"/>
@@ -5908,6 +5965,57 @@
   <file name="D:\OSPanel\domains\fitees.local\resources\views\test\header.blade.php" crc="1537167867369"/>
   <file name="D:\OSPanel\domains\fitees.local\resources\views\test\courses.blade.php" crc="1535886449928"/>
   <file name="D:\OSPanel\domains\fitees.local\resources\views\test\course.blade.php" crc="1535474916891"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\user\topics-navigation.blade.php" crc="1542914071138"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\user\topic.blade.php" crc="1542914170986"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\user\page.blade.php" crc="1542914772616"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\user\course-topics.blade.php" crc="1542903715520"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\user\course-results.blade.php" crc="1542903333119"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\user\course-resources.blade.php" crc="1542903514302"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\user\course-menu.blade.php" crc="1542903189964"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\user\course-assignments.blade.php" crc="1542903683065"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\user\assignments-navigation.blade.php" crc="1542913402331"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\user\assignment.blade.php" crc="1542913735932"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\user\assignment-result.blade.php" crc="1534946203934"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\teacher\topics-show.blade.php" crc="1542900896168"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\teacher\topics-index.blade.php" crc="1542901222485"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\teacher\topics-edit.blade.php" crc="1542900716674"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\teacher\topics-create.blade.php" crc="1542899981822"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\teacher\student-index.blade.php" crc="1542883803502"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\teacher\show-student-stats.blade.php" crc="1542884075471"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\teacher\resources-show.blade.php" crc="1542902826857"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\teacher\resources-index.blade.php" crc="1542902115667"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\teacher\resources-edit.blade.php" crc="1542901915681"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\teacher\resources-create.blade.php" crc="1542901742898"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\teacher\questions-edit.blade.php" crc="1542899477376"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\teacher\questions-create.blade.php" crc="1542899584576"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\teacher\pages-show.blade.php" crc="1542901556662"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\teacher\pages-edit.blade.php" crc="1542901490598"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\teacher\pages-create.blade.php" crc="1542901363795"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\teacher\courses-show.blade.php" crc="1542882961653"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\teacher\courses-index.blade.php" crc="1542883446228"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\teacher\courses-edit.blade.php" crc="1542882717757"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\teacher\courses-create.blade.php" crc="1542883177903"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\teacher\assignments-show.blade.php" crc="1542898417626"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\teacher\assignments-index.blade.php" crc="1542894921774"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\teacher\assignments-edit.blade.php" crc="1542892341258"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\teacher\assignments-create.blade.php" crc="1542892539794"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\layouts\teacher.blade.php" crc="1542879674539"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\layouts\site.blade.php" crc="1542871590855"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\layouts\admin.blade.php" crc="1542879696240"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\auth\passwords\reset.blade.php" crc="1533717754408"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\auth\passwords\email.blade.php" crc="1533717754407"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\auth\register.blade.php" crc="1542875084700"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\auth\login.blade.php" crc="1542872572420"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\admin\register-teacher.blade.php" crc="1542879390385"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\admin\home.blade.php" crc="1542881657014"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\admin\group-edit.blade.php" crc="1542879153441"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\admin\courses-show.blade.php" crc="1544021968873"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\admin\courses-edit.blade.php" crc="1542878869199"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\learn.blade.php" crc="1542903047299"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\index.blade.php" crc="1542915855126"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\header.blade.php" crc="1542878804155"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\courses.blade.php" crc="1542875919572"/>
+  <file name="D:\OSPanel\domains\fitees.local\resources\views\production\course.blade.php" crc="1542876547574"/>
   <file name="D:\OSPanel\domains\fitees.local\resources\views\layouts\app.blade.php" crc="1533717762117"/>
   <file name="D:\OSPanel\domains\fitees.local\resources\lang\en\validation.php" crc="1531400267991"/>
   <file name="D:\OSPanel\domains\fitees.local\resources\lang\en\passwords.php" crc="1531400267990"/>
@@ -5925,6 +6033,13 @@
   <file name="D:\OSPanel\domains\fitees.local\public\test\courses.html" crc="1533558969937"/>
   <file name="D:\OSPanel\domains\fitees.local\public\test\course.html" crc="1533558969937"/>
   <file name="D:\OSPanel\domains\fitees.local\public\test\auth.html" crc="1533558969937"/>
+  <file name="D:\OSPanel\domains\fitees.local\public\production\js\scripts.min.js" crc="1542870767930"/>
+  <file name="D:\OSPanel\domains\fitees.local\public\production\js\common.js" crc="1530412689000"/>
+  <file name="D:\OSPanel\domains\fitees.local\public\production\fonts\SanFrancisco\stylesheet.css" crc="1501712062000"/>
+  <file name="D:\OSPanel\domains\fitees.local\public\production\fonts\SanFrancisco\demo.html" crc="1501712062000"/>
+  <file name="D:\OSPanel\domains\fitees.local\public\production\fonts\GothamPro\stylesheet.css" crc="1498479065000"/>
+  <file name="D:\OSPanel\domains\fitees.local\public\production\fonts\GothamPro\demo.html" crc="1498479065000"/>
+  <file name="D:\OSPanel\domains\fitees.local\public\production\css\main.min.css" crc="1542914808908"/>
   <file name="D:\OSPanel\domains\fitees.local\public\assets\js\jquery-dragarrange\examples\index.html" crc="1486574165000"/>
   <file name="D:\OSPanel\domains\fitees.local\public\assets\js\jquery-dragarrange\drag-arrange.min.js" crc="1486574165000"/>
   <file name="D:\OSPanel\domains\fitees.local\public\assets\js\jquery-dragarrange\drag-arrange.js" crc="1486574165000"/>
@@ -6108,7 +6223,7 @@
   <file name="D:\OSPanel\domains\fitees.local\.gitignore" crc="1533280183320"/>
   <file name="D:\OSPanel\domains\fitees.local\.gitattributes" crc="1531400267970"/>
   <file name="D:\OSPanel\domains\fitees.local\.env.example" crc="1531400267946"/>
-  <file name="D:\OSPanel\domains\fitees.local\.env" crc="1537362998613"/>
+  <file name="D:\OSPanel\domains\fitees.local\.env" crc="1542871152959"/>
   <file name="D:\OSPanel\domains\fitees.local\.editorconfig" crc="1531400267957"/>
  </filescache>
 </project>

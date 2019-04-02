@@ -92,10 +92,6 @@ Route::middleware(['auth', 'admin'])->prefix('admin')->namespace('Admin')->group
 	Route::resource('groups', 'GroupController', ['as' => 'admin'])->except([
 	    	'index', 'create', 'show'
 		]);
-	/*Route::post('/group/', 'HomeController@storeGroup')->name('admin.groups.store');
-	Route::get('/group/{id}', 'HomeController@editGroup')->name('admin.groups.edit');
-	Route::delete('/group/{id}', 'HomeController@deleteGroup')->name('admin.groups.destroy');
-	Route::put('/group/{id}', 'HomeController@updateGroup')->name('admin.groups.update');*/
 	
 	Route::resource('courses', 'CourseController', ['as' => 'admin'])->except([
 	    	'index', 'create', 'store'
@@ -107,9 +103,5 @@ Route::middleware(['auth', 'admin'])->prefix('admin')->namespace('Admin')->group
 	Route::post('register-teacher', 'RegisterController@registerTeacher');
 	
 });
-
-
-
-
 
 Auth::routes();

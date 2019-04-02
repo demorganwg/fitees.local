@@ -1,60 +1,48 @@
 
 <codestructure version="5.8">
 <phptree>
-<treenode node="AnswersSeeder;PHP:Class Name;D:\OSPanel\domains\fitees.local\database\seeds\AnswersSeeder.php;f0;4;1;29;;;;vpos;;v;;aSeeder;;c;;r;;d0,5;;b0,0;;m,0;;e">
-<treenode node="run;PHP:Function Name;D:\OSPanel\domains\fitees.local\database\seeds\AnswersSeeder.php;f11;11;5;28;;;;vpos;;v;;avoid;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    run()&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Run the database seeds.&#10;&lt;b&gt;return&lt;/b&gt;;;d4,12;;b1,0;;m,0;;e">
-</treenode>
-</treenode>
-<treenode node="Assignment;PHP:Class Name;D:\OSPanel\domains\fitees.local\app\Assignment.php;f0;6;1;32;;;;vpos;;v;;aModel;;c;;r;;d0,7;;b0,0;;m,0;;e">
-<treenode node="assignmentResults;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Assignment.php;f8;15;2;18;;;;vpos;;v;;a;;r;;d1,16;;b1,0;;m,0;;e">
-</treenode>
-<treenode node="getAssignmentByAlias;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Assignment.php;f18;20;2;24;;;;vpos;;v;;a;;r;;d66,20;;b1,5;;m,0;;eassignmentAlias;;p">
-</treenode>
-<treenode node="getCourseAssignments;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Assignment.php;f15;26;2;30;;;;vpos;;v;;a;;r;;d56,26;;b1,5;;m,0;;ecourseId;;p">
-</treenode>
-<treenode node="questions;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Assignment.php;f8;10;2;13;;;;vpos;;v;;a;;r;;d1,11;;b1,0;;m,0;;e">
-</treenode>
-</treenode>
-<treenode node="AssignmentController;PHP:Class Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\User\AssignmentController.php;f0;17;1;156;;;;vpos;;v;;aSiteController;;c;;r;;d0,18;;b0,0;;m,0;;e">
+<treenode node="AssignmentController;PHP:Class Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\AssignmentController.php;f0;12;1;272;;D:\OSPanel\domains\fitees.local\app\Http\Controllers\User\AssignmentController.php;f0;17;1;156;;;;vpos;;v;;aSiteController;;c;;r;;d0,18;;b0,0;;m,0;;e">
 <treenode node="__construct;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\User\AssignmentController.php;f11;20;5;23;;;;vpos;;v;;a;;r;;d4,21;;b1,0;;m,0;;e">
 </treenode>
 <treenode node="calculateResults;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\User\AssignmentController.php;f9;80;2;120;;;;vpos;;v;;a;;r;;d68,80;;b3,0;;m,0;;eassignment;;puserAnswers;;p">
+</treenode>
+<treenode node="changeAssignmentPosition;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\AssignmentController.php;f11;202;2;233;;;;vpos;;v;;a;;r;;d77,202;;b1,0;;m,0;;erequest;;pcourseAlias;;p">
+</treenode>
+<treenode node="changeQuestionPosition;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\AssignmentController.php;f8;235;2;271;;;;vpos;;v;;a;;r;;d90,235;;b1,0;;m,0;;erequest;;pcourseAlias;;passignmentAlias;;p">
+</treenode>
+<treenode node="create;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\AssignmentController.php;f11;41;5;52;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    create($courseAlias)&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Show the form for creating a new resource.&#10;&lt;b&gt;return&lt;/b&gt;: \Illuminate\Http\Response;;d4,42;;b1,0;;m,0;;ecourseAlias;;p">
+</treenode>
+<treenode node="destroy;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\AssignmentController.php;f11;195;5;200;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    destroy($courseAlias, $assignmentAlias)&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Remove the specified resource from storage.&#10;&lt;b&gt;return&lt;/b&gt;: \Illuminate\Http\Response&#10;&#10;&lt;b&gt;Parameters:&lt;/b&gt;&#10;    int &lt;b&gt;$id&lt;/b&gt;;;d4,196;;b1,0;;m,0;;ecourseAlias;;passignmentAlias;;p">
+</treenode>
+<treenode node="edit;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\AssignmentController.php;f11;125;2;146;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    edit($courseAlias, $assignmentAlias)&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Show the form for editing the specified resource.&#10;&lt;b&gt;return&lt;/b&gt;: \Illuminate\Http\Response&#10;&#10;&lt;b&gt;Parameters:&lt;/b&gt;&#10;    int &lt;b&gt;$id&lt;/b&gt;;;d4,126;;b1,0;;m,0;;ecourseAlias;;passignmentAlias;;p">
+</treenode>
+<treenode node="index;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\AssignmentController.php;f11;19;5;34;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    index($courseAlias)&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Display a listing of the resource.&#10;&lt;b&gt;return&lt;/b&gt;: \Illuminate\Http\Response;;d4,20;;b1,0;;m,0;;ecourseAlias;;p">
 </treenode>
 <treenode node="insertAssignmentsResult;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\User\AssignmentController.php;f9;122;2;137;;;;vpos;;v;;a;;r;;d99,122;;b3,0;;m,0;;euserId;;pcourseId;;passignmentId;;panswers;;puserScore;;p">
 </treenode>
 <treenode node="run;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\User\AssignmentController.php;f11;25;2;51;;;;vpos;;v;;a;;r;;d56,25;;b1,0;;m,0;;ecourseAlias;;passignmentAlias;;p">
 </treenode>
+<treenode node="show;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\AssignmentController.php;f11;98;5;117;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    show($courseAlias, $assignmentAlias)&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Display the specified resource.&#10;&lt;b&gt;return&lt;/b&gt;: \Illuminate\Http\Response&#10;&#10;&lt;b&gt;Parameters:&lt;/b&gt;&#10;    int &lt;b&gt;$id&lt;/b&gt;;;d4,99;;b1,0;;m,0;;ecourseAlias;;passignmentAlias;;p">
+</treenode>
 <treenode node="showResult;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\User\AssignmentController.php;f8;139;2;150;;;;vpos;;v;;a;;r;;d60,139;;b1,0;;m,0;;ecourseAlias;;passignmentAlias;;p">
+</treenode>
+<treenode node="store;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\AssignmentController.php;f11;60;5;90;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    store(Request $request, $courseAlias)&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Store a newly created resource in storage.&#10;&lt;b&gt;return&lt;/b&gt;: \Illuminate\Http\Response&#10;&#10;&lt;b&gt;Parameters:&lt;/b&gt;&#10;    \Illuminate\Http\Request &lt;b&gt;$request&lt;/b&gt;;;d4,61;;b1,0;;m,0;;erequest;;pcourseAlias;;p">
 </treenode>
 <treenode node="submit;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\User\AssignmentController.php;f8;53;2;78;;;;vpos;;v;;a;;r;;d74,53;;b1,0;;m,0;;erequest;;pcourseAlias;;passignmentAlias;;p">
 </treenode>
-</treenode>
-<treenode node="AssignmentResult;PHP:Class Name;D:\OSPanel\domains\fitees.local\app\AssignmentResult.php;f0;6;1;26;;;;vpos;;v;;aModel;;c;;r;;d0,7;;b0,0;;m,0;;e">
-<treenode node="assignment;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\AssignmentResult.php;f8;16;2;19;;;;vpos;;v;;a;;r;;d1,17;;b1,0;;m,0;;e">
-</treenode>
-<treenode node="getCourseResults;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\AssignmentResult.php;f15;21;2;25;;;;vpos;;v;;a;;r;;d58,21;;b1,5;;m,0;;euser_course_id;;p">
-</treenode>
-<treenode node="user_course;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\AssignmentResult.php;f11;11;2;14;;;;vpos;;v;;a;;r;;d1,12;;b1,0;;m,0;;e">
+<treenode node="update;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\AssignmentController.php;f11;155;5;187;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    update(Request $request, $courseAlias, $assignmentAlias)&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Update the specified resource in storage.&#10;&lt;b&gt;return&lt;/b&gt;: \Illuminate\Http\Response&#10;&#10;&lt;b&gt;Parameters:&lt;/b&gt;&#10;    \Illuminate\Http\Request &lt;b&gt;$request&lt;/b&gt;&#10;    int &lt;b&gt;$id&lt;/b&gt;;;d4,156;;b1,0;;m,0;;erequest;;pcourseAlias;;passignmentAlias;;p">
 </treenode>
 </treenode>
-<treenode node="AssignmentsSeeder;PHP:Class Name;D:\OSPanel\domains\fitees.local\database\seeds\AssignmentsSeeder.php;f0;4;1;31;;;;vpos;;v;;aSeeder;;c;;r;;d0,5;;b0,0;;m,0;;e">
-<treenode node="run;PHP:Function Name;D:\OSPanel\domains\fitees.local\database\seeds\AssignmentsSeeder.php;f11;11;5;30;;;;vpos;;v;;avoid;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    run()&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Run the database seeds.&#10;&lt;b&gt;return&lt;/b&gt;;;d4,12;;b1,0;;m,0;;e">
+<treenode node="CourseController;PHP:Class Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Admin\CourseController.php;f0;12;1;118;;;;vpos;;v;;aSiteController;;c;;r;;d0,13;;b0,0;;m,0;;e">
+<treenode node="destroy;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Admin\CourseController.php;f11;92;5;97;;;;vpos;;v;;a;;r;;d4,93;;b1,0;;m,0;;ecourseAlias;;p">
 </treenode>
+<treenode node="edit;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Admin\CourseController.php;f11;33;5;52;;;;vpos;;v;;a;;r;;d4,34;;b1,0;;m,0;;ecourseAlias;;p">
 </treenode>
-<treenode node="CourseController;PHP:Class Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\CourseController.php;f0;11;1;205;;;;vpos;;v;;aSiteController;;c;;r;;d0,12;;b0,0;;m,0;;e">
-<treenode node="create;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\CourseController.php;f11;38;5;47;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    create()&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Show the form for creating a new resource.&#10;&lt;b&gt;return&lt;/b&gt;: \Illuminate\Http\Response;;d4,39;;b1,0;;m,0;;e">
+<treenode node="publishCourse;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Admin\CourseController.php;f11;99;5;117;;;;vpos;;v;;a;;r;;d4,100;;b1,0;;m,0;;ecourseAlias;;p">
 </treenode>
-<treenode node="destroy;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\CourseController.php;f11;199;5;204;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    destroy($courseAlias)&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Remove the specified resource from storage.&#10;&lt;b&gt;return&lt;/b&gt;: \Illuminate\Http\Response&#10;&#10;&lt;b&gt;Parameters:&lt;/b&gt;&#10;    int &lt;b&gt;$id&lt;/b&gt;;;d4,200;;b1,0;;m,0;;eint $id;;p">
+<treenode node="show;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Admin\CourseController.php;f11;15;5;31;;;;vpos;;v;;a;;r;;d4,16;;b1,0;;m,0;;ecourseAlias;;p">
 </treenode>
-<treenode node="edit;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\CourseController.php;f11;127;5;146;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    edit($courseAlias)&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Show the form for editing the specified resource.&#10;&lt;b&gt;return&lt;/b&gt;: \Illuminate\Http\Response&#10;&#10;&lt;b&gt;Parameters:&lt;/b&gt;&#10;    int &lt;b&gt;$id&lt;/b&gt;;;d4,128;;b1,0;;m,0;;eint $id;;p">
-</treenode>
-<treenode node="index;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\CourseController.php;f11;18;5;31;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    index()&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Display a listing of the resource.&#10;&lt;b&gt;return&lt;/b&gt;: \Illuminate\Http\Response;;d4,19;;b1,0;;m,0;;e">
-</treenode>
-<treenode node="show;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\CourseController.php;f11;104;5;119;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    show($courseAlias)&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Display the specified resource.&#10;&lt;b&gt;return&lt;/b&gt;: \Illuminate\Http\Response&#10;&#10;&lt;b&gt;Parameters:&lt;/b&gt;&#10;    int &lt;b&gt;$id&lt;/b&gt;;;d4,105;;b1,0;;m,0;;eint $id;;p">
-</treenode>
-<treenode node="store;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\CourseController.php;f11;55;5;96;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    store(Request $request)&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Store a newly created resource in storage.&#10;&lt;b&gt;return&lt;/b&gt;: \Illuminate\Http\Response&#10;&#10;&lt;b&gt;Parameters:&lt;/b&gt;&#10;    \Illuminate\Http\Request &lt;b&gt;$request&lt;/b&gt;;;d4,56;;b1,0;;m,0;;e\Illuminate\Http\Request $request;;p">
-</treenode>
-<treenode node="update;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\CourseController.php;f11;155;5;191;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    update(Request $request, $courseAlias)&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Update the specified resource in storage.&#10;&lt;b&gt;return&lt;/b&gt;: \Illuminate\Http\Response&#10;&#10;&lt;b&gt;Parameters:&lt;/b&gt;&#10;    \Illuminate\Http\Request &lt;b&gt;$request&lt;/b&gt;&#10;    int &lt;b&gt;$id&lt;/b&gt;;;d4,156;;b1,0;;m,0;;e\Illuminate\Http\Request $request;;pint $id;;p">
+<treenode node="update;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Admin\CourseController.php;f11;54;5;90;;;;vpos;;v;;a;;r;;d4,55;;b1,0;;m,0;;erequest;;pcourseAlias;;p">
 </treenode>
 </treenode>
 <treenode node="CourseMenuController;PHP:Class Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\User\CourseMenuController.php;f0;15;1;125;;;;vpos;;v;;aSiteController;;c;;r;;d0,16;;b0,0;;m,0;;e">
@@ -73,60 +61,18 @@
 <treenode node="showTopics;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\User\CourseMenuController.php;f8;48;2;61;;;;vpos;;v;;a;;r;;d42,48;;b1,0;;m,0;;ecourseAlias;;p">
 </treenode>
 </treenode>
-<treenode node="CoursesSeeder;PHP:Class Name;D:\OSPanel\domains\fitees.local\database\seeds\CoursesSeeder.php;f0;4;1;43;;;;vpos;;v;;aSeeder;;c;;r;;d0,5;;b0,0;;m,0;;e">
-<treenode node="run;PHP:Function Name;D:\OSPanel\domains\fitees.local\database\seeds\CoursesSeeder.php;f11;11;5;42;;;;vpos;;v;;avoid;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    run()&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Run the database seeds.&#10;&lt;b&gt;return&lt;/b&gt;;;d4,12;;b1,0;;m,0;;e">
+<treenode node="HomeController;PHP:Class Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Admin\HomeController.php;f0;11;1;106;;;;vpos;;v;;aSiteController;;c;;r;;d0,12;;b0,0;;m,0;;e">
+<treenode node="__construct;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Admin\HomeController.php;f11;18;5;25;;;;vpos;;v;;avoid;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    __construct()&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Create a new controller instance.&#10;&lt;b&gt;return&lt;/b&gt;;;d4,19;;b1,0;;m,0;;e">
+</treenode>
+<treenode node="index;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Admin\HomeController.php;f11;32;5;55;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    index()&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Show the application dashboard.&#10;&lt;b&gt;return&lt;/b&gt;: \Illuminate\Http\Response;;d4,33;;b1,0;;m,0;;e">
+</treenode>
+<treenode node="verifyUsers;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Admin\HomeController.php;f11;57;5;105;;;;vpos;;v;;a;;r;;d4,58;;b1,0;;m,0;;erequest;;p">
 </treenode>
 </treenode>
-<treenode node="DatabaseSeeder;PHP:Class Name;D:\OSPanel\domains\fitees.local\database\seeds\DatabaseSeeder.php;f0;4;1;37;;;;vpos;;v;;aSeeder;;c;;r;;d0,5;;b0,0;;m,0;;e">
-<treenode node="run;PHP:Function Name;D:\OSPanel\domains\fitees.local\database\seeds\DatabaseSeeder.php;f11;11;5;36;;;;vpos;;v;;avoid;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    run()&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Seed the application&apos;s database.&#10;&lt;b&gt;return&lt;/b&gt;;;d4,12;;b1,0;;m,0;;e">
+<treenode node="PageController;PHP:Class Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\User\PageController.php;f0;11;1;62;;;;vpos;;v;;aSiteController;;c;;r;;d0,12;;b0,0;;m,0;;e">
+<treenode node="__construct;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\User\PageController.php;f11;13;5;16;;;;vpos;;v;;a;;r;;d4,14;;b1,0;;m,0;;e">
 </treenode>
-</treenode>
-<treenode node="GroupsSeeder;PHP:Class Name;D:\OSPanel\domains\fitees.local\database\seeds\GroupsSeeder.php;f0;4;1;29;;;;vpos;;v;;aSeeder;;c;;r;;d0,5;;b0,0;;m,0;;e">
-<treenode node="run;PHP:Function Name;D:\OSPanel\domains\fitees.local\database\seeds\GroupsSeeder.php;f11;11;5;28;;;;vpos;;v;;avoid;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    run()&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Run the database seeds.&#10;&lt;b&gt;return&lt;/b&gt;;;d4,12;;b1,0;;m,0;;e">
-</treenode>
-</treenode>
-<treenode node="IndexController;PHP:Class Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\IndexController.php;f0;8;1;38;;;;vpos;;v;;aSiteController;;c;;r;;d0,9;;b0,0;;m,0;;e">
-<treenode node="__construct;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\IndexController.php;f11;15;5;22;;;;vpos;;v;;avoid;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    __construct()&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Create a new controller instance.&#10;&lt;b&gt;return&lt;/b&gt;;;d4,16;;b1,0;;m,0;;e">
-</treenode>
-<treenode node="index;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\IndexController.php;f11;29;5;37;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    index()&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Show the application dashboard.&#10;&lt;b&gt;return&lt;/b&gt;: \Illuminate\Http\Response;;d4,30;;b1,0;;m,0;;e">
-</treenode>
-</treenode>
-<treenode node="PagesSeeder;PHP:Class Name;D:\OSPanel\domains\fitees.local\database\seeds\PagesSeeder.php;f0;5;1;448;;;;vpos;;v;;aSeeder;;c;;r;;d0,6;;b0,0;;m,0;;e">
-<treenode node="run;PHP:Function Name;D:\OSPanel\domains\fitees.local\database\seeds\PagesSeeder.php;f11;12;5;447;;;;vpos;;v;;avoid;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    run()&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Run the database seeds.&#10;&lt;b&gt;return&lt;/b&gt;;;d4,13;;b1,0;;m,0;;e">
-</treenode>
-</treenode>
-<treenode node="QuestionsSeeder;PHP:Class Name;D:\OSPanel\domains\fitees.local\database\seeds\QuestionsSeeder.php;f0;4;1;31;;;;vpos;;v;;aSeeder;;c;;r;;d0,5;;b0,0;;m,0;;e">
-<treenode node="run;PHP:Function Name;D:\OSPanel\domains\fitees.local\database\seeds\QuestionsSeeder.php;f11;11;5;30;;;;vpos;;v;;avoid;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    run()&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Run the database seeds.&#10;&lt;b&gt;return&lt;/b&gt;;;d4,12;;b1,0;;m,0;;e">
-</treenode>
-</treenode>
-<treenode node="ResourceController;PHP:Class Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\ResourceController.php;f0;12;1;316;;;;vpos;;v;;aSiteController;;c;;r;;d0,13;;b0,0;;m,0;;e">
-<treenode node="changeResourcePosition;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\ResourceController.php;f11;283;2;315;;;;vpos;;v;;a;;r;;d75,283;;b1,0;;m,0;;erequest;;pcourseAlias;;p">
-</treenode>
-<treenode node="create;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\ResourceController.php;f11;45;5;57;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    create($courseAlias)&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Show the form for creating a new resource.&#10;&lt;b&gt;return&lt;/b&gt;: \Illuminate\Http\Response;;d4,46;;b1,0;;m,0;;ecourseAlias;;p">
-</treenode>
-<treenode node="destroy;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\ResourceController.php;f11;276;5;281;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    destroy($courseAlias, $resourceAlias)&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Remove the specified resource from storage.&#10;&lt;b&gt;return&lt;/b&gt;: \Illuminate\Http\Response&#10;&#10;&lt;b&gt;Parameters:&lt;/b&gt;&#10;    int &lt;b&gt;$id&lt;/b&gt;;;d4,277;;b1,0;;m,0;;ecourseAlias;;presourceAlias;;p">
-</treenode>
-<treenode node="edit;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\ResourceController.php;f11;204;5;226;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    edit($courseAlias, $resourceAlias)&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Show the form for editing the specified resource.&#10;&lt;b&gt;return&lt;/b&gt;: \Illuminate\Http\Response&#10;&#10;&lt;b&gt;Parameters:&lt;/b&gt;&#10;    int &lt;b&gt;$id&lt;/b&gt;;;d4,205;;b1,0;;m,0;;ecourseAlias;;presourceAlias;;p">
-</treenode>
-<treenode node="index;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\ResourceController.php;f11;19;5;38;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    index($courseAlias)&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Display a listing of the resource.&#10;&lt;b&gt;return&lt;/b&gt;: \Illuminate\Http\Response;;d4,20;;b1,0;;m,0;;ecourseAlias;;p">
-</treenode>
-<treenode node="show;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\ResourceController.php;f11;182;5;196;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    show($courseAlias, $resourceAlias)&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Display the specified resource.&#10;&lt;b&gt;return&lt;/b&gt;: \Illuminate\Http\Response&#10;&#10;&lt;b&gt;Parameters:&lt;/b&gt;&#10;    int &lt;b&gt;$id&lt;/b&gt;;;d4,183;;b1,0;;m,0;;ecourseAlias;;presourceAlias;;p">
-</treenode>
-<treenode node="store;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\ResourceController.php;f11;65;5;174;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    store(Request $request, $courseAlias)&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Store a newly created resource in storage.&#10;&lt;b&gt;return&lt;/b&gt;: \Illuminate\Http\Response&#10;&#10;&lt;b&gt;Parameters:&lt;/b&gt;&#10;    \Illuminate\Http\Request &lt;b&gt;$request&lt;/b&gt;;;d4,66;;b1,0;;m,0;;erequest;;pcourseAlias;;p">
-</treenode>
-<treenode node="update;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\ResourceController.php;f11;235;5;268;;;;vpos;;v;;a;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    update(Request $request, $courseAlias, $resourceAlias)&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Update the specified resource in storage.&#10;&lt;b&gt;return&lt;/b&gt;: \Illuminate\Http\Response&#10;&#10;&lt;b&gt;Parameters:&lt;/b&gt;&#10;    \Illuminate\Http\Request &lt;b&gt;$request&lt;/b&gt;&#10;    int &lt;b&gt;$id&lt;/b&gt;;;d4,236;;b1,0;;m,0;;erequest;;pcourseAlias;;presourceAlias;;p">
-</treenode>
-</treenode>
-<treenode node="ResourceTypesSeeder;PHP:Class Name;D:\OSPanel\domains\fitees.local\database\seeds\ResourceTypesSeeder.php;f0;4;1;25;;;;vpos;;v;;aSeeder;;c;;r;;d0,5;;b0,0;;m,0;;e">
-<treenode node="run;PHP:Function Name;D:\OSPanel\domains\fitees.local\database\seeds\ResourceTypesSeeder.php;f11;11;5;24;;;;vpos;;v;;avoid;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    run()&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Run the database seeds.&#10;&lt;b&gt;return&lt;/b&gt;;;d4,12;;b1,0;;m,0;;e">
-</treenode>
-</treenode>
-<treenode node="ResourcesSeeder;PHP:Class Name;D:\OSPanel\domains\fitees.local\database\seeds\ResourcesSeeder.php;f0;4;1;99;;;;vpos;;v;;aSeeder;;c;;r;;d0,5;;b0,0;;m,0;;e">
-<treenode node="run;PHP:Function Name;D:\OSPanel\domains\fitees.local\database\seeds\ResourcesSeeder.php;f11;11;5;98;;;;vpos;;v;;avoid;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    run()&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Run the database seeds.&#10;&lt;b&gt;return&lt;/b&gt;;;d4,12;;b1,0;;m,0;;e">
-</treenode>
-</treenode>
-<treenode node="RolesSeeder;PHP:Class Name;D:\OSPanel\domains\fitees.local\database\seeds\RolesSeeder.php;f0;4;1;22;;;;vpos;;v;;aSeeder;;c;;r;;d0,5;;b0,0;;m,0;;e">
-<treenode node="run;PHP:Function Name;D:\OSPanel\domains\fitees.local\database\seeds\RolesSeeder.php;f11;11;5;21;;;;vpos;;v;;avoid;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    run()&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Run the database seeds.&#10;&lt;b&gt;return&lt;/b&gt;;;d4,12;;b1,0;;m,0;;e">
+<treenode node="showPage;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\User\PageController.php;f11;18;2;61;;;;vpos;;v;;a;;r;;d69,18;;b1,0;;m,0;;ecourseAlias;;ptopicAlias;;ppageNumber;;p">
 </treenode>
 </treenode>
 <treenode node="StudentsController;PHP:Class Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\StudentsController.php;f0;14;1;217;;;;vpos;;v;;aSiteController;;c;;r;;d0,15;;b0,0;;m,0;;e">
@@ -145,12 +91,10 @@
 <treenode node="submitStudent;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\Teacher\StudentsController.php;f8;147;2;164;;;;vpos;;v;;a;;r;;d63,147;;b1,0;;m,0;;erequest;;pcourseAlias;;p">
 </treenode>
 </treenode>
-<treenode node="TopicsSeeder;PHP:Class Name;D:\OSPanel\domains\fitees.local\database\seeds\TopicsSeeder.php;f0;5;1;155;;;;vpos;;v;;aSeeder;;c;;r;;d0,6;;b0,0;;m,0;;e">
-<treenode node="run;PHP:Function Name;D:\OSPanel\domains\fitees.local\database\seeds\TopicsSeeder.php;f11;12;5;154;;;;vpos;;v;;avoid;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    run()&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Run the database seeds.&#10;&lt;b&gt;return&lt;/b&gt;;;d4,13;;b1,0;;m,0;;e">
+<treenode node="TopicController;PHP:Class Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\User\TopicController.php;f0;10;1;45;;;;vpos;;v;;aSiteController;;c;;r;;d0,11;;b0,0;;m,0;;e">
+<treenode node="__construct;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\User\TopicController.php;f8;12;5;15;;;;vpos;;v;;a;;r;;d4,13;;b1,0;;m,0;;e">
 </treenode>
-</treenode>
-<treenode node="UsersSeeder;PHP:Class Name;D:\OSPanel\domains\fitees.local\database\seeds\UsersSeeder.php;f0;4;1;157;;;;vpos;;v;;aSeeder;;c;;r;;d0,5;;b0,0;;m,0;;e">
-<treenode node="run;PHP:Function Name;D:\OSPanel\domains\fitees.local\database\seeds\UsersSeeder.php;f11;11;5;156;;;;vpos;;v;;avoid;;r&#10;&lt;b&gt;Definition&lt;/b&gt;&#10;    run()&#10;&#10;&lt;b&gt;Description&lt;/b&gt;&#10;    Run the database seeds.&#10;&lt;b&gt;return&lt;/b&gt;;;d4,12;;b1,0;;m,0;;e">
+<treenode node="showTopic;PHP:Function Name;D:\OSPanel\domains\fitees.local\app\Http\Controllers\User\TopicController.php;f11;17;2;44;;;;vpos;;v;;a;;r;;d57,17;;b1,0;;m,0;;ecourseAlias;;ptopicAlias;;p">
 </treenode>
 </treenode>
 </phptree>

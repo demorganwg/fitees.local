@@ -8,7 +8,7 @@
 <section class="content_section course_page">
 	<h2>{{ $course['name'] }}</h2>
 	<img src="{{ asset('assets') }}/img/course_img/{{ $course['image'] }}" alt="{{ $course['name'] }}">
-	<form method="POST" action="{{ action('Admin\CourseController@publishCourse', ['courseAlias' => $course['alias']]) }}"  enctype="multipart/form-data">
+	<form style="margin-top:10px" method="POST" action="{{ action('Admin\CourseController@publishCourse', ['courseAlias' => $course['alias']]) }}"  enctype="multipart/form-data">
 		@csrf
 		<a class="btn btn-primary btn-lg" href="{{ route('admin.courses.edit', ['course_alias' => $course['alias']]) }}">Редактировать</a>
 		@if ($course['status'] == 0)
@@ -17,7 +17,7 @@
 			<button type="submit" class="btn btn-lg">Деактивировать</button>
 		@endif
 	</form>
-	<form method="POST" action="{{ route('admin.courses.destroy', ['course' => $course['alias']]) }}"  enctype="multipart/form-data">
+	<form style="margin-top:10px" method="POST" action="{{ route('admin.courses.destroy', ['course' => $course['alias']]) }}"  enctype="multipart/form-data">
 		@method('DELETE')
 		@csrf
 		<button type="submit" class="btn btn-lg">Удалить</button>
